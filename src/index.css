@@ -1,0 +1,89 @@
+:root {
+  --bg: #141414;
+  --surface: #232323;
+  --surface-hover: #303030;
+  --text: #ffffff;
+  --text-muted: #b3b3b3;
+  --accent: #e50914;
+  --accent-hover: #ff1f2b;
+  --error: #ff6b6b;
+  /* Queen accents: used only for crowns, tags and highlights */
+  --crown: #ffc83d;
+  --spray: #ff2e93;
+
+  --font-display: 'Anton', 'Impact', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-tag: 'Permanent Marker', 'Marker Felt', cursive;
+
+  --nav-h: 64px;
+  --tabbar-h: 60px;
+  --gutter: clamp(16px, 4vw, 56px);
+  --radius: 6px;
+  --ease: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { color-scheme: dark; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+  margin: 0;
+  text-transform: uppercase;
+}
+h1 { font-size: clamp(2.25rem, 6vw, 3.75rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2rem); }
+h3 { font-size: 1.125rem; }
+
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+
+:focus-visible {
+  outline: 3px solid var(--crown);
+  outline-offset: 3px;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.page { padding: calc(var(--nav-h) + 32px) var(--gutter) 64px; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 0 22px;
+  border: 2px solid transparent; border-radius: var(--radius);
+  font: 600 1rem var(--font-body); text-decoration: none; cursor: pointer;
+  transition: background-color 150ms var(--ease), border-color 150ms var(--ease), transform 150ms var(--ease);
+}
+.btn:active { transform: scale(0.97); }
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent-hover); }
+.btn-secondary { background: rgba(20, 20, 20, 0.6); color: #fff; border-color: #fff; }
+.btn-secondary:hover { background: var(--surface-hover); }
+
+@media (max-width: 767px) {
+  .page { padding-top: calc(var(--nav-h) + 20px); padding-bottom: calc(var(--tabbar-h) + 40px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

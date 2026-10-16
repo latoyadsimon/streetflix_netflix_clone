@@ -1,0 +1,24 @@
+- generic [ref=f1e2]:
+  - link "Skip to content" [ref=f1e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e4]:
+    - link "Streetflix home" [ref=f1e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f1e8]: Streetflix
+  - navigation "Primary mobile" [ref=f1e9]:
+    - link "Home" [ref=f1e10] [cursor=pointer]:
+      - /url: /
+    - link "Movies" [ref=f1e14] [cursor=pointer]:
+      - /url: /movies
+    - link "TV Shows" [ref=f1e18] [cursor=pointer]:
+      - /url: /tv-shows
+    - link "Search" [ref=f1e22] [cursor=pointer]:
+      - /url: /search
+    - link "My List" [ref=f1e26] [cursor=pointer]:
+      - /url: /watchlist
+  - main [ref=f1e30]:
+    - generic [ref=f1e31]:
+      - heading "Page not found" [level=1] [ref=f1e32]
+      - paragraph [ref=f1e33]: That URL doesn't lead anywhere. Head back to the good stuff.
+      - link "Back to Home" [ref=f1e34] [cursor=pointer]:
+        - /url: /

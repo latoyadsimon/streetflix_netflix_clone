@@ -1,0 +1,344 @@
+- generic [ref=f2e2]:
+  - link "Skip to content" [ref=f2e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e4]:
+    - link "Streetflix home" [ref=f2e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f2e8]: Streetflix
+    - navigation "Primary" [ref=f2e9]:
+      - link "Home" [ref=f2e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f2e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f2e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f2e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f2e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f2e15]:
+    - generic [ref=f2e16]:
+      - region [ref=f2e17]:
+        - generic [ref=f2e18]:
+          - heading "Popular Movies" [level=2] [ref=f2e19]
+          - link "See All" [ref=f2e20] [cursor=pointer]:
+            - /url: /movies
+        - list [ref=f2e21]:
+          - listitem [ref=f2e22]:
+            - article [ref=f2e23]:
+              - link [ref=f2e24] [cursor=pointer]:
+                - /url: /titles/m1
+                - generic [ref=f2e25]:
+                  - img "Poster for Neon Crown" [ref=f2e26]:
+                    - generic [aria-hidden] [ref=f2e27]: "N"
+                    - generic [aria-hidden] [ref=f2e28]: film
+                  - generic [aria-hidden] [ref=f2e29]:
+                    - paragraph [ref=f2e30]: Action, Drama
+                    - generic [ref=f2e31]: View details
+                - heading "Neon Crown" [level=3] [ref=f2e32]
+                - paragraph [ref=f2e33]: 2024 • PG-13
+          - listitem [ref=f2e34]:
+            - article [ref=f2e35]:
+              - link [ref=f2e36] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=f2e37]:
+                  - img "Poster for Spray Paint Heist" [ref=f2e38]:
+                    - generic [aria-hidden] [ref=f2e39]: S
+                    - generic [aria-hidden] [ref=f2e40]: film
+                  - generic [aria-hidden] [ref=f2e41]:
+                    - paragraph [ref=f2e42]: Action, Comedy
+                    - generic [ref=f2e43]: View details
+                - heading "Spray Paint Heist" [level=3] [ref=f2e44]
+                - paragraph [ref=f2e45]: 2023 • R
+          - listitem [ref=f2e46]:
+            - article [ref=f2e47]:
+              - link [ref=f2e48] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=f2e49]:
+                  - img "Poster for Queens of Concrete" [ref=f2e50]:
+                    - generic [aria-hidden] [ref=f2e51]: Q
+                    - generic [aria-hidden] [ref=f2e52]: film
+                  - generic [aria-hidden] [ref=f2e53]:
+                    - paragraph [ref=f2e54]: Drama
+                    - generic [ref=f2e55]: View details
+                - heading "Queens of Concrete" [level=3] [ref=f2e56]
+                - paragraph [ref=f2e57]: 2022 • PG-13
+          - listitem [ref=f2e58]:
+            - article [ref=f2e59]:
+              - link [ref=f2e60] [cursor=pointer]:
+                - /url: /titles/m4
+                - generic [ref=f2e61]:
+                  - img "Poster for Alley Cat" [ref=f2e62]:
+                    - generic [aria-hidden] [ref=f2e63]: A
+                    - generic [aria-hidden] [ref=f2e64]: film
+                  - generic [aria-hidden] [ref=f2e65]:
+                    - paragraph [ref=f2e66]: Comedy, Sci-Fi
+                    - generic [ref=f2e67]: View details
+                - heading "Alley Cat" [level=3] [ref=f2e68]
+                - paragraph [ref=f2e69]: 2021 • PG
+          - listitem [ref=f2e70]:
+            - article [ref=f2e71]:
+              - link [ref=f2e72] [cursor=pointer]:
+                - /url: /titles/m5
+                - generic [ref=f2e73]:
+                  - img "Poster for Last Train Uptown" [ref=f2e74]:
+                    - generic [aria-hidden] [ref=f2e75]: L
+                    - generic [aria-hidden] [ref=f2e76]: film
+                  - generic [aria-hidden] [ref=f2e77]:
+                    - paragraph [ref=f2e78]: Thriller, Drama
+                    - generic [ref=f2e79]: View details
+                - heading "Last Train Uptown" [level=3] [ref=f2e80]
+                - paragraph [ref=f2e81]: 2024 • R
+          - listitem [ref=f2e82]:
+            - article [ref=f2e83]:
+              - link [ref=f2e84] [cursor=pointer]:
+                - /url: /titles/m6
+                - generic [ref=f2e85]:
+                  - img "Poster for Boombox" [ref=f2e86]:
+                    - generic [aria-hidden] [ref=f2e87]: B
+                    - generic [aria-hidden] [ref=f2e88]: film
+                  - generic [aria-hidden] [ref=f2e89]:
+                    - paragraph [ref=f2e90]: Comedy, Drama
+                    - generic [ref=f2e91]: View details
+                - heading "Boombox" [level=3] [ref=f2e92]
+                - paragraph [ref=f2e93]: 2020 • PG-13
+          - listitem [ref=f2e94]:
+            - article [ref=f2e95]:
+              - link [ref=f2e96] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=f2e97]:
+                  - img "Poster for Chrome Hearts" [ref=f2e98]:
+                    - generic [aria-hidden] [ref=f2e99]: C
+                    - generic [aria-hidden] [ref=f2e100]: film
+                  - generic [aria-hidden] [ref=f2e101]:
+                    - paragraph [ref=f2e102]: Sci-Fi, Action
+                    - generic [ref=f2e103]: View details
+                - heading "Chrome Hearts" [level=3] [ref=f2e104]
+                - paragraph [ref=f2e105]: 2023 • PG-13
+          - listitem [ref=f2e106]:
+            - article [ref=f2e107]:
+              - link [ref=f2e108] [cursor=pointer]:
+                - /url: /titles/m8
+                - generic [ref=f2e109]:
+                  - img "Poster for Fire Escape" [ref=f2e110]:
+                    - generic [aria-hidden] [ref=f2e111]: F
+                    - generic [aria-hidden] [ref=f2e112]: film
+                  - generic [aria-hidden] [ref=f2e113]:
+                    - paragraph [ref=f2e114]: Drama, Thriller
+                    - generic [ref=f2e115]: View details
+                - heading "Fire Escape" [level=3] [ref=f2e116]
+                - paragraph [ref=f2e117]: 2019 • PG-13
+          - listitem [ref=f2e118]:
+            - article [ref=f2e119]:
+              - link [ref=f2e120] [cursor=pointer]:
+                - /url: /titles/m9
+                - generic [ref=f2e121]:
+                  - img "Poster for Glitter & Gravel" [ref=f2e122]:
+                    - generic [aria-hidden] [ref=f2e123]: G
+                    - generic [aria-hidden] [ref=f2e124]: film
+                  - generic [aria-hidden] [ref=f2e125]:
+                    - paragraph [ref=f2e126]: Comedy
+                    - generic [ref=f2e127]: View details
+                - heading "Glitter & Gravel" [level=3] [ref=f2e128]
+                - paragraph [ref=f2e129]: 2022 • PG
+          - listitem [ref=f2e130]:
+            - article [ref=f2e131]:
+              - link [ref=f2e132] [cursor=pointer]:
+                - /url: /titles/m10
+                - generic [ref=f2e133]:
+                  - img "Poster for The Understudy Queen" [ref=f2e134]:
+                    - generic [aria-hidden] [ref=f2e135]: T
+                    - generic [aria-hidden] [ref=f2e136]: film
+                  - generic [aria-hidden] [ref=f2e137]:
+                    - paragraph [ref=f2e138]: Drama, Comedy
+                    - generic [ref=f2e139]: View details
+                - heading "The Understudy Queen" [level=3] [ref=f2e140]
+                - paragraph [ref=f2e141]: 2021 • PG-13
+          - listitem [ref=f2e142]:
+            - article [ref=f2e143]:
+              - link [ref=f2e144] [cursor=pointer]:
+                - /url: /titles/m11
+                - generic [ref=f2e145]:
+                  - img "Poster for Dead End Dreams" [ref=f2e146]:
+                    - generic [aria-hidden] [ref=f2e147]: D
+                    - generic [aria-hidden] [ref=f2e148]: film
+                  - generic [aria-hidden] [ref=f2e149]:
+                    - paragraph [ref=f2e150]: Thriller
+                    - generic [ref=f2e151]: View details
+                - heading "Dead End Dreams" [level=3] [ref=f2e152]
+                - paragraph [ref=f2e153]: 2018 • R
+          - listitem [ref=f2e154]:
+            - article [ref=f2e155]:
+              - link [ref=f2e156] [cursor=pointer]:
+                - /url: /titles/m12
+                - generic [ref=f2e157]:
+                  - img "Poster for Midnight Mural" [ref=f2e158]:
+                    - generic [aria-hidden] [ref=f2e159]: M
+                    - generic [aria-hidden] [ref=f2e160]: film
+                  - generic [aria-hidden] [ref=f2e161]:
+                    - paragraph [ref=f2e162]: Action, Sci-Fi
+                    - generic [ref=f2e163]: View details
+                - heading "Midnight Mural" [level=3] [ref=f2e164]
+                - paragraph [ref=f2e165]: 2024 • PG-13
+      - region [ref=f2e166]:
+        - generic [ref=f2e167]:
+          - heading "Trending TV Shows" [level=2] [ref=f2e168]
+          - link "See All" [ref=f2e169] [cursor=pointer]:
+            - /url: /tv-shows
+        - list [ref=f2e170]:
+          - listitem [ref=f2e171]:
+            - article [ref=f2e172]:
+              - link [ref=f2e173] [cursor=pointer]:
+                - /url: /titles/s1
+                - generic [ref=f2e174]:
+                  - img "Poster for Block Party Chronicles" [ref=f2e175]:
+                    - generic [aria-hidden] [ref=f2e176]: B
+                    - generic [aria-hidden] [ref=f2e177]: series
+                  - generic [aria-hidden] [ref=f2e178]:
+                    - paragraph [ref=f2e179]: Comedy, Drama
+                    - generic [ref=f2e180]: View details
+                - heading "Block Party Chronicles" [level=3] [ref=f2e181]
+                - paragraph [ref=f2e182]: 2024 • TV-14
+          - listitem [ref=f2e183]:
+            - article [ref=f2e184]:
+              - link [ref=f2e185] [cursor=pointer]:
+                - /url: /titles/s2
+                - generic [ref=f2e186]:
+                  - img "Poster for Throne Room" [ref=f2e187]:
+                    - generic [aria-hidden] [ref=f2e188]: T
+                    - generic [aria-hidden] [ref=f2e189]: series
+                  - generic [aria-hidden] [ref=f2e190]:
+                    - paragraph [ref=f2e191]: Drama, Thriller
+                    - generic [ref=f2e192]: View details
+                - heading "Throne Room" [level=3] [ref=f2e193]
+                - paragraph [ref=f2e194]: 2023 • TV-MA
+          - listitem [ref=f2e195]:
+            - article [ref=f2e196]:
+              - link [ref=f2e197] [cursor=pointer]:
+                - /url: /titles/s3
+                - generic [ref=f2e198]:
+                  - img "Poster for Graffiti Division" [ref=f2e199]:
+                    - generic [aria-hidden] [ref=f2e200]: G
+                    - generic [aria-hidden] [ref=f2e201]: series
+                  - generic [aria-hidden] [ref=f2e202]:
+                    - paragraph [ref=f2e203]: Action, Thriller
+                    - generic [ref=f2e204]: View details
+                - heading "Graffiti Division" [level=3] [ref=f2e205]
+                - paragraph [ref=f2e206]: 2022 • TV-14
+          - listitem [ref=f2e207]:
+            - article [ref=f2e208]:
+              - link [ref=f2e209] [cursor=pointer]:
+                - /url: /titles/s4
+                - generic [ref=f2e210]:
+                  - img "Poster for Rooftop Radio" [ref=f2e211]:
+                    - generic [aria-hidden] [ref=f2e212]: R
+                    - generic [aria-hidden] [ref=f2e213]: series
+                  - generic [aria-hidden] [ref=f2e214]:
+                    - paragraph [ref=f2e215]: Comedy
+                    - generic [ref=f2e216]: View details
+                - heading "Rooftop Radio" [level=3] [ref=f2e217]
+                - paragraph [ref=f2e218]: 2021 • TV-PG
+          - listitem [ref=f2e219]:
+            - article [ref=f2e220]:
+              - link [ref=f2e221] [cursor=pointer]:
+                - /url: /titles/s5
+                - generic [ref=f2e222]:
+                  - img "Poster for Sirens & Synths" [ref=f2e223]:
+                    - generic [aria-hidden] [ref=f2e224]: S
+                    - generic [aria-hidden] [ref=f2e225]: series
+                  - generic [aria-hidden] [ref=f2e226]:
+                    - paragraph [ref=f2e227]: Sci-Fi, Drama
+                    - generic [ref=f2e228]: View details
+                - heading "Sirens & Synths" [level=3] [ref=f2e229]
+                - paragraph [ref=f2e230]: 2024 • TV-14
+          - listitem [ref=f2e231]:
+            - article [ref=f2e232]:
+              - link [ref=f2e233] [cursor=pointer]:
+                - /url: /titles/s6
+                - generic [ref=f2e234]:
+                  - img "Poster for The Hustle Sisters" [ref=f2e235]:
+                    - generic [aria-hidden] [ref=f2e236]: T
+                    - generic [aria-hidden] [ref=f2e237]: series
+                  - generic [aria-hidden] [ref=f2e238]:
+                    - paragraph [ref=f2e239]: Comedy, Drama
+                    - generic [ref=f2e240]: View details
+                - heading "The Hustle Sisters" [level=3] [ref=f2e241]
+                - paragraph [ref=f2e242]: 2020 • TV-PG
+          - listitem [ref=f2e243]:
+            - article [ref=f2e244]:
+              - link [ref=f2e245] [cursor=pointer]:
+                - /url: /titles/s7
+                - generic [ref=f2e246]:
+                  - img "Poster for Underground Royalty" [ref=f2e247]:
+                    - generic [aria-hidden] [ref=f2e248]: U
+                    - generic [aria-hidden] [ref=f2e249]: series
+                  - generic [aria-hidden] [ref=f2e250]:
+                    - paragraph [ref=f2e251]: Drama, Action
+                    - generic [ref=f2e252]: View details
+                - heading "Underground Royalty" [level=3] [ref=f2e253]
+                - paragraph [ref=f2e254]: 2023 • TV-MA
+          - listitem [ref=f2e255]:
+            - article [ref=f2e256]:
+              - link [ref=f2e257] [cursor=pointer]:
+                - /url: /titles/s8
+                - generic [ref=f2e258]:
+                  - img "Poster for Asphalt Angels" [ref=f2e259]:
+                    - generic [aria-hidden] [ref=f2e260]: A
+                    - generic [aria-hidden] [ref=f2e261]: series
+                  - generic [aria-hidden] [ref=f2e262]:
+                    - paragraph [ref=f2e263]: Action, Drama
+                    - generic [ref=f2e264]: View details
+                - heading "Asphalt Angels" [level=3] [ref=f2e265]
+                - paragraph [ref=f2e266]: 2019 • TV-14
+          - listitem [ref=f2e267]:
+            - article [ref=f2e268]:
+              - link [ref=f2e269] [cursor=pointer]:
+                - /url: /titles/s9
+                - generic [ref=f2e270]:
+                  - img "Poster for Wheatpaste" [ref=f2e271]:
+                    - generic [aria-hidden] [ref=f2e272]: W
+                    - generic [aria-hidden] [ref=f2e273]: series
+                  - generic [aria-hidden] [ref=f2e274]:
+                    - paragraph [ref=f2e275]: Thriller, Sci-Fi
+                    - generic [ref=f2e276]: View details
+                - heading "Wheatpaste" [level=3] [ref=f2e277]
+                - paragraph [ref=f2e278]: 2022 • TV-14
+          - listitem [ref=f2e279]:
+            - article [ref=f2e280]:
+              - link [ref=f2e281] [cursor=pointer]:
+                - /url: /titles/s10
+                - generic [ref=f2e282]:
+                  - img "Poster for Crown Heights Kitchen" [ref=f2e283]:
+                    - generic [aria-hidden] [ref=f2e284]: C
+                    - generic [aria-hidden] [ref=f2e285]: series
+                  - generic [aria-hidden] [ref=f2e286]:
+                    - paragraph [ref=f2e287]: Comedy, Drama
+                    - generic [ref=f2e288]: View details
+                - heading "Crown Heights Kitchen" [level=3] [ref=f2e289]
+                - paragraph [ref=f2e290]: 2021 • TV-PG
+          - listitem [ref=f2e291]:
+            - article [ref=f2e292]:
+              - link [ref=f2e293] [cursor=pointer]:
+                - /url: /titles/s11
+                - generic [ref=f2e294]:
+                  - img "Poster for Signal Lost" [ref=f2e295]:
+                    - generic [aria-hidden] [ref=f2e296]: S
+                    - generic [aria-hidden] [ref=f2e297]: series
+                  - generic [aria-hidden] [ref=f2e298]:
+                    - paragraph [ref=f2e299]: Sci-Fi, Thriller
+                    - generic [ref=f2e300]: View details
+                - heading "Signal Lost" [level=3] [ref=f2e301]
+                - paragraph [ref=f2e302]: 2024 • TV-14
+          - listitem [ref=f2e303]:
+            - article [ref=f2e304]:
+              - link [ref=f2e305] [cursor=pointer]:
+                - /url: /titles/s12
+                - generic [ref=f2e306]:
+                  - img "Poster for Pavement Poets" [ref=f2e307]:
+                    - generic [aria-hidden] [ref=f2e308]: P
+                    - generic [aria-hidden] [ref=f2e309]: series
+                  - generic [aria-hidden] [ref=f2e310]:
+                    - paragraph [ref=f2e311]: Drama
+                    - generic [ref=f2e312]: View details
+                - heading "Pavement Poets" [level=3] [ref=f2e313]
+                - paragraph [ref=f2e314]: 2020 • TV-PG

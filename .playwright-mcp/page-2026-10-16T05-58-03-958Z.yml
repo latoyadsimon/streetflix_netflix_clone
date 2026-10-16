@@ -1,0 +1,22 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - link "Streetflix home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]: Streetflix
+    - navigation "Primary" [ref=e9]:
+      - link "Home" [ref=e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - heading "Movies" [level=1] [ref=e17]
+      - paragraph [ref=e18]: Phase 3 placeholder.

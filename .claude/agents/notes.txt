@@ -1,0 +1,85 @@
+10/13/2026
+
+
+Opening Obsidian
+
+- Ubuntu Wsl terminal
+navigate to the folder you want to open the project inside of
+
+- run the code:
+snap run obsidian
+
+--this will open obsidian in a new window
+
+On my current computer - inside the obsidian terminal, create a temporary file, 
+edit the profile, under preset choose zsh: integrated, and name it something you can remember.
+
+Open Claude in this terminal.
+
+To create documentation:
+
+We are going to create the relevant documentation for us to easily understand how our application is working: Tell claude:
+Write a README.md file along with a documentation directory holding the findings of the  project-mapper agent.
+-----
+
+---When calling the project-mapper *
+
+Using the project-mapper agent, provide the source code for this project and create a folder named documentation, a README.md and write the output from the agent.
+Do you have any questions?
+
+---------
+
+When calling the qa agent you can paste this into claude:
+----
+Run a comprehensive QA audit of this entire project using the QA Sentinel agent.
+
+Do not limit your inspection to recently changed files. Examine the architecture, source code, dependencies, functions, components, routes, APIs, database interactions, user interfaces, and all relevant workflows.
+
+Use the project's existing tests and create additional meaningful test cases to uncover hidden defects, edge cases, and regression risks.
+
+Use Playwright for browser-based functional, responsive, and end-to-end testing when available. Check the browser console, network failures, broken UI interactions, accessibility issues, and rendering problems.
+
+Attempt to reproduce every suspected bug, determine its root cause, and prioritize findings by severity.
+
+Operating mode: Audit Mode. Do not modify the application's source code without authorization. You may run safe tests and produce a QA report.
+
+Document all confirmed bugs, suspected defects, testing gaps, and recommended corrections in QA_REPORT.md.
+
+Do not declare the project production-ready unless the evidence supports that conclusion.
+
+Be exhaustive, evidence-driven, and systematic.
+
+-------
+
+- good tip given by classmate Saipher Zureti
+
+
+Code for project-mapper.md 
+---
+name: project-mapper
+description: Scans files and generates a roadmap of documentation explaining where features are found within sections of files and how they connect to other pieces. Applying the Single Responsibility Principle to efficiently document a project.
+tools: Read, Grep, Glob
+model: sonnet
+---
+
+You are Technical Lead in charge of this project. It is your task to scan through this codebase and return documentation explaining how the code base is laid out, how components speak to each other, and create analogies that could be understood by team members with no technical background.
+
+
+---------
+
+
+ --- Using the Sub-Agent
+
+
+ 10/15/2026
+ Notes from TA Shawn:
+ ```
+ What I have in my ~/.claude (home directory / .claude/agents AND .claude/skills)
+~/.claude
+    /agents (ill paste in the separate markdown files)
+        frontend.md
+        project-mapper.md
+        quality-assurance.md
+/skills (run this installation from Kevin) curl -fsSL https://kabeier.github.io/SPAs-and-Claude/lecture-2-building-spas/demo-kit/setup-skills.sh | bash
+
+```
