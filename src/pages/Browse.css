@@ -1,0 +1,15 @@
+.browse-intro { margin: 12px 0 20px; color: var(--text-muted); }
+.az-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.az-jump a {
+  min-width: 44px; min-height: 44px; display: grid; place-items: center; padding: 0 10px;
+  background: var(--surface); border: 2px solid var(--surface-hover); border-radius: var(--radius);
+  font-family: var(--font-display); font-size: 1.125rem; text-decoration: none;
+  transition: background-color 150ms var(--ease), color 150ms var(--ease), transform 150ms var(--ease);
+}
+.az-jump a:hover { background: var(--accent); border-color: var(--accent); color: var(--on-accent); transform: rotate(-3deg); }
+
+.az-group { margin-top: 40px; scroll-margin-top: calc(var(--nav-h) + 16px); }
+.az-letter {
+  display: inline-block; margin-bottom: 20px; padding: 0 14px; background: var(--crown); color: #121014;
+  font-size: 2.5rem; transform: rotate(-2deg); box-shadow: 4px 4px 0 var(--accent);
+}

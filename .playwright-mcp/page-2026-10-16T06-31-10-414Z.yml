@@ -1,0 +1,325 @@
+- generic [ref=f6e2]:
+  - link "Skip to content" [ref=f6e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f6e4]:
+    - link "Streetflix home" [ref=f6e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f6e8]: Streetflix
+    - navigation "Primary" [ref=f6e9]:
+      - link "Home" [ref=f6e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f6e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f6e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f6e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f6e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f6e15]:
+    - generic [ref=f6e16]:
+      - region [ref=f6e17]:
+        - generic [ref=f6e19]:
+          - paragraph [ref=f6e20]: Featured
+          - heading "Wonder Woman" [level=1] [ref=f6e21]
+          - paragraph [ref=f6e22]: 2017 • PG-13 • 2h 21m • Action, Adventure, Fantasy
+          - paragraph [ref=f6e23]: An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict.
+          - generic [ref=f6e24]:
+            - button "Play" [ref=f6e25] [cursor=pointer]
+            - button "My List" [ref=f6e28] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f6e29]: +
+              - text: My List
+            - link "More Info" [ref=f6e30] [cursor=pointer]:
+              - /url: /titles/m10
+      - region [ref=f6e31]:
+        - generic [ref=f6e32]:
+          - heading "Popular Movies" [level=2] [ref=f6e33]
+          - link "See All" [ref=f6e34] [cursor=pointer]:
+            - /url: /movies
+        - list [ref=f6e35]:
+          - listitem [ref=f6e36]:
+            - article [ref=f6e37]:
+              - link [ref=f6e38] [cursor=pointer]:
+                - /url: /titles/m1
+                - generic [ref=f6e39]:
+                  - img "Poster for Shrek" [ref=f6e40]
+                  - generic [aria-hidden] [ref=f6e41]:
+                    - paragraph [ref=f6e42]: Animation, Comedy, Fantasy, Adventure, Family
+                    - generic [ref=f6e43]: View details
+                - heading "Shrek" [level=3] [ref=f6e44]
+                - paragraph [ref=f6e45]: 2001 • PG
+          - listitem [ref=f6e46]:
+            - article [ref=f6e47]:
+              - link [ref=f6e48] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=f6e49]:
+                  - img "Poster for Black Panther" [ref=f6e50]
+                  - generic [aria-hidden] [ref=f6e51]:
+                    - paragraph [ref=f6e52]: Action, Adventure, Sci-Fi
+                    - generic [ref=f6e53]: View details
+                - heading "Black Panther" [level=3] [ref=f6e54]
+                - paragraph [ref=f6e55]: 2018 • PG-13
+          - listitem [ref=f6e56]:
+            - article [ref=f6e57]:
+              - link [ref=f6e58] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=f6e59]:
+                  - 'img "Poster for Spider-Man: Into the Spider-Verse" [ref=f6e60]'
+                  - generic [aria-hidden] [ref=f6e61]:
+                    - paragraph [ref=f6e62]: Animation, Action, Adventure, Sci-Fi
+                    - generic [ref=f6e63]: View details
+                - 'heading "Spider-Man: Into the Spider-Verse" [level=3] [ref=f6e64]'
+                - paragraph [ref=f6e65]: 2018 • PG
+          - listitem [ref=f6e66]:
+            - article [ref=f6e67]:
+              - link [ref=f6e68] [cursor=pointer]:
+                - /url: /titles/m4
+                - generic [ref=f6e69]:
+                  - 'img "Poster for Mad Max: Fury Road" [ref=f6e70]'
+                  - generic [aria-hidden] [ref=f6e71]:
+                    - paragraph [ref=f6e72]: Action, Adventure, Sci-Fi
+                    - generic [ref=f6e73]: View details
+                - 'heading "Mad Max: Fury Road" [level=3] [ref=f6e74]'
+                - paragraph [ref=f6e75]: 2015 • R
+          - listitem [ref=f6e76]:
+            - article [ref=f6e77]:
+              - link [ref=f6e78] [cursor=pointer]:
+                - /url: /titles/m5
+                - generic [ref=f6e79]:
+                  - img "Poster for Barbie" [ref=f6e80]
+                  - generic [aria-hidden] [ref=f6e81]:
+                    - paragraph [ref=f6e82]: Comedy, Adventure, Fantasy
+                    - generic [ref=f6e83]: View details
+                - heading "Barbie" [level=3] [ref=f6e84]
+                - paragraph [ref=f6e85]: 2023 • PG-13
+          - listitem [ref=f6e86]:
+            - article [ref=f6e87]:
+              - link [ref=f6e88] [cursor=pointer]:
+                - /url: /titles/m6
+                - generic [ref=f6e89]:
+                  - img "Poster for Everything Everywhere All at Once" [ref=f6e90]
+                  - generic [aria-hidden] [ref=f6e91]:
+                    - paragraph [ref=f6e92]: Action, Adventure, Sci-Fi
+                    - generic [ref=f6e93]: View details
+                - heading "Everything Everywhere All at Once" [level=3] [ref=f6e94]
+                - paragraph [ref=f6e95]: 2022 • R
+          - listitem [ref=f6e96]:
+            - article [ref=f6e97]:
+              - link [ref=f6e98] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=f6e99]:
+                  - img "Poster for Coco" [ref=f6e100]
+                  - generic [aria-hidden] [ref=f6e101]:
+                    - paragraph [ref=f6e102]: Family, Animation, Music, Adventure
+                    - generic [ref=f6e103]: View details
+                - heading "Coco" [level=3] [ref=f6e104]
+                - paragraph [ref=f6e105]: 2017 • PG
+          - listitem [ref=f6e106]:
+            - article [ref=f6e107]:
+              - link [ref=f6e108] [cursor=pointer]:
+                - /url: /titles/m8
+                - generic [ref=f6e109]:
+                  - img "Poster for Get Out" [ref=f6e110]
+                  - generic [aria-hidden] [ref=f6e111]:
+                    - paragraph [ref=f6e112]: Mystery, Thriller, Horror
+                    - generic [ref=f6e113]: View details
+                - heading "Get Out" [level=3] [ref=f6e114]
+                - paragraph [ref=f6e115]: 2017 • R
+          - listitem [ref=f6e116]:
+            - article [ref=f6e117]:
+              - link [ref=f6e118] [cursor=pointer]:
+                - /url: /titles/m9
+                - generic [ref=f6e119]:
+                  - img "Poster for Hidden Figures" [ref=f6e120]
+                  - generic [aria-hidden] [ref=f6e121]:
+                    - paragraph [ref=f6e122]: Drama, History
+                    - generic [ref=f6e123]: View details
+                - heading "Hidden Figures" [level=3] [ref=f6e124]
+                - paragraph [ref=f6e125]: 2016 • PG
+          - listitem [ref=f6e126]:
+            - article [ref=f6e127]:
+              - link [ref=f6e128] [cursor=pointer]:
+                - /url: /titles/m10
+                - generic [ref=f6e129]:
+                  - img "Poster for Wonder Woman" [ref=f6e130]
+                  - generic [aria-hidden] [ref=f6e131]:
+                    - paragraph [ref=f6e132]: Action, Adventure, Fantasy
+                    - generic [ref=f6e133]: View details
+                - heading "Wonder Woman" [level=3] [ref=f6e134]
+                - paragraph [ref=f6e135]: 2017 • PG-13
+          - listitem [ref=f6e136]:
+            - article [ref=f6e137]:
+              - link [ref=f6e138] [cursor=pointer]:
+                - /url: /titles/m11
+                - generic [ref=f6e139]:
+                  - img "Poster for The Dark Knight" [ref=f6e140]
+                  - generic [aria-hidden] [ref=f6e141]:
+                    - paragraph [ref=f6e142]: Action, Thriller, Crime
+                    - generic [ref=f6e143]: View details
+                - heading "The Dark Knight" [level=3] [ref=f6e144]
+                - paragraph [ref=f6e145]: 2008 • PG-13
+          - listitem [ref=f6e146]:
+            - article [ref=f6e147]:
+              - link [ref=f6e148] [cursor=pointer]:
+                - /url: /titles/m12
+                - generic [ref=f6e149]:
+                  - img "Poster for Parasite" [ref=f6e150]
+                  - generic [aria-hidden] [ref=f6e151]:
+                    - paragraph [ref=f6e152]: Comedy, Thriller, Drama
+                    - generic [ref=f6e153]: View details
+                - heading "Parasite" [level=3] [ref=f6e154]
+                - paragraph [ref=f6e155]: 2019 • R
+      - region [ref=f6e156]:
+        - generic [ref=f6e157]:
+          - heading "Trending TV Shows" [level=2] [ref=f6e158]
+          - link "See All" [ref=f6e159] [cursor=pointer]:
+            - /url: /tv-shows
+        - list [ref=f6e160]:
+          - listitem [ref=f6e161]:
+            - article [ref=f6e162]:
+              - link [ref=f6e163] [cursor=pointer]:
+                - /url: /titles/s1
+                - generic [ref=f6e164]:
+                  - img "Poster for Stranger Things" [ref=f6e165]
+                  - generic [aria-hidden] [ref=f6e166]:
+                    - paragraph [ref=f6e167]: Action, Mystery, Sci-Fi
+                    - generic [ref=f6e168]: View details
+                - heading "Stranger Things" [level=3] [ref=f6e169]
+                - paragraph [ref=f6e170]: 2016 • TV-14
+          - listitem [ref=f6e171]:
+            - article [ref=f6e172]:
+              - link [ref=f6e173] [cursor=pointer]:
+                - /url: /titles/s2
+                - generic [ref=f6e174]:
+                  - img "Poster for The Bear" [ref=f6e175]
+                  - generic [aria-hidden] [ref=f6e176]:
+                    - paragraph [ref=f6e177]: Drama, Comedy
+                    - generic [ref=f6e178]: View details
+                - heading "The Bear" [level=3] [ref=f6e179]
+                - paragraph [ref=f6e180]: 2022 • TV-MA
+          - listitem [ref=f6e181]:
+            - article [ref=f6e182]:
+              - link [ref=f6e183] [cursor=pointer]:
+                - /url: /titles/s3
+                - generic [ref=f6e184]:
+                  - img "Poster for Euphoria" [ref=f6e185]
+                  - generic [aria-hidden] [ref=f6e186]:
+                    - paragraph [ref=f6e187]: Drama
+                    - generic [ref=f6e188]: View details
+                - heading "Euphoria" [level=3] [ref=f6e189]
+                - paragraph [ref=f6e190]: 2019 • TV-MA
+          - listitem [ref=f6e191]:
+            - article [ref=f6e192]:
+              - link [ref=f6e193] [cursor=pointer]:
+                - /url: /titles/s4
+                - generic [ref=f6e194]:
+                  - img "Poster for Wednesday" [ref=f6e195]
+                  - generic [aria-hidden] [ref=f6e196]:
+                    - paragraph [ref=f6e197]: Sci-Fi, Mystery, Comedy
+                    - generic [ref=f6e198]: View details
+                - heading "Wednesday" [level=3] [ref=f6e199]
+                - paragraph [ref=f6e200]: 2022 • TV-14
+          - listitem [ref=f6e201]:
+            - article [ref=f6e202]:
+              - link [ref=f6e203] [cursor=pointer]:
+                - /url: /titles/s5
+                - generic [ref=f6e204]:
+                  - img "Poster for Squid Game" [ref=f6e205]
+                  - generic [aria-hidden] [ref=f6e206]:
+                    - paragraph [ref=f6e207]: Action, Mystery, Drama
+                    - generic [ref=f6e208]: View details
+                - heading "Squid Game" [level=3] [ref=f6e209]
+                - paragraph [ref=f6e210]: 2021 • TV-MA
+          - listitem [ref=f6e211]:
+            - article [ref=f6e212]:
+              - link [ref=f6e213] [cursor=pointer]:
+                - /url: /titles/s6
+                - generic [ref=f6e214]:
+                  - img "Poster for Arcane" [ref=f6e215]
+                  - generic [aria-hidden] [ref=f6e216]:
+                    - paragraph [ref=f6e217]: Animation, Action, Sci-Fi
+                    - generic [ref=f6e218]: View details
+                - heading "Arcane" [level=3] [ref=f6e219]
+                - paragraph [ref=f6e220]: 2021 • TV-14
+          - listitem [ref=f6e221]:
+            - article [ref=f6e222]:
+              - link [ref=f6e223] [cursor=pointer]:
+                - /url: /titles/s7
+                - generic [ref=f6e224]:
+                  - img "Poster for Abbott Elementary" [ref=f6e225]
+                  - generic [aria-hidden] [ref=f6e226]:
+                    - paragraph [ref=f6e227]: Comedy
+                    - generic [ref=f6e228]: View details
+                - heading "Abbott Elementary" [level=3] [ref=f6e229]
+                - paragraph [ref=f6e230]: 2021 • TV-14
+          - listitem [ref=f6e231]:
+            - article [ref=f6e232]:
+              - link [ref=f6e233] [cursor=pointer]:
+                - /url: /titles/s8
+                - generic [ref=f6e234]:
+                  - img "Poster for Insecure" [ref=f6e235]
+                  - generic [aria-hidden] [ref=f6e236]:
+                    - paragraph [ref=f6e237]: Comedy, Drama
+                    - generic [ref=f6e238]: View details
+                - heading "Insecure" [level=3] [ref=f6e239]
+                - paragraph [ref=f6e240]: 2016 • TV-MA
+          - listitem [ref=f6e241]:
+            - article [ref=f6e242]:
+              - link [ref=f6e243] [cursor=pointer]:
+                - /url: /titles/s9
+                - generic [ref=f6e244]:
+                  - img "Poster for Pose" [ref=f6e245]
+                  - generic [aria-hidden] [ref=f6e246]:
+                    - paragraph [ref=f6e247]: Drama
+                    - generic [ref=f6e248]: View details
+                - heading "Pose" [level=3] [ref=f6e249]
+                - paragraph [ref=f6e250]: 2018 • TV-MA
+          - listitem [ref=f6e251]:
+            - article [ref=f6e252]:
+              - link [ref=f6e253] [cursor=pointer]:
+                - /url: /titles/s10
+                - generic [ref=f6e254]:
+                  - img "Poster for Orange Is the New Black" [ref=f6e255]
+                  - generic [aria-hidden] [ref=f6e256]:
+                    - paragraph [ref=f6e257]: Drama, Comedy, Crime
+                    - generic [ref=f6e258]: View details
+                - heading "Orange Is the New Black" [level=3] [ref=f6e259]
+                - paragraph [ref=f6e260]: 2013 • TV-MA
+          - listitem [ref=f6e261]:
+            - article [ref=f6e262]:
+              - link [ref=f6e263] [cursor=pointer]:
+                - /url: /titles/s11
+                - generic [ref=f6e264]:
+                  - img "Poster for Bridgerton" [ref=f6e265]
+                  - generic [aria-hidden] [ref=f6e266]:
+                    - paragraph [ref=f6e267]: Drama
+                    - generic [ref=f6e268]: View details
+                - heading "Bridgerton" [level=3] [ref=f6e269]
+                - paragraph [ref=f6e270]: 2020 • TV-MA
+          - listitem [ref=f6e271]:
+            - article [ref=f6e272]:
+              - link [ref=f6e273] [cursor=pointer]:
+                - /url: /titles/s12
+                - generic [ref=f6e274]:
+                  - img "Poster for The Queen's Gambit" [ref=f6e275]
+                  - generic [aria-hidden] [ref=f6e276]:
+                    - paragraph [ref=f6e277]: Drama
+                    - generic [ref=f6e278]: View details
+                - heading "The Queen's Gambit" [level=3] [ref=f6e279]
+                - paragraph [ref=f6e280]: 2020 • TV-MA
+      - region [ref=f6e281]:
+        - heading "Browse by Category" [level=2] [ref=f6e282]
+        - list [ref=f6e283]:
+          - listitem [ref=f6e284]:
+            - link "Action" [ref=f6e285] [cursor=pointer]:
+              - /url: /movies?genre=Action
+          - listitem [ref=f6e286]:
+            - link "Comedy" [ref=f6e287] [cursor=pointer]:
+              - /url: /movies?genre=Comedy
+          - listitem [ref=f6e288]:
+            - link "Drama" [ref=f6e289] [cursor=pointer]:
+              - /url: /movies?genre=Drama
+          - listitem [ref=f6e290]:
+            - link "Sci-Fi" [ref=f6e291] [cursor=pointer]:
+              - /url: /movies?genre=Sci-Fi
+  - status

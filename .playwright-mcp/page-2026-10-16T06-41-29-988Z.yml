@@ -1,0 +1,131 @@
+- generic [ref=f16e2]:
+  - link "Skip to content" [ref=f16e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f16e4]:
+    - link "Streetflix home" [ref=f16e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f16e8]: Streetflix
+    - navigation "Primary" [ref=f16e9]:
+      - link "Home" [ref=f16e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f16e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f16e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f16e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f16e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f16e15]:
+    - generic [ref=f16e112]:
+      - region [ref=f16e113]:
+        - generic [ref=f16e115]:
+          - img "Poster for Shrek" [ref=f16e117]
+          - generic [ref=f16e118]:
+            - heading "Shrek" [level=1] [ref=f16e119]
+            - paragraph [ref=f16e120]: The greatest fairy tale never told.
+            - paragraph [ref=f16e121]:
+              - generic [ref=f16e122]: "2001"
+              - generic [ref=f16e123]: PG
+              - generic [ref=f16e124]: 1h 30m
+              - generic [ref=f16e125]: Movie
+            - paragraph [ref=f16e126]: Animation, Comedy, Fantasy, Adventure, Family
+            - paragraph [ref=f16e127]: It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.
+            - generic [ref=f16e128]:
+              - button "Play" [ref=f16e129] [cursor=pointer]
+              - button "My List (add to My List)" [ref=f16e132] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f16e133]: +
+                - text: My List
+                - generic [ref=f16e134]: (add to My List)
+      - region [ref=f16e136]:
+        - heading "More Like This" [level=2] [ref=f16e138]
+        - list [ref=f16e139]:
+          - listitem [ref=f16e140]:
+            - article [ref=f16e141]:
+              - link [ref=f16e142] [cursor=pointer]:
+                - /url: /titles/m14
+                - generic [ref=f16e143]:
+                  - img "Poster for Moana" [ref=f16e144]
+                  - generic [aria-hidden] [ref=f16e145]:
+                    - paragraph [ref=f16e146]: Adventure, Comedy, Family, Animation
+                    - generic [ref=f16e147]: View details
+                - heading "Moana" [level=3] [ref=f16e148]
+                - paragraph [ref=f16e149]: 2016 • PG
+          - listitem [ref=f16e150]:
+            - article [ref=f16e151]:
+              - link [ref=f16e152] [cursor=pointer]:
+                - /url: /titles/m15
+                - generic [ref=f16e153]:
+                  - img "Poster for Encanto" [ref=f16e154]
+                  - generic [aria-hidden] [ref=f16e155]:
+                    - paragraph [ref=f16e156]: Animation, Comedy, Family, Fantasy
+                    - generic [ref=f16e157]: View details
+                - heading "Encanto" [level=3] [ref=f16e158]
+                - paragraph [ref=f16e159]: 2021 • PG
+          - listitem [ref=f16e160]:
+            - article [ref=f16e161]:
+              - link [ref=f16e162] [cursor=pointer]:
+                - /url: /titles/m5
+                - generic [ref=f16e163]:
+                  - img "Poster for Barbie" [ref=f16e164]
+                  - generic [aria-hidden] [ref=f16e165]:
+                    - paragraph [ref=f16e166]: Comedy, Adventure, Fantasy
+                    - generic [ref=f16e167]: View details
+                - heading "Barbie" [level=3] [ref=f16e168]
+                - paragraph [ref=f16e169]: 2023 • PG-13
+          - listitem [ref=f16e170]:
+            - article [ref=f16e171]:
+              - link [ref=f16e172] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=f16e173]:
+                  - img "Poster for Coco" [ref=f16e174]
+                  - generic [aria-hidden] [ref=f16e175]:
+                    - paragraph [ref=f16e176]: Family, Animation, Music, Adventure
+                    - generic [ref=f16e177]: View details
+                - heading "Coco" [level=3] [ref=f16e178]
+                - paragraph [ref=f16e179]: 2017 • PG
+          - listitem [ref=f16e180]:
+            - article [ref=f16e181]:
+              - link [ref=f16e182] [cursor=pointer]:
+                - /url: /titles/m20
+                - generic [ref=f16e183]:
+                  - img "Poster for Spirited Away" [ref=f16e184]
+                  - generic [aria-hidden] [ref=f16e185]:
+                    - paragraph [ref=f16e186]: Animation, Family, Fantasy
+                    - generic [ref=f16e187]: View details
+                - heading "Spirited Away" [level=3] [ref=f16e188]
+                - paragraph [ref=f16e189]: 2001 • PG
+          - listitem [ref=f16e190]:
+            - article [ref=f16e191]:
+              - link [ref=f16e192] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=f16e193]:
+                  - 'img "Poster for Spider-Man: Into the Spider-Verse" [ref=f16e194]'
+                  - generic [aria-hidden] [ref=f16e195]:
+                    - paragraph [ref=f16e196]: Animation, Action, Adventure, Sci-Fi
+                    - generic [ref=f16e197]: View details
+                - 'heading "Spider-Man: Into the Spider-Verse" [level=3] [ref=f16e198]'
+                - paragraph [ref=f16e199]: 2018 • PG
+          - listitem [ref=f16e200]:
+            - article [ref=f16e201]:
+              - link [ref=f16e202] [cursor=pointer]:
+                - /url: /titles/m10
+                - generic [ref=f16e203]:
+                  - img "Poster for Wonder Woman" [ref=f16e204]
+                  - generic [aria-hidden] [ref=f16e205]:
+                    - paragraph [ref=f16e206]: Action, Adventure, Fantasy
+                    - generic [ref=f16e207]: View details
+                - heading "Wonder Woman" [level=3] [ref=f16e208]
+                - paragraph [ref=f16e209]: 2017 • PG-13
+          - listitem [ref=f16e210]:
+            - article [ref=f16e211]:
+              - link [ref=f16e212] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=f16e213]:
+                  - img "Poster for Black Panther" [ref=f16e214]
+                  - generic [aria-hidden] [ref=f16e215]:
+                    - paragraph [ref=f16e216]: Action, Adventure, Sci-Fi
+                    - generic [ref=f16e217]: View details
+                - heading "Black Panther" [level=3] [ref=f16e218]
+                - paragraph [ref=f16e219]: 2018 • PG-13
+  - status

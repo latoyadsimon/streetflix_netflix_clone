@@ -1,8 +1,14 @@
+import BrowsePage from '../components/BrowsePage.jsx'
+import { MOVIES } from '../data/catalog.js'
+
 export default function Movies() {
   return (
-    <div className="page">
-      <h1>Movies</h1>
-      <p style={{ color: 'var(--text-muted)' }}>Phase 3 placeholder.</p>
-    </div>
+    <BrowsePage
+      heading="Movies"
+      noun="movies"
+      titles={MOVIES}
+      emptyMessage="No movies available right now."
+      filterEmptyMessage="No movies found in this category."
+    />
   )
 }

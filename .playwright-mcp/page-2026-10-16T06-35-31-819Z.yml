@@ -1,0 +1,27 @@
+- generic [ref=f11e2]:
+  - link "Skip to content" [ref=f11e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f11e4]:
+    - link "Streetflix home" [ref=f11e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f11e8]: Streetflix
+    - navigation "Primary" [ref=f11e9]:
+      - link "Home" [ref=f11e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f11e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f11e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f11e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f11e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f11e15]:
+    - generic [ref=f11e16]:
+      - heading "Search" [level=1] [ref=f11e17]
+      - search [ref=f11e18]:
+        - searchbox "Search movies and shows" [invalid] [ref=f11e22]
+        - button "Search" [active] [ref=f11e23] [cursor=pointer]
+        - alert [ref=f11e25]: Enter a title to search.
+      - paragraph [ref=f11e24]: Type a title to find movies and TV shows.
+  - status

@@ -1,0 +1,27 @@
+- generic [ref=f17e2]:
+  - link "Skip to content" [ref=f17e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f17e4]:
+    - link "Streetflix home" [ref=f17e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f17e8]: Streetflix
+    - navigation "Primary" [ref=f17e9]:
+      - link "Home" [ref=f17e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f17e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f17e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f17e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f17e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f17e15]:
+    - generic [ref=f17e16]:
+      - heading "My List" [level=1] [ref=f17e17]
+      - generic [ref=f17e18]:
+        - heading "Your list is empty" [level=2] [ref=f17e21]
+        - paragraph [ref=f17e22]: Save movies and TV shows to watch later.
+        - link "Browse Titles" [ref=f17e23] [cursor=pointer]:
+          - /url: /movies
+  - status

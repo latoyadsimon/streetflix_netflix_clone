@@ -1,0 +1,11 @@
+.page h1:focus-visible, .page h1:focus { outline: none; }
+.watchlist-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.watchlist-count { margin: 16px 0 28px; color: var(--text-muted); }
+
+.watchlist-empty {
+  display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 32px; padding: 64px 20px;
+  text-align: center; border: 3px dashed var(--accent); border-radius: var(--radius); color: var(--text-muted);
+}
+.watchlist-empty svg { color: var(--crown); }
+.watchlist-empty h2 { color: #fff; font-size: 1.75rem; }
+.watchlist-empty p { margin: 0 0 12px; }

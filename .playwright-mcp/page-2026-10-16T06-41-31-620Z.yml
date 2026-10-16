@@ -1,0 +1,132 @@
+- generic [ref=f16e2]:
+  - link "Skip to content" [ref=f16e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f16e4]:
+    - link "Streetflix home" [ref=f16e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f16e8]: Streetflix
+    - navigation "Primary" [ref=f16e9]:
+      - link "Home" [ref=f16e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f16e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f16e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f16e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f16e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f16e15]:
+    - generic [ref=f16e112]:
+      - region [ref=f16e222]:
+        - generic [ref=f16e115]:
+          - img "Poster for Moana" [ref=f16e223]
+          - generic [ref=f16e118]:
+            - heading "Moana" [level=1] [ref=f16e224]
+            - paragraph [ref=f16e120]: The ocean is calling.
+            - paragraph [ref=f16e121]:
+              - generic [ref=f16e122]: "2016"
+              - generic [ref=f16e123]: PG
+              - generic [ref=f16e124]: 1h 47m
+              - generic [ref=f16e125]: Movie
+            - paragraph [ref=f16e126]: Adventure, Comedy, Family, Animation
+            - paragraph [ref=f16e127]: In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.
+            - generic [ref=f16e128]:
+              - button "Play" [ref=f16e129] [cursor=pointer]
+              - button "My List (add to My List)" [ref=f16e225] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f16e133]: +
+                - text: My List
+                - generic [ref=f16e134]: (add to My List)
+      - region [ref=f16e136]:
+        - heading "More Like This" [level=2] [ref=f16e138]
+        - list [ref=f16e139]:
+          - listitem [ref=f16e226]:
+            - article [ref=f16e227]:
+              - link [ref=f16e228] [cursor=pointer]:
+                - /url: /titles/m1
+                - generic [ref=f16e229]:
+                  - img "Poster for Shrek" [ref=f16e230]
+                  - generic [aria-hidden] [ref=f16e231]:
+                    - paragraph [ref=f16e232]: Animation, Comedy, Fantasy, Adventure, Family
+                    - generic [ref=f16e233]: View details
+                - heading "Shrek" [level=3] [ref=f16e234]
+                - paragraph [ref=f16e235]: 2001 • PG
+          - listitem [ref=f16e170]:
+            - article [ref=f16e171]:
+              - link [ref=f16e172] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=f16e173]:
+                  - img "Poster for Coco" [ref=f16e174]
+                  - generic [aria-hidden] [ref=f16e175]:
+                    - paragraph [ref=f16e176]: Family, Animation, Music, Adventure
+                    - generic [ref=f16e177]: View details
+                - heading "Coco" [level=3] [ref=f16e178]
+                - paragraph [ref=f16e179]: 2017 • PG
+          - listitem [ref=f16e150]:
+            - article [ref=f16e151]:
+              - link [ref=f16e152] [cursor=pointer]:
+                - /url: /titles/m15
+                - generic [ref=f16e153]:
+                  - img "Poster for Encanto" [ref=f16e154]
+                  - generic [aria-hidden] [ref=f16e155]:
+                    - paragraph [ref=f16e156]: Animation, Comedy, Family, Fantasy
+                    - generic [ref=f16e157]: View details
+                - heading "Encanto" [level=3] [ref=f16e158]
+                - paragraph [ref=f16e159]: 2021 • PG
+          - listitem [ref=f16e190]:
+            - article [ref=f16e191]:
+              - link [ref=f16e192] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=f16e193]:
+                  - 'img "Poster for Spider-Man: Into the Spider-Verse" [ref=f16e194]'
+                  - generic [aria-hidden] [ref=f16e195]:
+                    - paragraph [ref=f16e196]: Animation, Action, Adventure, Sci-Fi
+                    - generic [ref=f16e197]: View details
+                - 'heading "Spider-Man: Into the Spider-Verse" [level=3] [ref=f16e198]'
+                - paragraph [ref=f16e199]: 2018 • PG
+          - listitem [ref=f16e160]:
+            - article [ref=f16e161]:
+              - link [ref=f16e162] [cursor=pointer]:
+                - /url: /titles/m5
+                - generic [ref=f16e163]:
+                  - img "Poster for Barbie" [ref=f16e164]
+                  - generic [aria-hidden] [ref=f16e165]:
+                    - paragraph [ref=f16e166]: Comedy, Adventure, Fantasy
+                    - generic [ref=f16e167]: View details
+                - heading "Barbie" [level=3] [ref=f16e168]
+                - paragraph [ref=f16e169]: 2023 • PG-13
+          - listitem [ref=f16e180]:
+            - article [ref=f16e181]:
+              - link [ref=f16e182] [cursor=pointer]:
+                - /url: /titles/m20
+                - generic [ref=f16e183]:
+                  - img "Poster for Spirited Away" [ref=f16e184]
+                  - generic [aria-hidden] [ref=f16e185]:
+                    - paragraph [ref=f16e186]: Animation, Family, Fantasy
+                    - generic [ref=f16e187]: View details
+                - heading "Spirited Away" [level=3] [ref=f16e188]
+                - paragraph [ref=f16e189]: 2001 • PG
+          - listitem [ref=f16e210]:
+            - article [ref=f16e211]:
+              - link [ref=f16e212] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=f16e213]:
+                  - img "Poster for Black Panther" [ref=f16e214]
+                  - generic [aria-hidden] [ref=f16e215]:
+                    - paragraph [ref=f16e216]: Action, Adventure, Sci-Fi
+                    - generic [ref=f16e217]: View details
+                - heading "Black Panther" [level=3] [ref=f16e218]
+                - paragraph [ref=f16e219]: 2018 • PG-13
+          - listitem [ref=f16e236]:
+            - article [ref=f16e237]:
+              - link [ref=f16e238] [cursor=pointer]:
+                - /url: /titles/m4
+                - generic [ref=f16e239]:
+                  - 'img "Poster for Mad Max: Fury Road" [ref=f16e240]'
+                  - generic [aria-hidden] [ref=f16e241]:
+                    - paragraph [ref=f16e242]: Action, Adventure, Sci-Fi
+                    - generic [ref=f16e243]: View details
+                - 'heading "Mad Max: Fury Road" [level=3] [ref=f16e244]'
+                - paragraph [ref=f16e245]: 2015 • R
+  - status:
+    - paragraph: Shrek added to My List

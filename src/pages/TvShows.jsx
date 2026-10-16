@@ -1,8 +1,14 @@
+import BrowsePage from '../components/BrowsePage.jsx'
+import { SHOWS } from '../data/catalog.js'
+
 export default function TvShows() {
   return (
-    <div className="page">
-      <h1>TV Shows</h1>
-      <p style={{ color: 'var(--text-muted)' }}>Phase 3 placeholder.</p>
-    </div>
+    <BrowsePage
+      heading="TV Shows"
+      noun="shows"
+      titles={SHOWS}
+      emptyMessage="No shows available right now."
+      filterEmptyMessage="No shows found in this category."
+    />
   )
 }

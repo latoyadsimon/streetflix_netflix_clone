@@ -1,0 +1,665 @@
+[
+  {
+    "id": "m1",
+    "type": "movie",
+    "title": "Shrek",
+    "year": 2001,
+    "rating": "PG",
+    "runtime": "1h 30m",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "description": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+    "tagline": "The greatest fairy tale never told.",
+    "poster": "/posters/m1.jpg",
+    "backdrop": "/backdrops/m1.jpg"
+  },
+  {
+    "id": "m2",
+    "type": "movie",
+    "title": "Black Panther",
+    "year": 2018,
+    "rating": "PG-13",
+    "runtime": "2h 15m",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "description": "King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantle to join with ex-girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.",
+    "tagline": "Long live the king.",
+    "poster": "/posters/m2.jpg",
+    "backdrop": "/backdrops/m2.jpg"
+  },
+  {
+    "id": "m3",
+    "type": "movie",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "rating": "PG",
+    "runtime": "1h 57m",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "description": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
+    "tagline": "Enter a universe where more than one wears the mask.",
+    "poster": "/posters/m3.jpg",
+    "backdrop": "/backdrops/m3.jpg"
+  },
+  {
+    "id": "m4",
+    "type": "movie",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "rating": "R",
+    "runtime": "2h 1m",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "description": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+    "tagline": "The future belongs to the mad.",
+    "poster": "/posters/m4.jpg",
+    "backdrop": "/backdrops/m4.jpg"
+  },
+  {
+    "id": "m5",
+    "type": "movie",
+    "title": "Barbie",
+    "year": 2023,
+    "rating": "PG-13",
+    "runtime": "1h 54m",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Fantasy"
+    ],
+    "description": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+    "tagline": "She's everything. He's just Ken.",
+    "poster": "/posters/m5.jpg",
+    "backdrop": "/backdrops/m5.jpg"
+  },
+  {
+    "id": "m6",
+    "type": "movie",
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "rating": "R",
+    "runtime": "2h 20m",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "description": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+    "tagline": "The universe is so much bigger than you realize.",
+    "poster": "/posters/m6.jpg",
+    "backdrop": "/backdrops/m6.jpg"
+  },
+  {
+    "id": "m7",
+    "type": "movie",
+    "title": "Coco",
+    "year": 2017,
+    "rating": "PG",
+    "runtime": "1h 45m",
+    "genres": [
+      "Family",
+      "Animation",
+      "Music",
+      "Adventure"
+    ],
+    "description": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+    "tagline": "The celebration of a lifetime.",
+    "poster": "/posters/m7.jpg",
+    "backdrop": "/backdrops/m7.jpg"
+  },
+  {
+    "id": "m8",
+    "type": "movie",
+    "title": "Get Out",
+    "year": 2017,
+    "rating": "R",
+    "runtime": "1h 44m",
+    "genres": [
+      "Mystery",
+      "Thriller",
+      "Horror"
+    ],
+    "description": "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
+    "tagline": "Just because you're invited, doesn't mean you're welcome.",
+    "poster": "/posters/m8.jpg",
+    "backdrop": "/backdrops/m8.jpg"
+  },
+  {
+    "id": "m9",
+    "type": "movie",
+    "title": "Hidden Figures",
+    "year": 2016,
+    "rating": "PG",
+    "runtime": "2h 7m",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "description": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
+    "tagline": "Meet the women you don't know, behind the mission you do.",
+    "poster": "/posters/m9.jpg",
+    "backdrop": "/backdrops/m9.jpg"
+  },
+  {
+    "id": "m10",
+    "type": "movie",
+    "title": "Wonder Woman",
+    "year": 2017,
+    "rating": "PG-13",
+    "runtime": "2h 21m",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "description": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict.",
+    "tagline": "Power. Grace. Wisdom. Wonder.",
+    "poster": "/posters/m10.jpg",
+    "backdrop": "/backdrops/m10.jpg"
+  },
+  {
+    "id": "m11",
+    "type": "movie",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "rating": "PG-13",
+    "runtime": "2h 32m",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "tagline": "Welcome to a world without rules.",
+    "poster": "/posters/m11.jpg",
+    "backdrop": "/backdrops/m11.jpg"
+  },
+  {
+    "id": "m12",
+    "type": "movie",
+    "title": "Parasite",
+    "year": 2019,
+    "rating": "R",
+    "runtime": "2h 13m",
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+    "tagline": "Act like you own the place.",
+    "poster": "/posters/m12.jpg",
+    "backdrop": "/backdrops/m12.jpg"
+  },
+  {
+    "id": "m13",
+    "type": "movie",
+    "title": "Inception",
+    "year": 2010,
+    "rating": "PG-13",
+    "runtime": "2h 28m",
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Crime"
+    ],
+    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+    "tagline": "Your mind is the scene of the crime.",
+    "poster": "/posters/m13.jpg",
+    "backdrop": "/backdrops/m13.jpg"
+  },
+  {
+    "id": "m14",
+    "type": "movie",
+    "title": "Moana",
+    "year": 2016,
+    "rating": "PG",
+    "runtime": "1h 47m",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Animation"
+    ],
+    "description": "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
+    "tagline": "The ocean is calling.",
+    "poster": "/posters/m14.jpg",
+    "backdrop": "/backdrops/m14.jpg"
+  },
+  {
+    "id": "m15",
+    "type": "movie",
+    "title": "Encanto",
+    "year": 2021,
+    "rating": "PG",
+    "runtime": "1h 42m",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "description": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family—every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
+    "tagline": "There's a little magic in all of us...almost all of us.",
+    "poster": "/posters/m15.jpg",
+    "backdrop": "/backdrops/m15.jpg"
+  },
+  {
+    "id": "m16",
+    "type": "movie",
+    "title": "Lady Bird",
+    "year": 2017,
+    "rating": "R",
+    "runtime": "1h 34m",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "description": "Lady Bird McPherson, a strong willed, deeply opinionated, artistic 17 year old comes of age in Sacramento. Her relationship with her mother and her upbringing are questioned and tested as she plans to head off to college.",
+    "tagline": "Fly away home.",
+    "poster": "/posters/m16.jpg",
+    "backdrop": "/backdrops/m16.jpg"
+  },
+  {
+    "id": "m17",
+    "type": "movie",
+    "title": "Little Women",
+    "year": 2019,
+    "rating": "PG",
+    "runtime": "2h 15m",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "description": "Four sisters come of age in America in the aftermath of the Civil War.",
+    "tagline": "Own your story.",
+    "poster": "/posters/m17.jpg",
+    "backdrop": "/backdrops/m17.jpg"
+  },
+  {
+    "id": "m18",
+    "type": "movie",
+    "title": "Crazy Rich Asians",
+    "year": 2018,
+    "rating": "PG-13",
+    "runtime": "2h 1m",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "description": "An American-born Chinese economics professor accompanies her boyfriend to Singapore for his best friend's wedding, only to get thrust into the lives of Asia's rich and famous.",
+    "tagline": "The only thing crazier than love is family.",
+    "poster": "/posters/m18.jpg",
+    "backdrop": "/backdrops/m18.jpg"
+  },
+  {
+    "id": "m19",
+    "type": "movie",
+    "title": "Mean Girls",
+    "year": 2004,
+    "rating": "PG-13",
+    "runtime": "1h 37m",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "description": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+    "tagline": "Watch your back.",
+    "poster": "/posters/m19.jpg",
+    "backdrop": "/backdrops/m19.jpg"
+  },
+  {
+    "id": "m20",
+    "type": "movie",
+    "title": "Spirited Away",
+    "year": 2001,
+    "rating": "PG",
+    "runtime": "2h 5m",
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "description": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "tagline": "Prepare to be spirited away.",
+    "poster": "/posters/m20.jpg",
+    "backdrop": "/backdrops/m20.jpg"
+  },
+  {
+    "id": "s1",
+    "type": "show",
+    "title": "Stranger Things",
+    "year": 2016,
+    "rating": "TV-14",
+    "runtime": "5 seasons",
+    "genres": [
+      "Action",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "tagline": "It only gets stranger...",
+    "poster": "/posters/s1.jpg",
+    "backdrop": "/backdrops/s1.jpg"
+  },
+  {
+    "id": "s2",
+    "type": "show",
+    "title": "The Bear",
+    "year": 2022,
+    "rating": "TV-MA",
+    "runtime": "5 seasons",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "description": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
+    "tagline": "Back for seconds.",
+    "poster": "/posters/s2.jpg",
+    "backdrop": "/backdrops/s2.jpg"
+  },
+  {
+    "id": "s3",
+    "type": "show",
+    "title": "Euphoria",
+    "year": 2019,
+    "rating": "TV-MA",
+    "runtime": "3 seasons",
+    "genres": [
+      "Drama"
+    ],
+    "description": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
+    "tagline": "Feel something.",
+    "poster": "/posters/s3.jpg",
+    "backdrop": "/backdrops/s3.jpg"
+  },
+  {
+    "id": "s4",
+    "type": "show",
+    "title": "Wednesday",
+    "year": 2022,
+    "rating": "TV-14",
+    "runtime": "3 seasons",
+    "genres": [
+      "Sci-Fi",
+      "Mystery",
+      "Comedy"
+    ],
+    "description": "Smart, sarcastic and a little dead inside, Wednesday Addams investigates twisted mysteries while making new friends — and foes — at Nevermore Academy.",
+    "tagline": "The wait has been torture.",
+    "poster": "/posters/s4.jpg",
+    "backdrop": "/backdrops/s4.jpg"
+  },
+  {
+    "id": "s5",
+    "type": "show",
+    "title": "Squid Game",
+    "year": 2021,
+    "rating": "TV-MA",
+    "runtime": "3 seasons",
+    "genres": [
+      "Action",
+      "Mystery",
+      "Drama"
+    ],
+    "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+    "tagline": "Only one can win.",
+    "poster": "/posters/s5.jpg",
+    "backdrop": "/backdrops/s5.jpg"
+  },
+  {
+    "id": "s6",
+    "type": "show",
+    "title": "Arcane",
+    "year": 2021,
+    "rating": "TV-14",
+    "runtime": "2 seasons",
+    "genres": [
+      "Animation",
+      "Action",
+      "Sci-Fi"
+    ],
+    "description": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
+    "tagline": "The hunt is on.",
+    "poster": "/posters/s6.jpg",
+    "backdrop": "/backdrops/s6.jpg"
+  },
+  {
+    "id": "s7",
+    "type": "show",
+    "title": "Abbott Elementary",
+    "year": 2021,
+    "rating": "TV-14",
+    "runtime": "6 seasons",
+    "genres": [
+      "Comedy"
+    ],
+    "description": "In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don’t love the school district’s less-than-stellar attitude toward educating children.",
+    "tagline": "Catching a break... Any way they can.",
+    "poster": "/posters/s7.jpg",
+    "backdrop": "/backdrops/s7.jpg"
+  },
+  {
+    "id": "s8",
+    "type": "show",
+    "title": "Insecure",
+    "year": 2016,
+    "rating": "TV-MA",
+    "runtime": "5 seasons",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "Follows the awkward experiences and racy tribulations of a modern-day African-American woman.",
+    "tagline": "She's trying hard AF.",
+    "poster": "/posters/s8.jpg",
+    "backdrop": "/backdrops/s8.jpg"
+  },
+  {
+    "id": "s9",
+    "type": "show",
+    "title": "Pose",
+    "year": 2018,
+    "rating": "TV-MA",
+    "runtime": "3 seasons",
+    "genres": [
+      "Drama"
+    ],
+    "description": "A dance musical that explores the juxtaposition of several segments of 1980s life and society in New York: the ball culture world, the rise of the luxury Trump-era universe and the downtown social and literary scene.",
+    "tagline": "The original queens have arrived.",
+    "poster": "/posters/s9.jpg",
+    "backdrop": "/backdrops/s9.jpg"
+  },
+  {
+    "id": "s10",
+    "type": "show",
+    "title": "Orange Is the New Black",
+    "year": 2013,
+    "rating": "TV-MA",
+    "runtime": "7 seasons",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "description": "A crime she committed in her youthful past sends Piper Chapman to a women's prison, where she trades her comfortable New York life for one of unexpected camaraderie and conflict in an eccentric group of fellow inmates.",
+    "tagline": "Every sentence is a story.",
+    "poster": "/posters/s10.jpg",
+    "backdrop": "/backdrops/s10.jpg"
+  },
+  {
+    "id": "s11",
+    "type": "show",
+    "title": "Bridgerton",
+    "year": 2020,
+    "rating": "TV-MA",
+    "runtime": "5 seasons",
+    "genres": [
+      "Drama"
+    ],
+    "description": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
+    "tagline": "Even a wallflower can bloom.",
+    "poster": "/posters/s11.jpg",
+    "backdrop": "/backdrops/s11.jpg"
+  },
+  {
+    "id": "s12",
+    "type": "show",
+    "title": "The Queen's Gambit",
+    "year": 2020,
+    "rating": "TV-MA",
+    "runtime": "1 season",
+    "genres": [
+      "Drama"
+    ],
+    "description": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction.",
+    "tagline": "Beth Harmon makes her move.",
+    "poster": "/posters/s12.jpg",
+    "backdrop": "/backdrops/s12.jpg"
+  },
+  {
+    "id": "s13",
+    "type": "show",
+    "title": "Atlanta",
+    "year": 2016,
+    "rating": "TV-MA",
+    "runtime": "4 seasons",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
+    "tagline": "A side of the city you've never seen.",
+    "poster": "/posters/s13.jpg",
+    "backdrop": "/backdrops/s13.jpg"
+  },
+  {
+    "id": "s14",
+    "type": "show",
+    "title": "Succession",
+    "year": 2018,
+    "rating": "TV-MA",
+    "runtime": "4 seasons",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "description": "Follow the lives of the Roy family as they contemplate their future once their aging father begins to step back from the media and entertainment conglomerate they control.",
+    "tagline": "Make your move.",
+    "poster": "/posters/s14.jpg",
+    "backdrop": "/backdrops/s14.jpg"
+  },
+  {
+    "id": "s15",
+    "type": "show",
+    "title": "Fleabag",
+    "year": 2016,
+    "rating": "TV-MA",
+    "runtime": "2 seasons",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "A portrait into the mind of a dry-witted, sexual, angry, porn-watching, grief-riddled woman, trying to make sense of the world. As she hurls herself headlong at modern living, Fleabag is thrown roughly up against the walls of contemporary London, with all its frenetic energy, late nights, and bright lights.",
+    "tagline": "Hilarious and hurtful.",
+    "poster": "/posters/s15.jpg",
+    "backdrop": "/backdrops/s15.jpg"
+  },
+  {
+    "id": "s16",
+    "type": "show",
+    "title": "Black Mirror",
+    "year": 2011,
+    "rating": "TV-MA",
+    "runtime": "7 seasons",
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Mystery"
+    ],
+    "description": "Twisted tales run wild in this mind-bending anthology series that reveals humanity's worst traits, greatest innovations and more.",
+    "tagline": "The future is bright.",
+    "poster": "/posters/s16.jpg",
+    "backdrop": "/backdrops/s16.jpg"
+  },
+  {
+    "id": "s17",
+    "type": "show",
+    "title": "Avatar: The Last Airbender",
+    "year": 2005,
+    "rating": "TV-Y7",
+    "runtime": "3 seasons",
+    "genres": [
+      "Animation",
+      "Action",
+      "Sci-Fi"
+    ],
+    "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+    "tagline": "Water. Earth. Fire. Air.",
+    "poster": "/posters/s17.jpg",
+    "backdrop": "/backdrops/s17.jpg"
+  },
+  {
+    "id": "s18",
+    "type": "show",
+    "title": "Hacks",
+    "year": 2021,
+    "rating": "TV-MA",
+    "runtime": "5 seasons",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "Explore a dark mentorship that forms between Deborah Vance, a legendary Las Vegas comedian, and an entitled, outcast 25-year-old.",
+    "tagline": "Saving the best for last.",
+    "poster": "/posters/s18.jpg",
+    "backdrop": "/backdrops/s18.jpg"
+  },
+  {
+    "id": "s19",
+    "type": "show",
+    "title": "Killing Eve",
+    "year": 2018,
+    "rating": "TV-14",
+    "runtime": "4 seasons",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "description": "A security consultant hunts for a ruthless assassin. Equally obsessed with each other, they go head to head in an epic game of cat-and-mouse.",
+    "tagline": "Sorry baby.",
+    "poster": "/posters/s19.jpg",
+    "backdrop": "/backdrops/s19.jpg"
+  },
+  {
+    "id": "s20",
+    "type": "show",
+    "title": "Ted Lasso",
+    "year": 2020,
+    "rating": "TV-MA",
+    "runtime": "4 seasons",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "description": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
+    "tagline": "Ted's back.",
+    "poster": "/posters/s20.jpg",
+    "backdrop": "/backdrops/s20.jpg"
+  }
+]

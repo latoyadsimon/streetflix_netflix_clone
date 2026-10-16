@@ -1,0 +1,111 @@
+- generic [ref=f11e2]:
+  - link "Skip to content" [ref=f11e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f11e4]:
+    - link "Streetflix home" [ref=f11e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f11e8]: Streetflix
+    - navigation "Primary" [ref=f11e9]:
+      - link "Home" [ref=f11e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f11e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f11e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f11e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f11e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f11e15]:
+    - generic [ref=f11e16]:
+      - heading "Search" [level=1] [ref=f11e17]
+      - search [ref=f11e26]:
+        - generic [ref=f11e27]:
+          - searchbox "Search movies and shows" [ref=f11e30]: the
+          - button "Clear search" [ref=f11e31] [cursor=pointer]
+        - button "Search" [ref=f11e34] [cursor=pointer]
+      - paragraph [ref=f11e35]: Results for “the” (7)
+      - region "Movies" [ref=f11e36]:
+        - heading "Movies (3)" [level=2] [ref=f11e37]
+        - list [ref=f11e38]:
+          - listitem [ref=f11e39]:
+            - article [ref=f11e40]:
+              - link [ref=f11e41] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=f11e42]:
+                  - img "Poster for Black Panther" [ref=f11e43]
+                  - generic [aria-hidden] [ref=f11e44]:
+                    - paragraph [ref=f11e45]: Action, Adventure, Sci-Fi
+                    - generic [ref=f11e46]: View details
+                - heading "Black Panther" [level=3] [ref=f11e47]
+                - paragraph [ref=f11e48]: 2018 • PG-13
+          - listitem [ref=f11e49]:
+            - article [ref=f11e50]:
+              - link [ref=f11e51] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=f11e52]:
+                  - 'img "Poster for Spider-Man: Into the Spider-Verse" [ref=f11e53]'
+                  - generic [aria-hidden] [ref=f11e54]:
+                    - paragraph [ref=f11e55]: Animation, Action, Adventure, Sci-Fi
+                    - generic [ref=f11e56]: View details
+                - 'heading "Spider-Man: Into the Spider-Verse" [level=3] [ref=f11e57]'
+                - paragraph [ref=f11e58]: 2018 • PG
+          - listitem [ref=f11e59]:
+            - article [ref=f11e60]:
+              - link [ref=f11e61] [cursor=pointer]:
+                - /url: /titles/m11
+                - generic [ref=f11e62]:
+                  - img "Poster for The Dark Knight" [ref=f11e63]
+                  - generic [aria-hidden] [ref=f11e64]:
+                    - paragraph [ref=f11e65]: Action, Thriller, Crime
+                    - generic [ref=f11e66]: View details
+                - heading "The Dark Knight" [level=3] [ref=f11e67]
+                - paragraph [ref=f11e68]: 2008 • PG-13
+      - region "TV Shows" [ref=f11e69]:
+        - heading "TV Shows (4)" [level=2] [ref=f11e70]
+        - list [ref=f11e71]:
+          - listitem [ref=f11e72]:
+            - article [ref=f11e73]:
+              - link [ref=f11e74] [cursor=pointer]:
+                - /url: /titles/s2
+                - generic [ref=f11e75]:
+                  - img "Poster for The Bear" [ref=f11e76]
+                  - generic [aria-hidden] [ref=f11e77]:
+                    - paragraph [ref=f11e78]: Drama, Comedy
+                    - generic [ref=f11e79]: View details
+                - heading "The Bear" [level=3] [ref=f11e80]
+                - paragraph [ref=f11e81]: 2022 • TV-MA
+          - listitem [ref=f11e82]:
+            - article [ref=f11e83]:
+              - link [ref=f11e84] [cursor=pointer]:
+                - /url: /titles/s10
+                - generic [ref=f11e85]:
+                  - img "Poster for Orange Is the New Black" [ref=f11e86]
+                  - generic [aria-hidden] [ref=f11e87]:
+                    - paragraph [ref=f11e88]: Drama, Comedy, Crime
+                    - generic [ref=f11e89]: View details
+                - heading "Orange Is the New Black" [level=3] [ref=f11e90]
+                - paragraph [ref=f11e91]: 2013 • TV-MA
+          - listitem [ref=f11e92]:
+            - article [ref=f11e93]:
+              - link [ref=f11e94] [cursor=pointer]:
+                - /url: /titles/s12
+                - generic [ref=f11e95]:
+                  - img "Poster for The Queen's Gambit" [ref=f11e96]
+                  - generic [aria-hidden] [ref=f11e97]:
+                    - paragraph [ref=f11e98]: Drama
+                    - generic [ref=f11e99]: View details
+                - heading "The Queen's Gambit" [level=3] [ref=f11e100]
+                - paragraph [ref=f11e101]: 2020 • TV-MA
+          - listitem [ref=f11e102]:
+            - article [ref=f11e103]:
+              - link [ref=f11e104] [cursor=pointer]:
+                - /url: /titles/s17
+                - generic [ref=f11e105]:
+                  - 'img "Poster for Avatar: The Last Airbender" [ref=f11e106]'
+                  - generic [aria-hidden] [ref=f11e107]:
+                    - paragraph [ref=f11e108]: Animation, Action, Sci-Fi
+                    - generic [ref=f11e109]: View details
+                - 'heading "Avatar: The Last Airbender" [level=3] [ref=f11e110]'
+                - paragraph [ref=f11e111]: 2005 • TV-Y7
+  - status

@@ -6,7 +6,7 @@ const LINKS = [
   { to: '/movies', label: 'Movies', icon: 'M4 4h16v16H4zM4 9h16M4 15h16M9 4v16M15 4v16' },
   { to: '/tv-shows', label: 'TV Shows', icon: 'M3 6h18v12H3zM8 21h8M12 18v3' },
   { to: '/search', label: 'Search', icon: 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5' },
-  { to: '/watchlist', label: 'My List', icon: 'M6 3h12v18l-6-4-6 4z' },
+  { to: '/watchlist', label: 'My List', icon: 'M3 18L2 7l5 4 5-7 5 7 5-4-1 11z' },
 ]
 
 function Icon({ d }) {

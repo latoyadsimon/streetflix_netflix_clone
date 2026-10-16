@@ -1,0 +1,32 @@
+- generic [ref=f12e2]:
+  - link "Skip to content" [ref=f12e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f12e4]:
+    - link "Streetflix home" [ref=f12e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f12e8]: Streetflix
+    - navigation "Primary" [ref=f12e9]:
+      - link "Home" [ref=f12e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f12e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f12e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f12e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f12e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f12e15]:
+    - generic [ref=f12e16]:
+      - heading "Search" [level=1] [ref=f12e17]
+      - search [ref=f12e18]:
+        - generic [ref=f12e19]:
+          - searchbox "Search movies and shows" [ref=f12e22]: zzzz
+          - button "Clear search" [ref=f12e23] [cursor=pointer]
+        - button "Search" [ref=f12e26] [cursor=pointer]
+      - generic [ref=f12e27]:
+        - heading "No results found for your search" [level=2] [ref=f12e30]
+        - paragraph [ref=f12e31]: Nothing matches “zzzz”. Try a different search term.
+        - link "Back to Home" [ref=f12e32] [cursor=pointer]:
+          - /url: /
+  - status

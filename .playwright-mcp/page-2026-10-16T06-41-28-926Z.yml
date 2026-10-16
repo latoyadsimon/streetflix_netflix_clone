@@ -1,0 +1,132 @@
+- generic [ref=f16e2]:
+  - link "Skip to content" [ref=f16e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f16e4]:
+    - link "Streetflix home" [ref=f16e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f16e8]: Streetflix
+    - navigation "Primary" [ref=f16e9]:
+      - link "Home" [ref=f16e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f16e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f16e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f16e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f16e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f16e15]:
+    - generic [ref=f16e24]:
+      - heading "Movies" [level=1] [ref=f16e25]
+      - generic [ref=f16e26]:
+        - generic [ref=f16e27]: "Genre:"
+        - combobox "Genre:" [ref=f16e28] [cursor=pointer]:
+          - option "All Genres" [selected]
+          - option "Action"
+          - option "Adventure"
+          - option "Animation"
+          - option "Comedy"
+          - option "Crime"
+          - option "Drama"
+          - option "Family"
+          - option "Fantasy"
+          - option "History"
+          - option "Horror"
+          - option "Music"
+          - option "Mystery"
+          - option "Romance"
+          - option "Sci-Fi"
+          - option "Thriller"
+      - list [ref=f16e29]:
+        - listitem [ref=f16e30]:
+          - article [ref=f16e31]:
+            - link [ref=f16e32] [cursor=pointer]:
+              - /url: /titles/m1
+              - generic [ref=f16e33]:
+                - img "Poster for Shrek" [ref=f16e34]
+                - generic [aria-hidden] [ref=f16e35]:
+                  - paragraph [ref=f16e36]: Animation, Comedy, Fantasy, Adventure, Family
+                  - generic [ref=f16e37]: View details
+              - heading "Shrek" [level=3] [ref=f16e38]
+              - paragraph [ref=f16e39]: 2001 • PG
+        - listitem [ref=f16e40]:
+          - article [ref=f16e41]:
+            - link [ref=f16e42] [cursor=pointer]:
+              - /url: /titles/m2
+              - generic [ref=f16e43]:
+                - img "Poster for Black Panther" [ref=f16e44]
+                - generic [aria-hidden] [ref=f16e45]:
+                  - paragraph [ref=f16e46]: Action, Adventure, Sci-Fi
+                  - generic [ref=f16e47]: View details
+              - heading "Black Panther" [level=3] [ref=f16e48]
+              - paragraph [ref=f16e49]: 2018 • PG-13
+        - listitem [ref=f16e50]:
+          - article [ref=f16e51]:
+            - link [ref=f16e52] [cursor=pointer]:
+              - /url: /titles/m3
+              - generic [ref=f16e53]:
+                - 'img "Poster for Spider-Man: Into the Spider-Verse" [ref=f16e54]'
+                - generic [aria-hidden] [ref=f16e55]:
+                  - paragraph [ref=f16e56]: Animation, Action, Adventure, Sci-Fi
+                  - generic [ref=f16e57]: View details
+              - 'heading "Spider-Man: Into the Spider-Verse" [level=3] [ref=f16e58]'
+              - paragraph [ref=f16e59]: 2018 • PG
+        - listitem [ref=f16e60]:
+          - article [ref=f16e61]:
+            - link [ref=f16e62] [cursor=pointer]:
+              - /url: /titles/m4
+              - generic [ref=f16e63]:
+                - 'img "Poster for Mad Max: Fury Road" [ref=f16e64]'
+                - generic [aria-hidden] [ref=f16e65]:
+                  - paragraph [ref=f16e66]: Action, Adventure, Sci-Fi
+                  - generic [ref=f16e67]: View details
+              - 'heading "Mad Max: Fury Road" [level=3] [ref=f16e68]'
+              - paragraph [ref=f16e69]: 2015 • R
+        - listitem [ref=f16e70]:
+          - article [ref=f16e71]:
+            - link [ref=f16e72] [cursor=pointer]:
+              - /url: /titles/m5
+              - generic [ref=f16e73]:
+                - img "Poster for Barbie" [ref=f16e74]
+                - generic [aria-hidden] [ref=f16e75]:
+                  - paragraph [ref=f16e76]: Comedy, Adventure, Fantasy
+                  - generic [ref=f16e77]: View details
+              - heading "Barbie" [level=3] [ref=f16e78]
+              - paragraph [ref=f16e79]: 2023 • PG-13
+        - listitem [ref=f16e80]:
+          - article [ref=f16e81]:
+            - link [ref=f16e82] [cursor=pointer]:
+              - /url: /titles/m6
+              - generic [ref=f16e83]:
+                - img "Poster for Everything Everywhere All at Once" [ref=f16e84]
+                - generic [aria-hidden] [ref=f16e85]:
+                  - paragraph [ref=f16e86]: Action, Adventure, Sci-Fi
+                  - generic [ref=f16e87]: View details
+              - heading "Everything Everywhere All at Once" [level=3] [ref=f16e88]
+              - paragraph [ref=f16e89]: 2022 • R
+        - listitem [ref=f16e90]:
+          - article [ref=f16e91]:
+            - link [ref=f16e92] [cursor=pointer]:
+              - /url: /titles/m7
+              - generic [ref=f16e93]:
+                - img "Poster for Coco" [ref=f16e94]
+                - generic [aria-hidden] [ref=f16e95]:
+                  - paragraph [ref=f16e96]: Family, Animation, Music, Adventure
+                  - generic [ref=f16e97]: View details
+              - heading "Coco" [level=3] [ref=f16e98]
+              - paragraph [ref=f16e99]: 2017 • PG
+        - listitem [ref=f16e100]:
+          - article [ref=f16e101]:
+            - link [ref=f16e102] [cursor=pointer]:
+              - /url: /titles/m8
+              - generic [ref=f16e103]:
+                - img "Poster for Get Out" [ref=f16e104]
+                - generic [aria-hidden] [ref=f16e105]:
+                  - paragraph [ref=f16e106]: Mystery, Thriller, Horror
+                  - generic [ref=f16e107]: View details
+              - heading "Get Out" [level=3] [ref=f16e108]
+              - paragraph [ref=f16e109]: 2017 • R
+      - paragraph [ref=f16e110]: Showing 8 of 20 movies
+      - button "Load More" [ref=f16e111] [cursor=pointer]
+  - status

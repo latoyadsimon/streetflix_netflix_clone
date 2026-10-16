@@ -1,0 +1,37 @@
+- generic [ref=f10e2]:
+  - link "Skip to content" [ref=f10e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f10e4]:
+    - link "Streetflix home" [ref=f10e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f10e8]: Streetflix
+    - navigation "Primary" [ref=f10e9]:
+      - link "Home" [ref=f10e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f10e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f10e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f10e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f10e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f10e15]:
+    - generic [ref=f10e16]:
+      - heading "TV Shows" [level=1] [ref=f10e17]
+      - generic [ref=f10e18]:
+        - generic [ref=f10e19]: "Genre:"
+        - combobox "Genre:" [ref=f10e20] [cursor=pointer]:
+          - option "All Genres"
+          - option "Action"
+          - option "Animation"
+          - option "Comedy"
+          - option "Crime"
+          - option "Drama"
+          - option "Mystery"
+          - option "Sci-Fi"
+          - option "Horror" [selected]
+      - generic [ref=f10e21]:
+        - paragraph [ref=f10e22]: No shows found in this category.
+        - button "Clear filter" [ref=f10e23] [cursor=pointer]
+  - status

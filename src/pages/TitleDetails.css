@@ -1,0 +1,35 @@
+.details-hero { position: relative; padding: calc(var(--nav-h) + 40px) var(--gutter) 48px; overflow: hidden; min-height: 520px; display: flex; align-items: flex-end; }
+.details-backdrop { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+.details-shade {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, var(--bg) 3%, rgb(20 20 20 / 0.7) 55%, rgb(20 20 20 / 0.45)),
+    linear-gradient(to right, rgb(20 20 20 / 0.8), transparent 70%);
+}
+.details-inner { position: relative; display: flex; gap: 32px; align-items: flex-end; width: 100%; }
+.details-poster { position: relative; flex: 0 0 220px; aspect-ratio: 2 / 3; border-radius: var(--radius); overflow: hidden; box-shadow: 0 16px 40px rgb(0 0 0 / 0.6); }
+.details-info { max-width: 680px; }
+.details-info h1 { text-shadow: 3px 3px 0 rgb(0 0 0 / 0.5); }
+.details-tagline { margin: 10px 0 0; font-family: var(--font-tag); font-size: 1.25rem; color: var(--crown); transform: rotate(-1deg); transform-origin: left; }
+.details-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 14px 0 0; color: var(--text-muted); }
+.details-rating { padding: 1px 8px; border: 1px solid var(--text-muted); border-radius: 3px; font-size: 0.875rem; }
+.details-genres { margin: 6px 0 0; color: var(--text-muted); }
+.details-desc { margin: 16px 0 0; font-size: 1.0625rem; max-width: 62ch; }
+.details-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 24px; }
+.btn.is-saved { border-color: var(--crown); color: var(--crown); }
+.details-remove {
+  min-height: 44px; padding: 0 8px; background: none; border: 0; color: var(--text-muted); font: 500 0.9375rem var(--font-body);
+  text-decoration: underline; text-underline-offset: 4px; cursor: pointer;
+}
+.details-remove:hover { color: #fff; }
+.details-more { padding: 0 var(--gutter) 64px; }
+
+.details-missing { max-width: 560px; }
+.details-missing p { color: var(--text-muted); margin: 12px 0 24px; }
+.details-missing .btn { margin-right: 12px; margin-bottom: 12px; }
+
+@media (max-width: 767px) {
+  .details-hero { min-height: 0; padding-top: calc(var(--nav-h) + 24px); }
+  .details-inner { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .details-poster { flex-basis: auto; width: 140px; }
+  .details-more { padding-bottom: calc(var(--tabbar-h) + 40px); }
+}

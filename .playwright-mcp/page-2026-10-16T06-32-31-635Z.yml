@@ -1,0 +1,220 @@
+- generic [ref=f8e2]:
+  - link "Skip to content" [ref=f8e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f8e4]:
+    - link "Streetflix home" [ref=f8e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f8e8]: Streetflix
+    - navigation "Primary" [ref=f8e9]:
+      - link "Home" [ref=f8e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f8e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f8e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f8e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f8e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f8e15]:
+    - generic [ref=f8e16]:
+      - heading "Movies" [level=1] [ref=f8e17]
+      - generic [ref=f8e18]:
+        - generic [ref=f8e19]: "Genre:"
+        - combobox "Genre:" [ref=f8e20] [cursor=pointer]:
+          - option "All Genres" [selected]
+          - option "Action"
+          - option "Adventure"
+          - option "Animation"
+          - option "Comedy"
+          - option "Crime"
+          - option "Drama"
+          - option "Family"
+          - option "Fantasy"
+          - option "History"
+          - option "Horror"
+          - option "Music"
+          - option "Mystery"
+          - option "Romance"
+          - option "Sci-Fi"
+          - option "Thriller"
+      - list [ref=f8e21]:
+        - listitem [ref=f8e22]:
+          - article [ref=f8e23]:
+            - link [ref=f8e24] [cursor=pointer]:
+              - /url: /titles/m1
+              - generic [ref=f8e25]:
+                - img "Poster for Shrek" [ref=f8e26]
+                - generic [aria-hidden] [ref=f8e27]:
+                  - paragraph [ref=f8e28]: Animation, Comedy, Fantasy, Adventure, Family
+                  - generic [ref=f8e29]: View details
+              - heading "Shrek" [level=3] [ref=f8e30]
+              - paragraph [ref=f8e31]: 2001 • PG
+        - listitem [ref=f8e32]:
+          - article [ref=f8e33]:
+            - link [ref=f8e34] [cursor=pointer]:
+              - /url: /titles/m2
+              - generic [ref=f8e35]:
+                - img "Poster for Black Panther" [ref=f8e36]
+                - generic [aria-hidden] [ref=f8e37]:
+                  - paragraph [ref=f8e38]: Action, Adventure, Sci-Fi
+                  - generic [ref=f8e39]: View details
+              - heading "Black Panther" [level=3] [ref=f8e40]
+              - paragraph [ref=f8e41]: 2018 • PG-13
+        - listitem [ref=f8e42]:
+          - article [ref=f8e43]:
+            - link [ref=f8e44] [cursor=pointer]:
+              - /url: /titles/m3
+              - generic [ref=f8e45]:
+                - 'img "Poster for Spider-Man: Into the Spider-Verse" [ref=f8e46]'
+                - generic [aria-hidden] [ref=f8e47]:
+                  - paragraph [ref=f8e48]: Animation, Action, Adventure, Sci-Fi
+                  - generic [ref=f8e49]: View details
+              - 'heading "Spider-Man: Into the Spider-Verse" [level=3] [ref=f8e50]'
+              - paragraph [ref=f8e51]: 2018 • PG
+        - listitem [ref=f8e52]:
+          - article [ref=f8e53]:
+            - link [ref=f8e54] [cursor=pointer]:
+              - /url: /titles/m4
+              - generic [ref=f8e55]:
+                - 'img "Poster for Mad Max: Fury Road" [ref=f8e56]'
+                - generic [aria-hidden] [ref=f8e57]:
+                  - paragraph [ref=f8e58]: Action, Adventure, Sci-Fi
+                  - generic [ref=f8e59]: View details
+              - 'heading "Mad Max: Fury Road" [level=3] [ref=f8e60]'
+              - paragraph [ref=f8e61]: 2015 • R
+        - listitem [ref=f8e62]:
+          - article [ref=f8e63]:
+            - link [ref=f8e64] [cursor=pointer]:
+              - /url: /titles/m5
+              - generic [ref=f8e65]:
+                - img "Poster for Barbie" [ref=f8e66]
+                - generic [aria-hidden] [ref=f8e67]:
+                  - paragraph [ref=f8e68]: Comedy, Adventure, Fantasy
+                  - generic [ref=f8e69]: View details
+              - heading "Barbie" [level=3] [ref=f8e70]
+              - paragraph [ref=f8e71]: 2023 • PG-13
+        - listitem [ref=f8e72]:
+          - article [ref=f8e73]:
+            - link [ref=f8e74] [cursor=pointer]:
+              - /url: /titles/m6
+              - generic [ref=f8e75]:
+                - img "Poster for Everything Everywhere All at Once" [ref=f8e76]
+                - generic [aria-hidden] [ref=f8e77]:
+                  - paragraph [ref=f8e78]: Action, Adventure, Sci-Fi
+                  - generic [ref=f8e79]: View details
+              - heading "Everything Everywhere All at Once" [level=3] [ref=f8e80]
+              - paragraph [ref=f8e81]: 2022 • R
+        - listitem [ref=f8e82]:
+          - article [ref=f8e83]:
+            - link [ref=f8e84] [cursor=pointer]:
+              - /url: /titles/m7
+              - generic [ref=f8e85]:
+                - img "Poster for Coco" [ref=f8e86]
+                - generic [aria-hidden] [ref=f8e87]:
+                  - paragraph [ref=f8e88]: Family, Animation, Music, Adventure
+                  - generic [ref=f8e89]: View details
+              - heading "Coco" [level=3] [ref=f8e90]
+              - paragraph [ref=f8e91]: 2017 • PG
+        - listitem [ref=f8e92]:
+          - article [ref=f8e93]:
+            - link [ref=f8e94] [cursor=pointer]:
+              - /url: /titles/m8
+              - generic [ref=f8e95]:
+                - img "Poster for Get Out" [ref=f8e96]
+                - generic [aria-hidden] [ref=f8e97]:
+                  - paragraph [ref=f8e98]: Mystery, Thriller, Horror
+                  - generic [ref=f8e99]: View details
+              - heading "Get Out" [level=3] [ref=f8e100]
+              - paragraph [ref=f8e101]: 2017 • R
+        - listitem [ref=f8e104]:
+          - article [ref=f8e105]:
+            - link [ref=f8e106] [cursor=pointer]:
+              - /url: /titles/m9
+              - generic [ref=f8e107]:
+                - img "Poster for Hidden Figures" [ref=f8e108]
+                - generic [aria-hidden] [ref=f8e109]:
+                  - paragraph [ref=f8e110]: Drama, History
+                  - generic [ref=f8e111]: View details
+              - heading "Hidden Figures" [level=3] [ref=f8e112]
+              - paragraph [ref=f8e113]: 2016 • PG
+        - listitem [ref=f8e114]:
+          - article [ref=f8e115]:
+            - link [ref=f8e116] [cursor=pointer]:
+              - /url: /titles/m10
+              - generic [ref=f8e117]:
+                - img "Poster for Wonder Woman" [ref=f8e118]
+                - generic [aria-hidden] [ref=f8e119]:
+                  - paragraph [ref=f8e120]: Action, Adventure, Fantasy
+                  - generic [ref=f8e121]: View details
+              - heading "Wonder Woman" [level=3] [ref=f8e122]
+              - paragraph [ref=f8e123]: 2017 • PG-13
+        - listitem [ref=f8e124]:
+          - article [ref=f8e125]:
+            - link [ref=f8e126] [cursor=pointer]:
+              - /url: /titles/m11
+              - generic [ref=f8e127]:
+                - img "Poster for The Dark Knight" [ref=f8e128]
+                - generic [aria-hidden] [ref=f8e129]:
+                  - paragraph [ref=f8e130]: Action, Thriller, Crime
+                  - generic [ref=f8e131]: View details
+              - heading "The Dark Knight" [level=3] [ref=f8e132]
+              - paragraph [ref=f8e133]: 2008 • PG-13
+        - listitem [ref=f8e134]:
+          - article [ref=f8e135]:
+            - link [ref=f8e136] [cursor=pointer]:
+              - /url: /titles/m12
+              - generic [ref=f8e137]:
+                - img "Poster for Parasite" [ref=f8e138]
+                - generic [aria-hidden] [ref=f8e139]:
+                  - paragraph [ref=f8e140]: Comedy, Thriller, Drama
+                  - generic [ref=f8e141]: View details
+              - heading "Parasite" [level=3] [ref=f8e142]
+              - paragraph [ref=f8e143]: 2019 • R
+        - listitem [ref=f8e144]:
+          - article [ref=f8e145]:
+            - link [ref=f8e146] [cursor=pointer]:
+              - /url: /titles/m13
+              - generic [ref=f8e147]:
+                - img "Poster for Inception" [ref=f8e148]
+                - generic [aria-hidden] [ref=f8e149]:
+                  - paragraph [ref=f8e150]: Action, Sci-Fi, Crime
+                  - generic [ref=f8e151]: View details
+              - heading "Inception" [level=3] [ref=f8e152]
+              - paragraph [ref=f8e153]: 2010 • PG-13
+        - listitem [ref=f8e154]:
+          - article [ref=f8e155]:
+            - link [ref=f8e156] [cursor=pointer]:
+              - /url: /titles/m14
+              - generic [ref=f8e157]:
+                - img "Poster for Moana" [ref=f8e158]
+                - generic [aria-hidden] [ref=f8e159]:
+                  - paragraph [ref=f8e160]: Adventure, Comedy, Family, Animation
+                  - generic [ref=f8e161]: View details
+              - heading "Moana" [level=3] [ref=f8e162]
+              - paragraph [ref=f8e163]: 2016 • PG
+        - listitem [ref=f8e164]:
+          - article [ref=f8e165]:
+            - link [ref=f8e166] [cursor=pointer]:
+              - /url: /titles/m15
+              - generic [ref=f8e167]:
+                - img "Poster for Encanto" [ref=f8e168]
+                - generic [aria-hidden] [ref=f8e169]:
+                  - paragraph [ref=f8e170]: Animation, Comedy, Family, Fantasy
+                  - generic [ref=f8e171]: View details
+              - heading "Encanto" [level=3] [ref=f8e172]
+              - paragraph [ref=f8e173]: 2021 • PG
+        - listitem [ref=f8e174]:
+          - article [ref=f8e175]:
+            - link [ref=f8e176] [cursor=pointer]:
+              - /url: /titles/m16
+              - generic [ref=f8e177]:
+                - img "Poster for Lady Bird" [ref=f8e178]
+                - generic [aria-hidden] [ref=f8e179]:
+                  - paragraph [ref=f8e180]: Drama, Comedy
+                  - generic [ref=f8e181]: View details
+              - heading "Lady Bird" [level=3] [ref=f8e182]
+              - paragraph [ref=f8e183]: 2017 • R
+      - paragraph [ref=f8e102]: Showing 16 of 20 movies
+      - button "Load More" [active] [ref=f8e103] [cursor=pointer]
+  - status

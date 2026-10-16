@@ -1,25 +1,30 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './TitleCard.css'
 
-// Generated poster art: also serves as the fallback for any title without an image.
-export function PosterArt({ title, className = '' }) {
-  const h = title.hue
+// Real poster when available; generated art is the consistent fallback (missing or broken image).
+export function PosterArt({ title }) {
+  const [state, setState] = useState('loading')
+  if (title.poster && state !== 'failed') {
+    return (
+      <>
+        {state === 'loading' && <span className="poster-skeleton" aria-hidden="true" />}
+        <img className={`poster-img${state === 'loaded' ? ' is-loaded' : ''}`} src={title.poster}
+          alt={`Poster for ${title.title}`} loading="lazy" decoding="async" width="780" height="1170"
+          onLoad={() => setState('loaded')} onError={() => setState('failed')} />
+      </>
+    )
+  }
   return (
-    <div
-      className={`poster-art ${className}`}
-      style={{ '--h': h }}
-      role="img"
-      aria-label={`Poster for ${title.title}`}
-    >
+    <div className="poster-art" style={{ '--h': title.hue }} role="img" aria-label={`Poster for ${title.title}`}>
       <span className="poster-art-letter" aria-hidden="true">{title.title[0]}</span>
-      <span className="poster-art-tag" aria-hidden="true">{title.type === 'show' ? 'series' : 'film'}</span>
     </div>
   )
 }
 
 export default function TitleCard({ title, onRemove }) {
   return (
-    <article className="title-card">
+    <article className="title-card" style={{ '--tilt': `${((title.hue % 5) - 2) * 0.6}deg` }}>
       <Link to={`/titles/${title.id}`} className="title-card-link">
         <div className="title-card-poster">
           <PosterArt title={title} />
@@ -28,7 +33,7 @@ export default function TitleCard({ title, onRemove }) {
             <span>View details</span>
           </div>
         </div>
-        <h3 className="title-card-title">{title.title}</h3>
+        <p className="title-card-title">{title.title}</p>
         <p className="title-card-meta">{title.year} &bull; {title.rating}</p>
       </Link>
       {onRemove && (

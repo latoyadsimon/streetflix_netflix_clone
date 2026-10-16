@@ -1,0 +1,37 @@
+- generic [ref=f16e2]:
+  - link "Skip to content" [ref=f16e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f16e4]:
+    - link "Streetflix home" [ref=f16e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f16e8]: Streetflix
+    - navigation "Primary" [ref=f16e9]:
+      - link "Home" [ref=f16e10] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f16e11] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f16e12] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f16e13] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f16e14] [cursor=pointer]:
+        - /url: /watchlist
+  - main [ref=f16e15]:
+    - generic [ref=f16e248]:
+      - heading "My List" [active] [level=1] [ref=f16e249]
+      - paragraph [ref=f16e250]: 1 saved title
+      - list [ref=f16e251]:
+        - listitem [ref=f16e265]:
+          - article [ref=f16e266]:
+            - link [ref=f16e267] [cursor=pointer]:
+              - /url: /titles/m14
+              - generic [ref=f16e268]:
+                - img "Poster for Moana" [ref=f16e269]
+                - generic [aria-hidden] [ref=f16e270]:
+                  - paragraph [ref=f16e271]: Adventure, Comedy, Family, Animation
+                  - generic [ref=f16e272]: View details
+              - heading "Moana" [level=3] [ref=f16e273]
+              - paragraph [ref=f16e274]: 2016 • PG
+            - button "Remove Moana from My List" [ref=f16e275] [cursor=pointer]
+  - status:
+    - paragraph: Shrek removed from My List
