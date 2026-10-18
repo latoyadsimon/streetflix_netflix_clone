@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import Player from '../components/Player.jsx'
 import ContentRow from '../components/ContentRow.jsx'
 import { PosterArt } from '../components/TitleCard.jsx'
 import { useWatchlist } from '../context/WatchlistContext.jsx'
@@ -8,7 +10,8 @@ import './TitleDetails.css'
 export default function TitleDetails() {
   const { id } = useParams()
   const title = getTitle(id)
-  const { has, toggle, notify } = useWatchlist()
+  const { has, toggle } = useWatchlist()
+  const [playing, setPlaying] = useState(null)
 
   if (!title) {
     return (
@@ -43,11 +46,13 @@ export default function TitleDetails() {
             <p className="details-genres">{title.genres.join(', ')}</p>
             <p className="details-desc">{title.description}</p>
             <div className="details-actions">
-              <button type="button" className="btn btn-primary"
-                onClick={() => notify('Streaming is not part of this demo. Browse and build your list.')}>
+              <button type="button" className="btn btn-primary" onClick={() => setPlaying('watch')}>
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M7 4l13 8-13 8z" /></svg>
-                Play
+                {title.type === 'show' ? 'Watch' : 'Play'}
               </button>
+              {title.trailer && (
+                <button type="button" className="btn btn-secondary" onClick={() => setPlaying('trailer')}>Trailer</button>
+              )}
               <button type="button" className={`btn btn-secondary${saved ? ' is-saved' : ''}`} aria-pressed={saved} onClick={() => toggle(title)}>
                 <span aria-hidden="true">{saved ? '✓' : '+'}</span>
                 {saved ? 'In My List' : 'My List'}
@@ -60,6 +65,7 @@ export default function TitleDetails() {
           </div>
         </div>
       </section>
+      {playing && <Player title={title} mode={playing} onClose={() => setPlaying(null)} />}
       <div className="details-more">
         <ContentRow heading="More Like This" titles={related} />
       </div>

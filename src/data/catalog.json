@@ -2,664 +2,3693 @@
   {
     "id": "m1",
     "type": "movie",
-    "title": "Shrek",
-    "year": 2001,
-    "rating": "PG",
-    "runtime": "1h 30m",
+    "title": "His Girl Friday",
+    "year": 1940,
+    "rating": "NR",
+    "runtime": "1h 32m",
+    "runtimeMinutes": 92,
     "genres": [
-      "Animation",
       "Comedy",
-      "Fantasy",
-      "Adventure",
-      "Family"
+      "Romance",
+      "Crime"
     ],
-    "description": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
-    "tagline": "The greatest fairy tale never told.",
+    "description": "Walter Burns is an irresistibly conniving newspaper publisher desperate to woo back his paper’s star reporter, who also happens to be his estranged wife. She’s threatening to quit and settle down with a new beau, but, as Walter knows, she has a weakness: she can’t resist a juicy scoop.",
+    "tagline": "They're at each other's throats when they're not in each other's arms!",
     "poster": "/posters/m1.jpg",
-    "backdrop": "/backdrops/m1.jpg"
+    "backdrop": "/backdrops/m1.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/his_girl_friday"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=FKghQCbQOwY"
+    },
+    "episodes": []
   },
   {
     "id": "m2",
     "type": "movie",
-    "title": "Black Panther",
-    "year": 2018,
-    "rating": "PG-13",
-    "runtime": "2h 15m",
+    "title": "Charade",
+    "year": 1963,
+    "rating": "NR",
+    "runtime": "1h 53m",
+    "runtimeMinutes": 113,
     "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
+      "Comedy",
+      "Mystery",
+      "Romance"
     ],
-    "description": "King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantle to join with ex-girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.",
-    "tagline": "Long live the king.",
+    "description": "After Regina Lampert falls for the dashing Peter Joshua on a skiing holiday in the French Alps, she discovers upon her return to Paris that her husband has been murdered. Soon, she and Peter are giving chase to three of her late husband's World War II cronies, Tex, Scobie and Gideon, who are after a quarter of a million dollars the quartet stole while behind enemy lines.",
+    "tagline": "Is anyone really who they seem to be?",
     "poster": "/posters/m2.jpg",
-    "backdrop": "/backdrops/m2.jpg"
+    "backdrop": "/backdrops/m2.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/charade-1963-cary-grant-audrey-hepburn-comedy-mystery-romance-thriller-full-movie"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=L8dnaIRz0mE"
+    },
+    "episodes": []
   },
   {
     "id": "m3",
     "type": "movie",
-    "title": "Spider-Man: Into the Spider-Verse",
-    "year": 2018,
-    "rating": "PG",
-    "runtime": "1h 57m",
+    "title": "The General",
+    "year": 1926,
+    "rating": "NR",
+    "runtime": "1h 19m",
+    "runtimeMinutes": 79,
     "genres": [
-      "Animation",
-      "Action",
-      "Adventure",
-      "Sci-Fi"
+      "Comedy",
+      "Romance"
     ],
-    "description": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
-    "tagline": "Enter a universe where more than one wears the mask.",
+    "description": "During America’s Civil War, Union spies steal engineer Johnny Gray's beloved locomotive, 'The General'—with Johnnie's lady love aboard an attached boxcar—and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.",
+    "tagline": "Buster drives \"The General\" to trainload of laughter.",
     "poster": "/posters/m3.jpg",
-    "backdrop": "/backdrops/m3.jpg"
+    "backdrop": "/backdrops/m3.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/TheGeneral"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=eEVWb9NcSuY"
+    },
+    "episodes": []
   },
   {
     "id": "m4",
     "type": "movie",
-    "title": "Mad Max: Fury Road",
-    "year": 2015,
-    "rating": "R",
-    "runtime": "2h 1m",
+    "title": "Sherlock Jr.",
+    "year": 1924,
+    "rating": "NR",
+    "runtime": "45m",
+    "runtimeMinutes": 45,
     "genres": [
       "Action",
-      "Adventure",
-      "Sci-Fi"
+      "Comedy",
+      "Mystery"
     ],
-    "description": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
-    "tagline": "The future belongs to the mad.",
+    "description": "A film projectionist longs to be a detective, and puts his meager skills to work when he is framed by a rival for stealing his girlfriend's father's pocketwatch.",
+    "tagline": "Every inch of footage holds such a laugh!",
     "poster": "/posters/m4.jpg",
-    "backdrop": "/backdrops/m4.jpg"
+    "backdrop": "/backdrops/m4.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/sherlockjr1924_201909"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=JSEK1NUPrGA"
+    },
+    "episodes": []
   },
   {
     "id": "m5",
     "type": "movie",
-    "title": "Barbie",
-    "year": 2023,
-    "rating": "PG-13",
-    "runtime": "1h 54m",
+    "title": "A Trip to the Moon",
+    "year": 1902,
+    "rating": "G",
+    "runtime": "15m",
+    "runtimeMinutes": 15,
     "genres": [
-      "Comedy",
       "Adventure",
-      "Fantasy"
+      "Sci-Fi",
+      "Comedy"
     ],
-    "description": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
-    "tagline": "She's everything. He's just Ken.",
+    "description": "Professor Barbenfouillis and five of his colleagues from the Academy of Astronomy travel to the Moon aboard a rocket propelled by a giant cannon. Once on the lunar surface, the bold explorers face the many perils hidden in the caves of the mysterious planet.",
+    "tagline": "The first science fiction film!",
     "poster": "/posters/m5.jpg",
-    "backdrop": "/backdrops/m5.jpg"
+    "backdrop": "/backdrops/m5.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/ATripToTheMoonGeorgeMelies"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=JEGIyo-dKmA"
+    },
+    "episodes": []
   },
   {
     "id": "m6",
     "type": "movie",
-    "title": "Everything Everywhere All at Once",
-    "year": 2022,
-    "rating": "R",
-    "runtime": "2h 20m",
+    "title": "Metropolis",
+    "year": 1927,
+    "rating": "NR",
+    "runtime": "2h 28m",
+    "runtimeMinutes": 148,
     "genres": [
-      "Action",
-      "Adventure",
+      "Drama",
       "Sci-Fi"
     ],
-    "description": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
-    "tagline": "The universe is so much bigger than you realize.",
+    "description": "In a futuristic city sharply divided between the rich and the poor, the son of the city's mastermind meets a prophet who predicts the coming of a savior to mediate their differences.",
+    "tagline": "There can be no understanding between the hands and the brain unless the heart acts as mediator.",
     "poster": "/posters/m6.jpg",
-    "backdrop": "/backdrops/m6.jpg"
+    "backdrop": "/backdrops/m6.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/metropolis-1927-bdrip-1080p-x-265-dts-hd-ma-5.1-d-0ct-0r-lew-sev"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZAvzaOxDt2c"
+    },
+    "episodes": []
   },
   {
     "id": "m7",
     "type": "movie",
-    "title": "Coco",
-    "year": 2017,
-    "rating": "PG",
-    "runtime": "1h 45m",
+    "title": "Sita Sings the Blues",
+    "year": 2008,
+    "rating": "NR",
+    "runtime": "1h 22m",
+    "runtimeMinutes": 82,
     "genres": [
-      "Family",
       "Animation",
-      "Music",
-      "Adventure"
+      "Drama",
+      "Romance",
+      "Fantasy"
     ],
-    "description": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
-    "tagline": "The celebration of a lifetime.",
+    "description": "Utilizing the 1920s jazz vocals of Annette Hanshaw, the epic Indian tale of exiled prince Ramayana and his bride Sita is mirrored by a spurned woman's contemporary personal life, and light-hearted but knowledgeable discussion of historical background by a trio of Indian shadow puppets.",
+    "tagline": "The Greatest Break-Up Story Ever Told.",
     "poster": "/posters/m7.jpg",
-    "backdrop": "/backdrops/m7.jpg"
+    "backdrop": "/backdrops/m7.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/Sita_Sings_the_Blues"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ot0BNbXnz5s"
+    },
+    "episodes": []
   },
   {
     "id": "m8",
     "type": "movie",
-    "title": "Get Out",
-    "year": 2017,
-    "rating": "R",
-    "runtime": "1h 44m",
+    "title": "Big Buck Bunny",
+    "year": 2008,
+    "rating": "G",
+    "runtime": "8m",
+    "runtimeMinutes": 8,
     "genres": [
-      "Mystery",
-      "Thriller",
-      "Horror"
+      "Animation",
+      "Comedy",
+      "Family"
     ],
-    "description": "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
-    "tagline": "Just because you're invited, doesn't mean you're welcome.",
+    "description": "Follow a day of the life of Big Buck Bunny when he meets three bullying rodents: Frank, Rinky, and Gamera. The rodents amuse themselves by harassing helpless creatures by throwing fruits, nuts and rocks at them. After the deaths of two of Bunny's favorite butterflies, and an offensive attack on Bunny himself, Bunny sets aside his gentle nature and orchestrates a complex plan for revenge.",
+    "tagline": "",
     "poster": "/posters/m8.jpg",
-    "backdrop": "/backdrops/m8.jpg"
+    "backdrop": "/backdrops/m8.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/BigBuckBunny_124"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=yUQM7H4Swgw"
+    },
+    "episodes": []
   },
   {
     "id": "m9",
     "type": "movie",
-    "title": "Hidden Figures",
-    "year": 2016,
+    "title": "Sintel",
+    "year": 2010,
     "rating": "PG",
-    "runtime": "2h 7m",
+    "runtime": "14m",
+    "runtimeMinutes": 14,
     "genres": [
-      "Drama",
-      "History"
+      "Animation",
+      "Fantasy"
     ],
-    "description": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
-    "tagline": "Meet the women you don't know, behind the mission you do.",
+    "description": "A wandering warrior finds an unlikely friend in the form of a young dragon. The two develop a close bond, until one day the dragon is snatched away. She then sets out on a relentless quest to reclaim her friend, finding in the end that her quest exacts a far greater price than she had ever imagined.",
+    "tagline": "",
     "poster": "/posters/m9.jpg",
-    "backdrop": "/backdrops/m9.jpg"
+    "backdrop": "/backdrops/m9.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/Sintel"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=HOfdboHvshg"
+    },
+    "episodes": []
   },
   {
     "id": "m10",
     "type": "movie",
-    "title": "Wonder Woman",
-    "year": 2017,
-    "rating": "PG-13",
-    "runtime": "2h 21m",
+    "title": "Tears of Steel",
+    "year": 2012,
+    "rating": "NR",
+    "runtime": "12m",
+    "runtimeMinutes": 12,
     "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
+      "Sci-Fi",
+      "Animation"
     ],
-    "description": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict.",
-    "tagline": "Power. Grace. Wisdom. Wonder.",
+    "description": "The film’s premise is about a group of warriors and scientists, who gathered at the “Oude Kerk” in Amsterdam to stage a crucial event from the past, in a desperate attempt to rescue the world from destructive robots.",
+    "tagline": "",
     "poster": "/posters/m10.jpg",
-    "backdrop": "/backdrops/m10.jpg"
+    "backdrop": "/backdrops/m10.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/Tears-of-Steel"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=WwHux5QZfC8"
+    },
+    "episodes": []
   },
   {
     "id": "m11",
     "type": "movie",
-    "title": "The Dark Knight",
-    "year": 2008,
-    "rating": "PG-13",
-    "runtime": "2h 32m",
+    "title": "Safety Last!",
+    "year": 1923,
+    "rating": "NR",
+    "runtime": "1h 13m",
+    "runtimeMinutes": 73,
     "genres": [
-      "Action",
-      "Thriller",
-      "Crime"
+      "Comedy",
+      "Romance",
+      "Thriller"
     ],
-    "description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-    "tagline": "Welcome to a world without rules.",
+    "description": "When a store clerk organizes a contest to climb the outside of a tall building, circumstances force him to make the perilous climb himself.",
+    "tagline": "You're Going to Explode With \"Safety Laughs\" when You see This Fun Bomb.",
     "poster": "/posters/m11.jpg",
-    "backdrop": "/backdrops/m11.jpg"
+    "backdrop": "/backdrops/m11.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/SafetyLastHaroldLloyd1923.FullMovieexcellentQuality."
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=rhNtSU8ubf0"
+    },
+    "episodes": []
   },
   {
     "id": "m12",
     "type": "movie",
-    "title": "Parasite",
-    "year": 2019,
-    "rating": "R",
-    "runtime": "2h 13m",
+    "title": "Plan 9 from Outer Space",
+    "year": 1957,
+    "rating": "NR",
+    "runtime": "1h 18m",
+    "runtimeMinutes": 78,
     "genres": [
-      "Comedy",
-      "Thriller",
-      "Drama"
+      "Sci-Fi"
     ],
-    "description": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
-    "tagline": "Act like you own the place.",
+    "description": "In California, an old man grieves the loss of his wife, and dies the day after she is buried. However, the space soldier Eros and his mate Tanna use an electric device to resurrect them both, alongside the strong Inspector Clay, who was murdered by the alien-controlled dead couple. When the populations of Hollywood and Washington D.C. see flying saucers on the sky, a colonel, a police lieutenant, a commercial pilot, his wife, and a policeman try to stop the aliens.",
+    "tagline": "Unspeakable horrors from outer space paralyze the living and resurrect the dead!",
     "poster": "/posters/m12.jpg",
-    "backdrop": "/backdrops/m12.jpg"
+    "backdrop": "/backdrops/m12.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/plan-9-from-outer-space"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=aiZp2sXkVUg"
+    },
+    "episodes": []
   },
   {
     "id": "m13",
     "type": "movie",
-    "title": "Inception",
-    "year": 2010,
-    "rating": "PG-13",
-    "runtime": "2h 28m",
+    "title": "Robot Monster",
+    "year": 1953,
+    "rating": "NR",
+    "runtime": "1h 6m",
+    "runtimeMinutes": 66,
     "genres": [
-      "Action",
-      "Sci-Fi",
-      "Crime"
+      "Sci-Fi"
     ],
-    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
-    "tagline": "Your mind is the scene of the crime.",
+    "description": "Ro-Man, an alien robot who greatly resembles a gorilla in a diving helmet, is sent to earth to destroy all human life. Ro-Man falls in love with one of the last six remaining humans, and struggles to understand how his programming can instruct him to kill her while his heart demands that he can't.",
+    "tagline": "Moon monsters launch attack against Earth! How can science meet the menace of astral assassins? New Science Fiction Thrills!",
     "poster": "/posters/m13.jpg",
-    "backdrop": "/backdrops/m13.jpg"
+    "backdrop": "/backdrops/m13.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/robot-monster-1953"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=NF2YHnr--J4"
+    },
+    "episodes": []
   },
   {
     "id": "m14",
     "type": "movie",
-    "title": "Moana",
-    "year": 2016,
-    "rating": "PG",
-    "runtime": "1h 47m",
+    "title": "The Lost World",
+    "year": 1925,
+    "rating": "NR",
+    "runtime": "1h 44m",
+    "runtimeMinutes": 104,
     "genres": [
       "Adventure",
-      "Comedy",
-      "Family",
-      "Animation"
+      "Fantasy",
+      "Drama",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
     ],
-    "description": "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
-    "tagline": "The ocean is calling.",
+    "description": "The first film adaptation of Sir Arthur Conan Doyle's classic novel about a land where prehistoric creatures still roam.",
+    "tagline": "Sir Arthur Conan Doyle's Stupendous Story",
     "poster": "/posters/m14.jpg",
-    "backdrop": "/backdrops/m14.jpg"
+    "backdrop": "/backdrops/m14.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/lost_world"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=RJL6g91AOs4"
+    },
+    "episodes": []
   },
   {
     "id": "m15",
     "type": "movie",
-    "title": "Encanto",
-    "year": 2021,
-    "rating": "PG",
-    "runtime": "1h 42m",
+    "title": "Teenagers from Outer Space",
+    "year": 1959,
+    "rating": "NR",
+    "runtime": "1h 26m",
+    "runtimeMinutes": 86,
     "genres": [
-      "Animation",
-      "Comedy",
-      "Family",
-      "Fantasy"
+      "Crime",
+      "Sci-Fi",
+      "Romance",
+      "Thriller"
     ],
-    "description": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family—every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
-    "tagline": "There's a little magic in all of us...almost all of us.",
+    "description": "A young alien falls for a pretty teenage Earth girl and they team up to try to stop the plans of his invading cohorts, who intend to use Earth as a food-breeding ground for giant lobsters from their planet.",
+    "tagline": "Thrill-crazed space kids blasting the flesh off humans!",
     "poster": "/posters/m15.jpg",
-    "backdrop": "/backdrops/m15.jpg"
+    "backdrop": "/backdrops/m15.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/teenagers_from_outerspace"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=dQYlvwp6Ip0"
+    },
+    "episodes": []
   },
   {
     "id": "m16",
     "type": "movie",
-    "title": "Lady Bird",
-    "year": 2017,
-    "rating": "R",
-    "runtime": "1h 34m",
+    "title": "Santa Claus Conquers the Martians",
+    "year": 1964,
+    "rating": "NR",
+    "runtime": "1h 21m",
+    "runtimeMinutes": 81,
     "genres": [
-      "Drama",
-      "Comedy"
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi"
     ],
-    "description": "Lady Bird McPherson, a strong willed, deeply opinionated, artistic 17 year old comes of age in Sacramento. Her relationship with her mother and her upbringing are questioned and tested as she plans to head off to college.",
-    "tagline": "Fly away home.",
+    "description": "Martians fear their children have become lazy and joyless due to their newfound obsession with Earth TV shows. After ancient Martian leader Chochem suggests that the children of Mars need more fun—including their own Santa Claus—supreme leader Lord Kimar assembles an expedition to Earth. Once there, they kidnap two children who lead them to the North Pole, then capture the real Santa Claus, taking all three back to Mars in an attempt to bring the Martian children happiness.",
+    "tagline": "Santa brings Christmas fun to Mars!",
     "poster": "/posters/m16.jpg",
-    "backdrop": "/backdrops/m16.jpg"
+    "backdrop": "/backdrops/m16.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/SantaClausConquerstheMartians1964"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=X06DV3Hx_Q4"
+    },
+    "episodes": []
   },
   {
     "id": "m17",
     "type": "movie",
-    "title": "Little Women",
-    "year": 2019,
-    "rating": "PG",
-    "runtime": "2h 15m",
+    "title": "Voyage to the Planet of Prehistoric Women",
+    "year": 1968,
+    "rating": "NR",
+    "runtime": "1h 20m",
+    "runtimeMinutes": 80,
     "genres": [
-      "Drama",
-      "Romance"
+      "Adventure",
+      "Sci-Fi"
     ],
-    "description": "Four sisters come of age in America in the aftermath of the Civil War.",
-    "tagline": "Own your story.",
+    "description": "Astronauts crash-land on Venus and find themselves in trouble when they kill a monster that is worshipped by a group of Venusian women. Re-edited version of Soviet sci-fi  Planet of Storms (1962) by Pavel Klushantsev, dubbed into English with additional scenes.",
+    "tagline": "",
     "poster": "/posters/m17.jpg",
-    "backdrop": "/backdrops/m17.jpg"
+    "backdrop": "/backdrops/m17.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/VoyagetothePlanetofPrehistoricWomen"
+    },
+    "trailer": null,
+    "episodes": []
   },
   {
     "id": "m18",
     "type": "movie",
-    "title": "Crazy Rich Asians",
-    "year": 2018,
-    "rating": "PG-13",
-    "runtime": "2h 1m",
+    "title": "D.O.A.",
+    "year": 1949,
+    "rating": "NR",
+    "runtime": "1h 23m",
+    "runtimeMinutes": 83,
     "genres": [
-      "Comedy",
-      "Romance"
+      "Mystery",
+      "Thriller",
+      "Crime"
     ],
-    "description": "An American-born Chinese economics professor accompanies her boyfriend to Singapore for his best friend's wedding, only to get thrust into the lives of Asia's rich and famous.",
-    "tagline": "The only thing crazier than love is family.",
+    "description": "Frank Bigelow is about to die, and he knows it. The accountant has been poisoned and has only 24 hours before the lethal concoction kills him. Determined to find out who his murderer is, Frank, with the help of his assistant and girlfriend, Paula, begins to trace back over his last steps. As he frantically tries to unravel the mystery behind his own impending demise, his sleuthing leads him to a group of crooked businessmen and another murder.",
+    "tagline": "A Picture As Excitingly Different As Its Title!",
     "poster": "/posters/m18.jpg",
-    "backdrop": "/backdrops/m18.jpg"
+    "backdrop": "/backdrops/m18.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/d.-o.-a.-1950"
+    },
+    "trailer": null,
+    "episodes": []
   },
   {
     "id": "m19",
     "type": "movie",
-    "title": "Mean Girls",
-    "year": 2004,
-    "rating": "PG-13",
-    "runtime": "1h 37m",
+    "title": "Detour",
+    "year": 1945,
+    "rating": "NR",
+    "runtime": "1h 8m",
+    "runtimeMinutes": 68,
     "genres": [
       "Drama",
-      "Comedy"
+      "Thriller"
     ],
-    "description": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
-    "tagline": "Watch your back.",
+    "description": "The life of Al Roberts, a pianist in a New York nightclub, turns into a nightmare when he decides to hitchhike to Los Angeles to visit his girlfriend.",
+    "tagline": "He went searching for love… but fate forced a DETOUR to revelry… violence… mystery!",
     "poster": "/posters/m19.jpg",
-    "backdrop": "/backdrops/m19.jpg"
+    "backdrop": "/backdrops/m19.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/Detour"
+    },
+    "trailer": null,
+    "episodes": []
   },
   {
     "id": "m20",
     "type": "movie",
-    "title": "Spirited Away",
-    "year": 2001,
-    "rating": "PG",
-    "runtime": "2h 5m",
+    "title": "The Stranger",
+    "year": 1946,
+    "rating": "NR",
+    "runtime": "1h 35m",
+    "runtimeMinutes": 95,
     "genres": [
-      "Animation",
+      "Thriller",
+      "Crime"
+    ],
+    "description": "An investigator from the War Crimes Commission travels to Connecticut to find an infamous Nazi, who may be hiding out in a small town in the guise of a distinguished professor engaged to the Supreme Court Justice’s daughter.",
+    "tagline": "The most deceitful man a woman ever loved!",
+    "poster": "/posters/m20.jpg",
+    "backdrop": "/backdrops/m20.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/Stranger1946HD"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZbiLI6gfAiw"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m21",
+    "type": "movie",
+    "title": "Scarlet Street",
+    "year": 1945,
+    "rating": "NR",
+    "runtime": "1h 43m",
+    "runtimeMinutes": 103,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "description": "Cashier and part-time starving artist Christopher Cross is absolutely smitten with the beautiful Kitty March. Kitty plays along, but she's really only interested in Johnny, a two-bit crook. When Kitty and Johnny find out that art dealers are interested in Chris's work, they con him into letting Kitty take credit for the paintings. Cross allows it because he is in love with Kitty, but his love will only let her get away with so much.",
+    "tagline": "The things she does to men can end only one way - in murder!",
+    "poster": "/posters/m21.jpg",
+    "backdrop": "/backdrops/m21.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/ScarletStreet"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=9Z8QoTWAyP4"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m22",
+    "type": "movie",
+    "title": "Cyrano de Bergerac",
+    "year": 1950,
+    "rating": "NR",
+    "runtime": "1h 53m",
+    "runtimeMinutes": 113,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Adventure"
+    ],
+    "description": "France, 1640. Cyrano, the charismatic swordsman-poet with the absurd nose, hopelessly loves the beauteous Roxane; she, in turn, confesses to Cyrano her love for the handsome but tongue-tied Christian. The chivalrous Cyrano sets up with Christian an innocent deception, with tragic results.",
+    "tagline": "The Most Loved of All Love Stories!",
+    "poster": "/posters/m22.jpg",
+    "backdrop": "/backdrops/m22.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/Cyrano_DeBergerac"
+    },
+    "trailer": null,
+    "episodes": []
+  },
+  {
+    "id": "m23",
+    "type": "movie",
+    "title": "Meet John Doe",
+    "year": 1941,
+    "rating": "NR",
+    "runtime": "2h 3m",
+    "runtimeMinutes": 123,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "description": "As a parting shot, fired reporter Ann Mitchell prints a fake letter from unemployed \"John Doe,\" who threatens suicide in protest of social ills. The paper is forced to rehire Ann and hires John Willoughby to impersonate \"Doe.\" Ann and her bosses cynically milk the story for all it's worth, until the made-up \"John Doe\" philosophy starts a whole political movement.",
+    "tagline": "All America wants to meet the “Mr. Deeds” of 1941!",
+    "poster": "/posters/m23.jpg",
+    "backdrop": "/backdrops/m23.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/meet_john_doe"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=9j3gdbdnoEk"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m24",
+    "type": "movie",
+    "title": "My Favorite Brunette",
+    "year": 1947,
+    "rating": "NR",
+    "runtime": "1h 27m",
+    "runtimeMinutes": 87,
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Romance"
+    ],
+    "description": "Ronnie Jackson is a lowly baby photographer who secretly fantasizes about being a private detective. When a lovely baroness actually mistakes him for one and asks him to help locate her missing husband, Baron Montay, Ronnie finds himself agreeing. Several days later he is on death row whiling away the hours until his execution by recounting to a group of reporters the bizarre tale of how he ended up there.",
+    "tagline": "He's a hilarious hawkshaw... with a case on Dottie!",
+    "poster": "/posters/m24.jpg",
+    "backdrop": "/backdrops/m24.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/my_favorite_brunette"
+    },
+    "trailer": null,
+    "episodes": []
+  },
+  {
+    "id": "m25",
+    "type": "movie",
+    "title": "McLintock!",
+    "year": 1963,
+    "rating": "NR",
+    "runtime": "2h 7m",
+    "runtimeMinutes": 127,
+    "genres": [
+      "Western",
+      "Comedy"
+    ],
+    "description": "Aging rancher and self-made man, George Washington McLintock is forced to deal with numerous personal and professional problems. Seemingly everyone wants a piece of his enormous farmstead, including high-ranking government men and nearby Native Americans. As McLintock tries to juggle his various adversaries, his wife—who left him two years previously—suddenly returns. But she isn't interested in George; she wants custody of their daughter.",
+    "tagline": "Never such a tender love story! Never such a savage showdown! Never such restless natives!",
+    "poster": "/posters/m25.jpg",
+    "backdrop": "/backdrops/m25.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/mclintok_widescreen"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=8Cbh2UqXk-s"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m26",
+    "type": "movie",
+    "title": "Sagebrush Trail",
+    "year": 1933,
+    "rating": "NR",
+    "runtime": "54m",
+    "runtimeMinutes": 54,
+    "genres": [
+      "Western"
+    ],
+    "description": "Imprisoned for a murder he did not commit, John Brant escapes and ends up out west where, after giving the local lawmen the slip, he joins up with an outlaw gang. Brant finds out that 'Jones', one of the outlaws he has become friends with, committed the murder that Brant was sent up for, but has no knowledge that anyone was ever put in jail for his crime. Willing to forgive and forget, Brant doesn't realize that 'Jones' has not only fallen for the same pretty shopgirl Brant has, but begins to suspect that Brant is not truly an outlaw.",
+    "tagline": "Romance rides in a drama of thundering hoofs and blazing guns!",
+    "poster": "/posters/m26.jpg",
+    "backdrop": "/backdrops/m26.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/SagebrushTrail"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZzY7Lg3yrJ8"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m27",
+    "type": "movie",
+    "title": "Riders of Destiny",
+    "year": 1933,
+    "rating": "NR",
+    "runtime": "55m",
+    "runtimeMinutes": 55,
+    "genres": [
+      "Action",
+      "Western"
+    ],
+    "description": "James Kincaid controls the local water supply and plans to do away with the other ranchers. Government agent Sandy Saunders arrives undercover to investigate Kincaid's land swindle scheme, and win the heart of one of his victims, Fay Denton.",
+    "tagline": "A Great Western Star in a WHIRLWIND of ACTION!",
+    "poster": "/posters/m27.jpg",
+    "backdrop": "/backdrops/m27.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/RidersofDestiny_"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=_1Hj6p-Dfi8"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m28",
+    "type": "movie",
+    "title": "The Lawless Frontier",
+    "year": 1934,
+    "rating": "NR",
+    "runtime": "59m",
+    "runtimeMinutes": 59,
+    "genres": [
+      "Action",
+      "Western"
+    ],
+    "description": "Tobin is after the bandit Zanti who killed his parents. He finds him just as Zanti is about to kill Dusty and kidnap Ruby. Saving the two, he goes after Zanti. He catches him but Zanti escapes the Sheriff's handcuff's and this time Tobin has to chase him into the desert.",
+    "tagline": "Pounding Hoofs and Blazing Guns!",
+    "poster": "/posters/m28.jpg",
+    "backdrop": "/backdrops/m28.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/TheLawlessFrontier1934"
+    },
+    "trailer": null,
+    "episodes": []
+  },
+  {
+    "id": "m29",
+    "type": "movie",
+    "title": "The Man from Utah",
+    "year": 1934,
+    "rating": "G",
+    "runtime": "51m",
+    "runtimeMinutes": 51,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Western"
+    ],
+    "description": "The Marshal sends John Weston to a rodeo to see if he can find out who is killing the rodeo riders who are about to win the prize money. Barton has organized the rodeo and plans to leave with all the prize money put up by the townspeople. When it appears that Weston will beat Barton's rider, he has his men prepare the same fate for him that befell the other riders.",
+    "tagline": "Framed by a gang of murdering thieves!",
+    "poster": "/posters/m29.jpg",
+    "backdrop": "/backdrops/m29.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/TheManFromUtah"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=4Sw6KZVLC7E"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m30",
+    "type": "movie",
+    "title": "The Pied Piper of Hamelin",
+    "year": 1957,
+    "rating": "NR",
+    "runtime": "1h 27m",
+    "runtimeMinutes": 87,
+    "genres": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "description": "The singing, rhyming citizens of Hamelin hope to win a competition with rival towns for royal recognition. To this end, the mayor outlaws play (which is a bit hard on the children) and refuses to help a rival town when it's flooded. But rats (seen only as shadows), fleeing the flood, invade Hamelin in droves; a magical piper, whose music only children (and rats) can hear, strikes a bargain...which, once the rats are gone, the Mayor and council renege on, to their subsequent regret.",
+    "tagline": "",
+    "poster": "/posters/m30.jpg",
+    "backdrop": "/backdrops/m30.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/The_Pied_Piper_of_Hamelin"
+    },
+    "trailer": null,
+    "episodes": []
+  },
+  {
+    "id": "m31",
+    "type": "movie",
+    "title": "Alice in Wonderland",
+    "year": 1915,
+    "rating": "NR",
+    "runtime": "59m",
+    "runtimeMinutes": 59,
+    "genres": [
       "Family",
       "Fantasy"
     ],
-    "description": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-    "tagline": "Prepare to be spirited away.",
-    "poster": "/posters/m20.jpg",
-    "backdrop": "/backdrops/m20.jpg"
+    "description": "Alice goes with her sister to a picnic and then she falls asleep and starts dreaming about a wonderland full of talking animals and walking playing cards.",
+    "tagline": "",
+    "poster": "/posters/m31.jpg",
+    "backdrop": "/backdrops/m31.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/AliceInWonderland1915_503"
+    },
+    "trailer": null,
+    "episodes": []
+  },
+  {
+    "id": "m32",
+    "type": "movie",
+    "title": "The Wizard of Oz",
+    "year": 1925,
+    "rating": "NR",
+    "runtime": "1h 21m",
+    "runtimeMinutes": 81,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "description": "A farm girl learns she is a princess and is swept away by a tornado to the land of Oz.",
+    "tagline": "The worlds greatest fantastic spectacle.",
+    "poster": "/posters/m32.jpg",
+    "backdrop": "/backdrops/m32.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/OliverHardyTheWizardOfOz1925"
+    },
+    "trailer": null,
+    "episodes": []
+  },
+  {
+    "id": "m33",
+    "type": "movie",
+    "title": "Night of the Living Dead",
+    "year": 1968,
+    "rating": "NR",
+    "runtime": "1h 36m",
+    "runtimeMinutes": 96,
+    "genres": [
+      "Horror"
+    ],
+    "description": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast.",
+    "tagline": "If it doesn't scare you, you're already dead!",
+    "poster": "/posters/m33.jpg",
+    "backdrop": "/backdrops/m33.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/Night.Of.The.Living.Dead_1080p"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=V5XwrRFP7Zw"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m34",
+    "type": "movie",
+    "title": "Nosferatu",
+    "year": 1922,
+    "rating": "NR",
+    "runtime": "1h 34m",
+    "runtimeMinutes": 94,
+    "genres": [
+      "Horror",
+      "Fantasy"
+    ],
+    "description": "The mysterious Count Orlok summons a happily married real estate agent to his castle, located up in the Transylvanian mountains, to finalise a terrifying deal.",
+    "tagline": "A symphony of horror.",
+    "poster": "/posters/m34.jpg",
+    "backdrop": "/backdrops/m34.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/Nosferatu_most_complete_version_93_mins."
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=npxhdRMYHy0"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m35",
+    "type": "movie",
+    "title": "The Phantom of the Opera",
+    "year": 1925,
+    "rating": "NR",
+    "runtime": "1h 47m",
+    "runtimeMinutes": 107,
+    "genres": [
+      "Horror"
+    ],
+    "description": "The deformed Phantom who haunts the Paris Opera House causes murder and mayhem in an attempt to make the woman he loves a star.",
+    "tagline": "The greatest horror film of modern cinema!",
+    "poster": "/posters/m35.jpg",
+    "backdrop": "/backdrops/m35.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/ThePhantomoftheOpera"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=HYvbaILyc2s"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m36",
+    "type": "movie",
+    "title": "The Little Shop of Horrors",
+    "year": 1960,
+    "rating": "NR",
+    "runtime": "1h 13m",
+    "runtimeMinutes": 73,
+    "genres": [
+      "Horror",
+      "Comedy",
+      "Fantasy"
+    ],
+    "description": "Seymour works in a skid row florist shop and is in love with his beautiful co-worker, Audrey. He creates a new plant that not only talks but cannot survive without human flesh and blood.",
+    "tagline": "The funniest picture this year!",
+    "poster": "/posters/m36.jpg",
+    "backdrop": "/backdrops/m36.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/The_Little_Shop_of_Horrors.mpeg"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=amlXKaqk2jg"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m37",
+    "type": "movie",
+    "title": "Mobile Suit Gundam I",
+    "year": 1981,
+    "rating": "NR",
+    "runtime": "2h 19m",
+    "runtimeMinutes": 139,
+    "genres": [
+      "Anime",
+      "Animation",
+      "Sci-Fi",
+      "Action"
+    ],
+    "description": "In the year Universal Century 0079, humans have colonized the area of space lying in between the Earth and the moon. However, the ambitious Zabi family, rulers of the Duchy of Zeon, the grouping of colonies furthest from the earth, has sparked a war.",
+    "tagline": "Thrust into the thick of battle, a young boy and a secret weapon are earth's last hope!",
+    "poster": "/posters/m37.jpg",
+    "backdrop": "/backdrops/m37.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=YYqJMKhaLhk"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=QeNKubtJB1A"
+    },
+    "episodes": [
+      {
+        "title": "Mobile Suit Gundam I",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=YYqJMKhaLhk"
+      }
+    ]
+  },
+  {
+    "id": "m38",
+    "type": "movie",
+    "title": "Mobile Suit Gundam II: Soldiers of Sorrow",
+    "year": 1981,
+    "rating": "NR",
+    "runtime": "2h 15m",
+    "runtimeMinutes": 135,
+    "genres": [
+      "Anime",
+      "Animation",
+      "Sci-Fi",
+      "Action"
+    ],
+    "description": "After surviving attacks by Zeon's Char Aznable and Garma Zabi, the crew of Federation warship White Base and its mobile suits must battle Zeon forces through Asia, Europe, and the Atlantic Ocean if they are to reach Earth Federation's headquarters alive. During that process, many of its crewmembers must overcome their fears, losses, immaturities, and insecurities in order to persevere.",
+    "tagline": "I pray, pray, pray to bring near the New Day.",
+    "poster": "/posters/m38.jpg",
+    "backdrop": "/backdrops/m38.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=B60vNz15Hzg"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=O86MFn2jduI"
+    },
+    "episodes": [
+      {
+        "title": "Soldiers of Sorrow",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=B60vNz15Hzg"
+      }
+    ]
+  },
+  {
+    "id": "m39",
+    "type": "movie",
+    "title": "Mobile Suit Gundam III: Encounters in Space",
+    "year": 1982,
+    "rating": "NR",
+    "runtime": "2h 20m",
+    "runtimeMinutes": 140,
+    "genres": [
+      "Anime",
+      "Animation",
+      "Sci-Fi",
+      "Action"
+    ],
+    "description": "Amuro Ray and the rest of the White Base crew, now denominated the 13th Autonomous Corps, return to outer space to support the rest of the Earth Federation forces for the decisive battle against the Principality of Zeon's forces.",
+    "tagline": "Space reverberates, and two souls meet by chance....",
+    "poster": "/posters/m39.jpg",
+    "backdrop": "/backdrops/m39.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=JJMV4WrybjM"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=CUEnfUIrEt8"
+    },
+    "episodes": [
+      {
+        "title": "Encounters in Space",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=JJMV4WrybjM"
+      }
+    ]
+  },
+  {
+    "id": "m40",
+    "type": "movie",
+    "title": "The Adventures of Prince Achmed",
+    "year": 1926,
+    "rating": "NR",
+    "runtime": "1h 6m",
+    "runtimeMinutes": 66,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "description": "Taken from The Arabian Nights, a wicked sorcerer and the beautiful prince Achmed battle one against the other during a series of wondrous adventures.",
+    "tagline": "",
+    "poster": "/posters/m40.jpg",
+    "backdrop": "/backdrops/m40.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/the.-adventures.-of.-prince.-achmed.-1926.720p.-blu-ray.x-264-public-hd"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=DkK6ELJeDx0"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m41",
+    "type": "movie",
+    "title": "Mr. Bug Goes to Town",
+    "year": 1941,
+    "rating": "G",
+    "runtime": "1h 18m",
+    "runtimeMinutes": 78,
+    "genres": [
+      "Animation",
+      "Family",
+      "Adventure",
+      "Comedy"
+    ],
+    "description": "The happy tranquility of Bugville is shattered when the populace learns that a colossal skyscraper is to be built over their tiny town.",
+    "tagline": "Boy, Oh Boy! Here's Music, Laughter, Love and Joy!",
+    "poster": "/posters/m41.jpg",
+    "backdrop": "/backdrops/m41.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/mr.-bug-goes-to-town-1941"
+    },
+    "trailer": null,
+    "episodes": []
+  },
+  {
+    "id": "m42",
+    "type": "movie",
+    "title": "Elephants Dream",
+    "year": 2006,
+    "rating": "NR",
+    "runtime": "11m",
+    "runtimeMinutes": 11,
+    "genres": [
+      "Animation",
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "description": "Elephants Dream is the story of two strange characters exploring a capricious and seemingly infinite machine. The elder, Proog, acts as a tour-guide and protector, happily showing off the sights and dangers of the machine to his initially curious but increasingly skeptical protege Emo. As their journey unfolds we discover signs that the machine is not all Proog thinks it is, and his guiding takes on a more desperate aspect.  Elephants Dream is a story about communication and fiction, made purposefully open-ended as the world’s first 3D animated “Open movie”. The film itself is released under the Creative Commons license, along with the entirety of the production files used to make it (roughly 7 Gigabytes of data). The software used to make the movie is the free/open source animation suite Blender along with other open source software, thus allowing the movie to be remade, remixed and re-purposed with only a computer and the data on the DVD or download.",
+    "tagline": "",
+    "poster": "/posters/m42.jpg",
+    "backdrop": "/backdrops/m42.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/ElephantsDream"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=_0wxP7EWsOc"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m43",
+    "type": "movie",
+    "title": "Agent 327: Operation Barbershop",
+    "year": 2017,
+    "rating": "NR",
+    "runtime": "4m",
+    "runtimeMinutes": 4,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Mystery"
+    ],
+    "description": "Agent 327 is investigating a clue that leads him to a shady barbershop in Amsterdam. Little does he know that he is being tailed by mercenary Boris Kloris.",
+    "tagline": "",
+    "poster": "/posters/m43.jpg",
+    "backdrop": "/backdrops/m43.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/agent327operationbarbershop"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=mN0zPOpADL4"
+    },
+    "episodes": []
+  },
+  {
+    "id": "m44",
+    "type": "movie",
+    "title": "Cosmos Laundromat",
+    "year": 2015,
+    "rating": "NR",
+    "runtime": "12m",
+    "runtimeMinutes": 12,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Comedy"
+    ],
+    "description": "On a desolate island, a suicidal sheep named Franck meets his fate…in the form of a quirky salesman named Victor, who offers him the gift of a lifetime. The gift is many lifetimes, actually, in many different worlds – each lasting just a few minutes. In the sequel to the pilot, Franck will find a new reason to live…in the form of a bewitching female adventurer named Tara, who awakens his long-lost lust for life. But can Franck keep up with her?",
+    "tagline": "Any life you ever wanted!",
+    "poster": "/posters/m44.jpg",
+    "backdrop": "/backdrops/m44.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/CosmosLaundromatFirstCycle"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=u8Y6S6ev-Vg"
+    },
+    "episodes": []
   },
   {
     "id": "s1",
     "type": "show",
-    "title": "Stranger Things",
-    "year": 2016,
-    "rating": "TV-14",
-    "runtime": "5 seasons",
+    "title": "Helluva Boss",
+    "year": 2020,
+    "rating": "TV-MA",
+    "runtime": "20 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Action",
-      "Mystery",
-      "Sci-Fi"
+      "Animation",
+      "Comedy",
+      "Fantasy",
+      "Drama"
     ],
-    "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
-    "tagline": "It only gets stranger...",
+    "description": "In Hell, imp Blitzø (the 'o' is silent) runs an assassin business targeting the world of the living, using a spell book borrowed from a prince of the underworld. With employees Moxxie, Millie, and Loona, they attempt to survive each other while keeping business afloat.",
+    "tagline": "R u in hell and need someone less alive? We can do that!!",
     "poster": "/posters/s1.jpg",
-    "backdrop": "/backdrops/s1.jpg"
+    "backdrop": "/backdrops/s1.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=el_PChGfJN8"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=iN0rFuCCA-Y"
+    },
+    "episodes": [
+      {
+        "title": "E1: Murder Family",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=el_PChGfJN8"
+      },
+      {
+        "title": "E2: Loo Loo Land",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=kpnwRg268FQ"
+      },
+      {
+        "title": "E3: Spring Broken",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=RghsgkZKedg"
+      },
+      {
+        "title": "E4: C.H.E.R.U.B",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=1ZFseYPmkAk"
+      },
+      {
+        "title": "E5: The Harvest Moon Festival",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=h2ZmVAdezF8"
+      },
+      {
+        "title": "E6: Truth Seekers",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=yXErLiSbxXQ"
+      },
+      {
+        "title": "E7: OZZIE'S",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=8zyGQquL8VM"
+      },
+      {
+        "title": "E8: QUEEN BEE",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=D-2799Y07Zc"
+      },
+      {
+        "title": "E1: THE CIRCUS",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=_spuxXnul0U"
+      },
+      {
+        "title": "E2: SEEING STARS",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4J0xFUyz1nw"
+      },
+      {
+        "title": "E3: EXES AND OOHS",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=j1BfO7VlIw4"
+      },
+      {
+        "title": "E4: WESTERN ENERGY",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=KJy7T24rhg0"
+      },
+      {
+        "title": "E5: UNHAPPY CAMPERS",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=lYu1ysDULwA"
+      },
+      {
+        "title": "E6: OOPS",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=y1sF6ZeASU0"
+      },
+      {
+        "title": "E7: MAMMON’S MAGNIFICENT MUSICAL MID-SEASON SPECIAL (ft Fizzarolli)",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=rRymSi8SmqA"
+      },
+      {
+        "title": "E8: THE FULL MOON",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Fj9YRsV1pEw"
+      },
+      {
+        "title": "E9: APOLOGY TOUR",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=tLD-OUkYtk4"
+      },
+      {
+        "title": "E10: GHOSTF**KERS",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=5DV4IIKwqRI"
+      },
+      {
+        "title": "E11: MASTERMIND",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=IoVB5Hn2m_k"
+      },
+      {
+        "title": "E12: SINSMAS",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=GisSNuVpbkM"
+      }
+    ]
   },
   {
     "id": "s2",
     "type": "show",
-    "title": "The Bear",
-    "year": 2022,
-    "rating": "TV-MA",
-    "runtime": "5 seasons",
+    "title": "The Amazing Digital Circus",
+    "year": 2023,
+    "rating": "TV-PG",
+    "runtime": "9 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Drama",
-      "Comedy"
+      "Animation",
+      "Comedy",
+      "Fantasy"
     ],
-    "description": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
-    "tagline": "Back for seconds.",
+    "description": "A woman finds herself trapped in a virtual circus where she and five other humans are subject to the whims of a wacky AI ringmaster. In this digital purgatory they must face frightening NPCs and cope with their own personal traumas.",
+    "tagline": "",
     "poster": "/posters/s2.jpg",
-    "backdrop": "/backdrops/s2.jpg"
+    "backdrop": "/backdrops/s2.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=HwAPLk_sQ3w"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=iuaRQ5NQFq8"
+    },
+    "episodes": [
+      {
+        "title": "Pilot",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=HwAPLk_sQ3w"
+      },
+      {
+        "title": "Ep 2: Candy Carrier Chaos!",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4ofJpOEXrZs"
+      },
+      {
+        "title": "Ep 3: The Mystery Of Mildenhall Manor",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=bKjfw77cxeQ"
+      },
+      {
+        "title": "Ep 4: Fast Food Masquerade",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q9KWcWKo2T8"
+      },
+      {
+        "title": "Ep 5: Untitled",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=L4p2gN2CzsA"
+      },
+      {
+        "title": "Ep 6: They All Get Guns",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=mOvhHim78YA"
+      },
+      {
+        "title": "Ep 7: Beach Episode",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=oaOG1xOk7XY"
+      },
+      {
+        "title": "Ep 8: hjsakldfhl",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=DMNlzf8PiEM"
+      },
+      {
+        "title": "Ep 9: Remember",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=PVy-bcTsO8A"
+      }
+    ]
   },
   {
     "id": "s3",
     "type": "show",
-    "title": "Euphoria",
-    "year": 2019,
-    "rating": "TV-MA",
-    "runtime": "3 seasons",
+    "title": "Murder Drones",
+    "year": 2021,
+    "rating": "TV-14",
+    "runtime": "8 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Drama"
+      "Animation",
+      "Action",
+      "Sci-Fi"
     ],
-    "description": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
-    "tagline": "Feel something.",
+    "description": "Uzi, a sardonic teen worker robot gone rogue befriends N, an excitable optimistic disassembly drone sent to destroy her, creating what we can assume is a very bad relationship for mankind.",
+    "tagline": "Cute little robots that murder each other for reasons.",
     "poster": "/posters/s3.jpg",
-    "backdrop": "/backdrops/s3.jpg"
+    "backdrop": "/backdrops/s3.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=mImFz8mkaHo"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=6QmzIr-q8tk"
+    },
+    "episodes": [
+      {
+        "title": "Episode 1: PILOT",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=mImFz8mkaHo"
+      },
+      {
+        "title": "Episode 2: Heartbeat",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=7z8DO1KhPFo"
+      },
+      {
+        "title": "Episode 3: The Promening",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=djsJqNAGMuY"
+      },
+      {
+        "title": "Episode 4: Cabin Fever",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=63bUBEIhpNk"
+      },
+      {
+        "title": "Episode 5: Home",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=rk0HBqSqpgg"
+      },
+      {
+        "title": "Episode 6: Dead End",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=U7i6fi3z9Nk"
+      },
+      {
+        "title": "Episode 7: Mass Destruction",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=EOqw86OGIB0"
+      },
+      {
+        "title": "Episode 8: Absolute End",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=caR9ouipm8o"
+      }
+    ]
   },
   {
     "id": "s4",
     "type": "show",
-    "title": "Wednesday",
-    "year": 2022,
-    "rating": "TV-14",
-    "runtime": "3 seasons",
+    "title": "Battle for Dream Island",
+    "year": 2010,
+    "rating": "NR",
+    "runtime": "55 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Sci-Fi",
-      "Mystery",
-      "Comedy"
+      "Animation",
+      "Comedy",
+      "Family"
     ],
-    "description": "Smart, sarcastic and a little dead inside, Wednesday Addams investigates twisted mysteries while making new friends — and foes — at Nevermore Academy.",
-    "tagline": "The wait has been torture.",
+    "description": "Twenty inanimate objects meet a robotic speaker box who offer them a competition, where the last object standing will win the luxurious and desirable Dream Island.",
+    "tagline": "",
     "poster": "/posters/s4.jpg",
-    "backdrop": "/backdrops/s4.jpg"
+    "backdrop": null,
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=YQa2-DY7Y_Q"
+    },
+    "trailer": null,
+    "episodes": [
+      {
+        "title": "BFDI 1a: Take the Plunge",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=YQa2-DY7Y_Q"
+      },
+      {
+        "title": "BFDI 1b: Take the Plunge",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=8LY0o_CgPR8"
+      },
+      {
+        "title": "BFDI 2: Barriers and Pitfalls",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=JfzEO9-Zlhw"
+      },
+      {
+        "title": "BFDI 3: Are You Smarter Than a Snowball?",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=rhkgOXksmaY"
+      },
+      {
+        "title": "BFDI 4: Sweet Tooth",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=cdmVPHdpECM"
+      },
+      {
+        "title": "BFDI 5: Bridge Crossing",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=xHI-iKm31us"
+      },
+      {
+        "title": "BFDI 6: Power of Three",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=6vGgsXO57bs"
+      },
+      {
+        "title": "BFDI 7: Puzzling Mysteries",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ze1p7bYXw0g"
+      },
+      {
+        "title": "BFDI 8: Cycle of Life",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=g0wCF04ddnw"
+      },
+      {
+        "title": "BFDI 9: Insectophobe's Nightmare",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ylVsfdU5pxo"
+      },
+      {
+        "title": "BFDI 10: Crybaby!",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Eg5Ja23HfhY"
+      },
+      {
+        "title": "BFDI 11: Lofty",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=yhkDgX2b7po"
+      },
+      {
+        "title": "BFDI 12: A Leg Up in the Race",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=U4sp10HUI6Y"
+      },
+      {
+        "title": "BFDI 13: Don't Lose Your Marbles",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=BQBmKvRd0B0"
+      },
+      {
+        "title": "BFDI 14: Half a Loaf Is Better Than None",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=yZqh3l3-pTM"
+      },
+      {
+        "title": "BFDI 15: Vomitaco",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=pf9FHBM0SLQ"
+      },
+      {
+        "title": "BFDI 16: Bowling, Now with Explosions!",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=nAKk0gm73K0"
+      },
+      {
+        "title": "BFDI 17: The Reveal",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Xmh7M7TXDRE"
+      },
+      {
+        "title": "BFDI 18: Reveal Novum",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=x4K1xKHwp0E"
+      },
+      {
+        "title": "BFDI 19: Rescission",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4pR6Y3_ahS8"
+      },
+      {
+        "title": "BFDI 20: Gardening Hero",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=J9udiROQchg"
+      },
+      {
+        "title": "BFDI 21: The Glistening",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=6OfKK5Rt3fY"
+      },
+      {
+        "title": "BFDI 22: Don't Pierce My Flesh",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=GfFkiGgY6Pk"
+      },
+      {
+        "title": "BFDI 23: Hurtful!",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=KLwgTM7HBhw"
+      },
+      {
+        "title": "BFDI 24: Insectophobe's Nightmare 2",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=PigChYq_FrM"
+      },
+      {
+        "title": "BFDI 25: Return of the Hang Glider",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ye_HKD_C5o0"
+      },
+      {
+        "title": "BFDIA 1: Yeah, Who? I Wanna Know",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=26FJTtLOu2s"
+      },
+      {
+        "title": "BFDIA 2: Get Digging",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=hsprecnxSsE"
+      },
+      {
+        "title": "BFDIA 3: Insectophobe's Nightmare 3",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=dXUE7OFij_I"
+      },
+      {
+        "title": "BFDIA 4: Zeeky Boogy Doog",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=E174ogB49xs"
+      },
+      {
+        "title": "BFDIA 5a: Get in the Van",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4q77g4xo9ic"
+      },
+      {
+        "title": "BFDIA 5b",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=emDpKog8v6w"
+      },
+      {
+        "title": "BFDIA 5c: No More Snow!",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=YrsRLT3u0Cg"
+      },
+      {
+        "title": "BFDIA 5d: It's a Monster",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=kaFpfSHllOw"
+      },
+      {
+        "title": "BFDIA 5e: The Long-lost Yoyle City",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=RZB7nTzSl3g"
+      },
+      {
+        "title": "BFDIA 6: Well Rested",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=qGqde_06qj8"
+      },
+      {
+        "title": "BFDIA 7: Intruder Alert",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=kTcfak9R-ok"
+      },
+      {
+        "title": "BFDIA 8: Meaty",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=kuh1rlW4OyQ"
+      },
+      {
+        "title": "BFDIA 9: Catch These Hands",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=S2JV2nT_5FM"
+      },
+      {
+        "title": "BFDIA 10: Taste the Sweetness",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=lcObRZOVdRM"
+      },
+      {
+        "title": "BFDIA 11: Lots of Mud",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=qNKPTAEzXTw"
+      },
+      {
+        "title": "BFDIA 12: Insectophobe's Nightmare 4 (ft. Kevin MacLeod)",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=S9NCSb6wAU8"
+      },
+      {
+        "title": "BFDIA 13: Well, Look Who It Is!",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=T2NuWcd0t_U"
+      },
+      {
+        "title": "BFDIA 14: PointyPointyPointy ♫",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=RO3ujKZo96c"
+      },
+      {
+        "title": "BFDIA 15: Spore Day",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=kVCpKBP9hoo"
+      },
+      {
+        "title": "BFDIA 16: Respect to the Wicked",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=8xdb6iS_uRY"
+      },
+      {
+        "title": "BFDIA 17: Start the Shift (ft. Homestar Runner, The Duck Song, Clay O’Donnell, JelloApocalypse)",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=WGgLMJsimE8"
+      },
+      {
+        "title": "BFDIA 18: Airplanes in the Night Sky",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=bkqv3uPIWOg"
+      },
+      {
+        "title": "BFDIA 19: 🥚",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=azNk6M0-mto"
+      },
+      {
+        "title": "BFDIA 20: Launch Party",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q-Angwav-uI"
+      },
+      {
+        "title": "BFDIA 21: We're Not Friends",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=oPFuC7IcTiU"
+      },
+      {
+        "title": "BFDIA 22: I'm the Main Character",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=b8vUzNczUbo"
+      },
+      {
+        "title": "BFDIA 23: Shattered!",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Z7BX7lUbPF0"
+      },
+      {
+        "title": "BFDIA 24: Say Hijack",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=oHDj5YSKOYM"
+      },
+      {
+        "title": "BFDIA 25: She Deserves This",
+        "season": "Season 2",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=hTK2jHPtv5o"
+      }
+    ]
   },
   {
     "id": "s5",
     "type": "show",
-    "title": "Squid Game",
-    "year": 2021,
-    "rating": "TV-MA",
-    "runtime": "3 seasons",
+    "title": "Mobile Suit Gundam SEED",
+    "year": 2002,
+    "rating": "TV-PG",
+    "runtime": "100 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Action",
-      "Mystery",
-      "Drama"
+      "Anime",
+      "Animation",
+      "Sci-Fi",
+      "Action"
     ],
-    "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
-    "tagline": "Only one can win.",
+    "description": "Cosmic Era 71. Mankind has developed into two subspecies: Naturals, who reside on Earth, and Coordinators, genetically enhanced humans capable of withstanding the rigors of space who inhabit orbital colonies known as PLANTs. The story revolves around a young Coordinator named Kira Yamato, who becomes involved in the war between the two races after a neutral space colony secretly developing mobile suits for the Earth Alliance is attacked by the PLANTs' military force, ZAFT.",
+    "tagline": "",
     "poster": "/posters/s5.jpg",
-    "backdrop": "/backdrops/s5.jpg"
+    "backdrop": "/backdrops/s5.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZzckBkxy0BM"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=pFP3FImMcWI"
+    },
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZzckBkxy0BM"
+      },
+      {
+        "title": "Episode 2",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=SKDibi-XncE"
+      },
+      {
+        "title": "Episode 3",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=83AkyN33LAw"
+      },
+      {
+        "title": "Episode 4",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ppdWdJ-lvas"
+      },
+      {
+        "title": "Episode 5",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=oqKo17q-oKU"
+      },
+      {
+        "title": "Episode 6",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ciE0Go7Zbc4"
+      },
+      {
+        "title": "Episode 7",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=YSVFcGAQ-yY"
+      },
+      {
+        "title": "Episode 8",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=7F_SXJ5G0SI"
+      },
+      {
+        "title": "Episode 9",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=lkbbBwWnO2U"
+      },
+      {
+        "title": "Episode 10",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=LVzEu8APS1g"
+      },
+      {
+        "title": "Episode 11",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=oSFIH4cQxgs"
+      },
+      {
+        "title": "Episode 12",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=PXMIVu9acT0"
+      },
+      {
+        "title": "Episode 13",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=2KLwGNYz7kY"
+      },
+      {
+        "title": "Episode 14",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=5Fc33uCDdPY"
+      },
+      {
+        "title": "Episode 15",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ytahFmmKG_Q"
+      },
+      {
+        "title": "Episode 16",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=YjqgTcS5qyA"
+      },
+      {
+        "title": "Episode 17",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=OOPjM4oLtSU"
+      },
+      {
+        "title": "Episode 18",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=prnwwqiPnWU"
+      },
+      {
+        "title": "Episode 19",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=HNz_YRhPQBI"
+      },
+      {
+        "title": "Episode 20",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=jFCyKHlFWTI"
+      },
+      {
+        "title": "Episode 21",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=JALjdXln25s"
+      },
+      {
+        "title": "Episode 22",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=himIp2vmDmE"
+      },
+      {
+        "title": "Episode 23",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=t7zA6UYdk9A"
+      },
+      {
+        "title": "Episode 24",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=GmQk--J2o4M"
+      },
+      {
+        "title": "Episode 25",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=fFaPP8VOYrM"
+      },
+      {
+        "title": "Episode 26",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=aKUr7pDeeYc"
+      },
+      {
+        "title": "Episode 27",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Xlo88NOHRGU"
+      },
+      {
+        "title": "Episode 28",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Lg4fgeCqNjQ"
+      },
+      {
+        "title": "Episode 29",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=tpkvPqXHZR8"
+      },
+      {
+        "title": "Episode 30",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=v0xJiJ3FYbE"
+      },
+      {
+        "title": "Episode 31",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=k-s6EcgLW0M"
+      },
+      {
+        "title": "Episode 32",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=3xbICg7j5OI"
+      },
+      {
+        "title": "Episode 33",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=L-iQgn6j6cY"
+      },
+      {
+        "title": "Episode 34",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=FS0giSwwVXs"
+      },
+      {
+        "title": "Episode 35",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=UP1Ktxvcu7c"
+      },
+      {
+        "title": "Episode 36",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=W6LVwFVc9q4"
+      },
+      {
+        "title": "Episode 37",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Djls7e28FbE"
+      },
+      {
+        "title": "Episode 38",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=_eFed0cBOao"
+      },
+      {
+        "title": "Episode 39",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=5SOcmAScmh8"
+      },
+      {
+        "title": "Episode 40",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=1LORJ0RMLzI"
+      },
+      {
+        "title": "Episode 41",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=qZKZ_SOyhJM"
+      },
+      {
+        "title": "Episode 42",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ttdz_81gHkY"
+      },
+      {
+        "title": "Episode 43",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=tqHjMcyjvEo"
+      },
+      {
+        "title": "Episode 44",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=JG-hhvq3Iy8"
+      },
+      {
+        "title": "Episode 45",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4bnvMGOdRo4"
+      },
+      {
+        "title": "Episode 46",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=hO8qdnJcTeA"
+      },
+      {
+        "title": "Episode 47",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=PlREsiTIEu8"
+      },
+      {
+        "title": "Episode 48",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=QBrL-Gm_3vs"
+      },
+      {
+        "title": "Episode 49",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=M_Ky8YQbPjE"
+      },
+      {
+        "title": "Episode 50",
+        "season": "SEED (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=3Rq_--fEUJA"
+      },
+      {
+        "title": "Episode 1",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=paEVAzRhX2k"
+      },
+      {
+        "title": "Episode 2",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=vyQquPdMrno"
+      },
+      {
+        "title": "Episode 3",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=AD_PSpuDOw4"
+      },
+      {
+        "title": "Episode 4",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=nWg54ZaezAo"
+      },
+      {
+        "title": "Episode 5",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=en897kxbX7A"
+      },
+      {
+        "title": "Episode 6",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=tY5jzpXILiI"
+      },
+      {
+        "title": "Episode 7",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=TjIss69vHM0"
+      },
+      {
+        "title": "Episode 8",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=2bqdyfvPT5o"
+      },
+      {
+        "title": "Episode 9",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=1LC4w2zII1c"
+      },
+      {
+        "title": "Episode 10",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=OnO1hXvNTNI"
+      },
+      {
+        "title": "Episode 11",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=VYKjatpgKJ0"
+      },
+      {
+        "title": "Episode 12",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=bNwaMtLQHDg"
+      },
+      {
+        "title": "Episode 13",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=le8hTBgIycQ"
+      },
+      {
+        "title": "Episode 14",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=f9k6qKkXo18"
+      },
+      {
+        "title": "Episode 15",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=5sf5Bg9fTnI"
+      },
+      {
+        "title": "Episode 16",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=CtPgRBHseqQ"
+      },
+      {
+        "title": "Episode 17",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=GKvVi-j7p9U"
+      },
+      {
+        "title": "Episode 18",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=1EqL7CSXX0s"
+      },
+      {
+        "title": "Episode 19",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=G0MTr1fKehQ"
+      },
+      {
+        "title": "Episode 20",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=EEVFIvpDIYI"
+      },
+      {
+        "title": "Episode 21",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=haLsUSKKgTY"
+      },
+      {
+        "title": "Episode 22",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=K1P1SVQHQ0c"
+      },
+      {
+        "title": "Episode 23",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q0QALnQq16c"
+      },
+      {
+        "title": "Episode 24",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=aou_jG-Ixfs"
+      },
+      {
+        "title": "Episode 25",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=zdmDPCam9js"
+      },
+      {
+        "title": "Episode 26",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=FPODPa-6GMQ"
+      },
+      {
+        "title": "Episode 27",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=5RueiBE8--I"
+      },
+      {
+        "title": "Episode 28",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=M9PQI5N3wKQ"
+      },
+      {
+        "title": "Episode 29",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=OuiO9Bh-Vwg"
+      },
+      {
+        "title": "Episode 30",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=aCoxKeOwZ5o"
+      },
+      {
+        "title": "Episode 31",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=XQ--oYA7qoU"
+      },
+      {
+        "title": "Episode 32",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=gywx_XzEvDQ"
+      },
+      {
+        "title": "Episode 33",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=nk_h-P6tzJo"
+      },
+      {
+        "title": "Episode 34",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=3lE2h_ATjTw"
+      },
+      {
+        "title": "Episode 35",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Z7Kn31ZhxSY"
+      },
+      {
+        "title": "Episode 36",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=TcINwjTluos"
+      },
+      {
+        "title": "Episode 37",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4CvIzaTNSus"
+      },
+      {
+        "title": "Episode 38",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ur75uHUSncw"
+      },
+      {
+        "title": "Episode 39",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=gMJaDX0P18w"
+      },
+      {
+        "title": "Episode 40",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=lP-Rl7OGtI0"
+      },
+      {
+        "title": "Episode 41",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=8oCqfAepXfc"
+      },
+      {
+        "title": "Episode 42",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=D75f0t7yLa8"
+      },
+      {
+        "title": "Episode 43",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=V3TtcKvIkR0"
+      },
+      {
+        "title": "Episode 44",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=d04Mbt2zaTw"
+      },
+      {
+        "title": "Episode 45",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=w3dsEgwIGLE"
+      },
+      {
+        "title": "Episode 46",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=JbZrvFORiCo"
+      },
+      {
+        "title": "Episode 47",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=wdTPZb7jqAc"
+      },
+      {
+        "title": "Episode 48",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=CSkG9DT0XJo"
+      },
+      {
+        "title": "Episode 49",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4ySqySVqMkQ"
+      },
+      {
+        "title": "Episode 50",
+        "season": "SEED Destiny",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=SbDAut9weJ4"
+      }
+    ]
   },
   {
     "id": "s6",
     "type": "show",
-    "title": "Arcane",
-    "year": 2021,
+    "title": "Mobile Suit Gundam: The Witch from Mercury",
+    "year": 2022,
     "rating": "TV-14",
-    "runtime": "2 seasons",
+    "runtime": "25 episodes",
+    "runtimeMinutes": null,
     "genres": [
+      "Anime",
       "Animation",
-      "Action",
-      "Sci-Fi"
+      "Sci-Fi",
+      "Action"
     ],
-    "description": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
-    "tagline": "The hunt is on.",
+    "description": "A. S. (Ad Stella) 122 ― An era when a multitude of corporations have entered space and built a huge economic system. Suletta Mercury, a lone girl from the remote planet Mercury, transfers to the Asticassia School of Technology, run by the Beneritt Group which dominates the mobile suit industry.",
+    "tagline": "This witch... rides a Gundam.",
     "poster": "/posters/s6.jpg",
-    "backdrop": "/backdrops/s6.jpg"
+    "backdrop": "/backdrops/s6.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=PjoLfWJlfyc"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=mYd_l3E7yOc"
+    },
+    "episodes": [
+      {
+        "title": "Prologue",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=PjoLfWJlfyc"
+      },
+      {
+        "title": "#1 \"The Witch and the Bride\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=cq8zYG_hivI"
+      },
+      {
+        "title": "#2 \"Cursed Mobile Suit\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=bRqqvwxlPFA"
+      },
+      {
+        "title": "#3 \"Guel's Pride\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=hUFpnzhpApo"
+      },
+      {
+        "title": "#4 \"Unseen Trap\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=VoL0Vft2n_U"
+      },
+      {
+        "title": "#5 \"Reflection in an Icy Eye\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=G_iLj8Wp7dk"
+      },
+      {
+        "title": "#6 \"A Gloomy Song\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=m04x09lXhI0"
+      },
+      {
+        "title": "#7 \"Shall We Gundam?\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=GeMjxNk8YL8"
+      },
+      {
+        "title": "#8 \"Their Choice\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=1tpuVqbnCsQ"
+      },
+      {
+        "title": "#9 \"If I Could Take One More Step Toward You\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=kThQo5cjVpY"
+      },
+      {
+        "title": "#10 \"Circling Thoughts\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=-cORn5HzGDY"
+      },
+      {
+        "title": "#11 \"The Witches from Earth\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=nv2-wgogV6E"
+      },
+      {
+        "title": "#12 \"Keep Marching on Instead of Running Off\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=a6SnMdPzh0s"
+      },
+      {
+        "title": "#13 \"Envoys from the Earth\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=b9UVaK2hfkk"
+      },
+      {
+        "title": "#14 \"What They Wish For\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=6fHQhakwYR0"
+      },
+      {
+        "title": "#15 \"Father and Child\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Mdh0xJiABPs"
+      },
+      {
+        "title": "#16 \"Cycle of Sin\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=b3urjpZq1L8"
+      },
+      {
+        "title": "#17 \"Precious Things\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=17kijQC38zQ"
+      },
+      {
+        "title": "#18 \"Our Empty Selves\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=3zeYa1pMEXo"
+      },
+      {
+        "title": "#19 \"Not the Best Way\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=bg29bSwEmos"
+      },
+      {
+        "title": "#20 \"The End of Hope\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=f6tu0YNXDvg"
+      },
+      {
+        "title": "#21 \"What We Can Do Now\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=8rAWrbPkuEc"
+      },
+      {
+        "title": "#22 \"The Woven Path\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=fMN-daf4sB8"
+      },
+      {
+        "title": "#23 \"Unrelenting Tenderness\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=7rIQQmrpZe4"
+      },
+      {
+        "title": "#24 \"May All Blessings Find Their Way to You, I'm Wishing It\"",
+        "season": "Season 1 (English dub)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=f4XV8gAlZZk"
+      }
+    ]
   },
   {
     "id": "s7",
     "type": "show",
-    "title": "Abbott Elementary",
-    "year": 2021,
-    "rating": "TV-14",
-    "runtime": "6 seasons",
+    "title": "After War Gundam X",
+    "year": 1996,
+    "rating": "TV-PG",
+    "runtime": "39 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Comedy"
+      "Anime",
+      "Animation",
+      "Sci-Fi",
+      "Action"
     ],
-    "description": "In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don’t love the school district’s less-than-stellar attitude toward educating children.",
-    "tagline": "Catching a break... Any way they can.",
+    "description": "15 years post an interstellar war's end, an orphan named Garrod makes a living stealing mobile suits, then gets enlisted for a girl's rescue mission.",
+    "tagline": "",
     "poster": "/posters/s7.jpg",
-    "backdrop": "/backdrops/s7.jpg"
+    "backdrop": "/backdrops/s7.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=TTnmp3_vAX4"
+    },
+    "trailer": null,
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=TTnmp3_vAX4"
+      },
+      {
+        "title": "Episode 2",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=-2DCBO0424I"
+      },
+      {
+        "title": "Episode 3",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=WyxgPlkK9LA"
+      },
+      {
+        "title": "Episode 4",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=qBfIql0lXRk"
+      },
+      {
+        "title": "Episode 5",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=utJc7KPvkl8"
+      },
+      {
+        "title": "Episode 6",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=-ELJK0pqw5c"
+      },
+      {
+        "title": "Episode 7",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=9QAeit4wA9Y"
+      },
+      {
+        "title": "Episode 8",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=JB3kL-KWhb8"
+      },
+      {
+        "title": "Episode 9",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ENCobxWAfRA"
+      },
+      {
+        "title": "Episode 10",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=CR8uyAkKqtE"
+      },
+      {
+        "title": "Episode 11",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=1XPnS-EgI3U"
+      },
+      {
+        "title": "Episode 12",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=_f8F35GKwyo"
+      },
+      {
+        "title": "Episode 13",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=kZlQ3H-aP9g"
+      },
+      {
+        "title": "Episode 14",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=olkt0pPYJiw"
+      },
+      {
+        "title": "Episode 15",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=9zM6BJ7kwnM"
+      },
+      {
+        "title": "Episode 16",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=qQiT-6O8B1k"
+      },
+      {
+        "title": "Episode 17",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=X_k9vdJ_Bng"
+      },
+      {
+        "title": "Episode 18",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=perWWOAF-Ew"
+      },
+      {
+        "title": "Episode 19",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=8VbVqmwoWV0"
+      },
+      {
+        "title": "Episode 20",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=M92RqwckLbU"
+      },
+      {
+        "title": "Episode 21",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=n49nNUylYW4"
+      },
+      {
+        "title": "Episode 22",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ryeco6JIY-M"
+      },
+      {
+        "title": "Episode 23",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=c0sZZqaqYy8"
+      },
+      {
+        "title": "Episode 24",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=hhQ96RK4_N4"
+      },
+      {
+        "title": "Episode 25",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=jxxjKBMazv8"
+      },
+      {
+        "title": "Episode 26",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=xPl2ODd_NkA"
+      },
+      {
+        "title": "Episode 27",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=-4goI5FernA"
+      },
+      {
+        "title": "Episode 28",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=gDoOI6vYm7Q"
+      },
+      {
+        "title": "Episode 29",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=aMGux7W4ICE"
+      },
+      {
+        "title": "Episode 30",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=TygCo0FngbI"
+      },
+      {
+        "title": "Episode 31",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=7uuFqRrOCJE"
+      },
+      {
+        "title": "Episode 32",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=AX8xYmcPXgs"
+      },
+      {
+        "title": "Episode 33",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=y22GbguAGO4"
+      },
+      {
+        "title": "Episode 34",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=gFo4RIWlb6A"
+      },
+      {
+        "title": "Episode 35",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=TLTWimXMn5k"
+      },
+      {
+        "title": "Episode 36",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=mUup9p0Bkgc"
+      },
+      {
+        "title": "Episode 37",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Vd5jRhOB3ec"
+      },
+      {
+        "title": "Episode 38",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=AQU7u6LmXys"
+      },
+      {
+        "title": "Episode 39",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=CBfwAD0uWN4"
+      }
+    ]
   },
   {
     "id": "s8",
     "type": "show",
-    "title": "Insecure",
+    "title": "Mobile Suit Gundam Unicorn RE:0096",
     "year": 2016,
-    "rating": "TV-MA",
-    "runtime": "5 seasons",
+    "rating": "TV-14",
+    "runtime": "22 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Comedy",
-      "Drama"
+      "Anime",
+      "Animation",
+      "Sci-Fi",
+      "Action"
     ],
-    "description": "Follows the awkward experiences and racy tribulations of a modern-day African-American woman.",
-    "tagline": "She's trying hard AF.",
+    "description": "U.C. 0096. Three years after Char's rebellion, Banagher Links, a boy living at the manufacturing colony Industrial 7, meets a mysterious girl who calls herself Audrey Burne. Audrey claims that she is trying to stop the Vist Foundation from handing over Laplace's Box to the Neo Zeon remnants known as the Sleeves, an act which could spark another war, and Banagher decides to help her. But the colony becomes a battlefield as fighting breaks out between the Sleeves and the Earth Federation Forces, who have also come to stop the handover...\n\nThe seven-episode OVA series, re-edited into a TV series with new opening and ending sequences.",
+    "tagline": "",
     "poster": "/posters/s8.jpg",
-    "backdrop": "/backdrops/s8.jpg"
+    "backdrop": "/backdrops/s8.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=9isbRbLD2GE"
+    },
+    "trailer": null,
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=9isbRbLD2GE"
+      },
+      {
+        "title": "Episode 2",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=oLt-HsDa4yc"
+      },
+      {
+        "title": "Episode 3",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=cRJMt9h-S9A"
+      },
+      {
+        "title": "Episode 4",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=7g0x6YeRFzs"
+      },
+      {
+        "title": "Episode 5",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4QGubWs8zRA"
+      },
+      {
+        "title": "Episode 6",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=mxgm2VxpGds"
+      },
+      {
+        "title": "Episode 7",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=KY75kmnHp1I"
+      },
+      {
+        "title": "Episode 8",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=SG7xRduIzGE"
+      },
+      {
+        "title": "Episode 9",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=dEHKf9RLyYw"
+      },
+      {
+        "title": "Episode 10",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=V1mSPIKwnpw"
+      },
+      {
+        "title": "Episode 11",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=OlK4Cl6Og6Y"
+      },
+      {
+        "title": "Episode 12",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=X2jNYdHCkEI"
+      },
+      {
+        "title": "Episode 13",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=bjm8Fx1fkZ8"
+      },
+      {
+        "title": "Episode 14",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=RveC7fPRX18"
+      },
+      {
+        "title": "Episode 15",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=15dfvJO6koY"
+      },
+      {
+        "title": "Episode 16",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=k99rDwvXmXM"
+      },
+      {
+        "title": "Episode 17",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=PM1h-keZk4E"
+      },
+      {
+        "title": "Episode 18",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=4iuw5pRPUWw"
+      },
+      {
+        "title": "Episode 19",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=D1uteeMC9As"
+      },
+      {
+        "title": "Episode 20",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=pNYHgrbCHag"
+      },
+      {
+        "title": "Episode 21",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=tgXFTJZxoLA"
+      },
+      {
+        "title": "Episode 22",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=tn967iE1pn8"
+      }
+    ]
   },
   {
     "id": "s9",
     "type": "show",
-    "title": "Pose",
-    "year": 2018,
-    "rating": "TV-MA",
-    "runtime": "3 seasons",
+    "title": "Speed Racer",
+    "year": 1967,
+    "rating": "TV-Y7",
+    "runtime": "52 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Drama"
+      "Anime",
+      "Animation",
+      "Action",
+      "Family"
     ],
-    "description": "A dance musical that explores the juxtaposition of several segments of 1980s life and society in New York: the ball culture world, the rise of the luxury Trump-era universe and the downtown social and literary scene.",
-    "tagline": "The original queens have arrived.",
+    "description": "Speed ​​Racer is a teenage driver who races around the world in his super-technological car, the Mach 5, created by his father, a former racer. The car has several special features that help Speed ​​tackle difficult terrain and get rid of dishonest opponents—which happens frequently. He experiences these adventures alongside his girlfriend Trixie, his younger brother Spridle, and his pet monkey, Chim-Chim. Together, they face thrilling challenges and show that courage and fair play make all the difference.",
+    "tagline": "",
     "poster": "/posters/s9.jpg",
-    "backdrop": "/backdrops/s9.jpg"
+    "backdrop": "/backdrops/s9.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ACcaMjl7LdQ"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=jvc11BYryk0"
+    },
+    "episodes": [
+      {
+        "title": "Ep 1: Mach 5, Let's Go! (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=ACcaMjl7LdQ"
+      },
+      {
+        "title": "Ep 2: Mach 5, Let's Go! (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=pGjmplovSog"
+      },
+      {
+        "title": "Ep 3: The Mysterious Masked Racer (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=1viZ08mWJGw"
+      },
+      {
+        "title": "Ep 4: The Mysterious Masked Racer (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=YPIHjuEseX4"
+      },
+      {
+        "title": "Ep 5: The Secret Of The Classic Car (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=CAG7yepUFrw"
+      },
+      {
+        "title": "Ep 6: The Secret Of The Classic Car (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=oUqJ5RcpZR4"
+      },
+      {
+        "title": "Ep 7: The Menacing Mammothmobile (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=-Yc2jl20Q1k"
+      },
+      {
+        "title": "Ep 8: The Menacing Mammothmobile (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=wKAy-XpCw3E"
+      },
+      {
+        "title": "Ep 9: The Nefarious Acrobat Clan (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=N45_nmTY9WY"
+      },
+      {
+        "title": "Ep 10: The Nefarious Acrobat Clan (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=vJ521pDJn84"
+      },
+      {
+        "title": "Ep 11: The Nefarious Acrobat Clan (Part 3)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=hqPT9-MUEdg"
+      },
+      {
+        "title": "Ep 12: Marengo's Revenge (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=AIw0g8sD_SI"
+      },
+      {
+        "title": "Ep 13: Marengo's Revenge (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=lGy4xREHC8w"
+      },
+      {
+        "title": "Ep 14: The Desert Race Of Death (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=fH2C9wOZ5wY"
+      },
+      {
+        "title": "Ep 15: The Desert Race Of Death (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=MDI1ig3IbvQ"
+      },
+      {
+        "title": "Ep 16: The Underground Inca Race (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=vrNEGasK1hA"
+      },
+      {
+        "title": "Ep 17: The Underground Inca Race (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=G6TJWqJLhUw"
+      },
+      {
+        "title": "Ep 18: The Secret Treasure Of Niagara (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=JpGh_kXa5_4"
+      },
+      {
+        "title": "Ep 19: The Secret Treasure Of Niagara (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=pHk1DJy-ikU"
+      },
+      {
+        "title": "Ep 20: The Demonic Race Car (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=LdhK8rKuLB0"
+      },
+      {
+        "title": "Ep 21: The Demonic Race Car (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=qOpTxjgl8DU"
+      },
+      {
+        "title": "Ep 22: The Mach 5, a Hair's Breadth from Danger (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=3dDUnHY0m_g"
+      },
+      {
+        "title": "Ep 23: The Mach 5, a Hair's Breadth from Danger (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Hw5nIdU0j-Q"
+      },
+      {
+        "title": "Ep 24: The Junior Grand Prix (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=uduaWnhL5_0"
+      },
+      {
+        "title": "Ep 25: The Junior Grand Prix (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=niZT-NToioo"
+      },
+      {
+        "title": "Ep 26: Stop The Speeders",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=z8nYNJqeYgk"
+      },
+      {
+        "title": "Ep 27: Cleopatra's Curse (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=oMfN2Ho-JU8"
+      },
+      {
+        "title": "Ep 28: Cleopatra's Curse (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=tNtCD-aJPAk"
+      },
+      {
+        "title": "Ep 29: The Arm Of Gold",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=PgI5Y-OOwTo"
+      },
+      {
+        "title": "Ep 30: The Showdown By The Dam",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=F1EUl9EYKes"
+      },
+      {
+        "title": "Ep 31: Lightning Quick Ninja Cars (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=17o45mpUrx8"
+      },
+      {
+        "title": "Ep 32: Lightning Quick Ninja Cars (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=X4294jZ1Bmc"
+      },
+      {
+        "title": "Ep 33: The Tempestuous Showdown",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=NNlR_ttg4Vs"
+      },
+      {
+        "title": "Ep 34: Record Breaker Rampage",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=amrOhnu5xBc"
+      },
+      {
+        "title": "Ep 35: Jungle Monster Tank (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=LucMf4u-kkk"
+      },
+      {
+        "title": "Ep 36: Jungle Monster Tank (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=m47ozmKRCwQ"
+      },
+      {
+        "title": "Ep 37: The Mad Human Calculator",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=EIKyOhuPp5U"
+      },
+      {
+        "title": "Ep 38: Secret Agent No. 9 (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=urBRnwgUQ1g"
+      },
+      {
+        "title": "Ep 39: Secret Agent No. 9 (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=lptzHg-qePc"
+      },
+      {
+        "title": "Ep 40: The Terrifying Bomb Car",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=k9r6lS2DoT0"
+      },
+      {
+        "title": "Ep 41: The Phantom Castle of Steel",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=Br5hqZAk-Us"
+      },
+      {
+        "title": "Ep 42: The Pineapple Race",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=DvrPj8zQiuo"
+      },
+      {
+        "title": "Ep 43: Witch Number Zero",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=g3H0di10Bs4"
+      },
+      {
+        "title": "Ep 44: Killer Car, Mark V2",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=DJ8nuL2LEM0"
+      },
+      {
+        "title": "Ep 45: Car Wrestler X",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=xxpfhyIADyg"
+      },
+      {
+        "title": "Ep 46: Apache Bikers Attack",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=bzzp9-3HOp0"
+      },
+      {
+        "title": "Ep 47: The Monster Car Rises Again",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=W_iNwc-2FAk"
+      },
+      {
+        "title": "Ep 48: The Fixer-Upper Grand Prix",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=7IxEIcTzJ0A"
+      },
+      {
+        "title": "Ep 49: The Last-Ditch Balloon Escape",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=gRX2DO4b-2Y"
+      },
+      {
+        "title": "Ep 50: The Acrobat Clan's Counterattack",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=1PHfr397i-k"
+      },
+      {
+        "title": "Ep 51: The Biggest Race in History (Part 1)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=8DRAVaVq_-E"
+      },
+      {
+        "title": "Ep 52: The Biggest Race in History (Part 2)",
+        "season": "Season 1",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=J9uX8Z2XDsE"
+      }
+    ]
   },
   {
     "id": "s10",
     "type": "show",
-    "title": "Orange Is the New Black",
+    "title": "Attack on Titan",
     "year": 2013,
     "rating": "TV-MA",
-    "runtime": "7 seasons",
+    "runtime": "Full season",
+    "runtimeMinutes": null,
     "genres": [
-      "Drama",
-      "Comedy",
-      "Crime"
+      "Anime",
+      "Animation",
+      "Action",
+      "Fantasy"
     ],
-    "description": "A crime she committed in her youthful past sends Piper Chapman to a women's prison, where she trades her comfortable New York life for one of unexpected camaraderie and conflict in an eccentric group of fellow inmates.",
-    "tagline": "Every sentence is a story.",
+    "description": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!",
+    "tagline": "Home was a pen. Humanity, cattle.",
     "poster": "/posters/s10.jpg",
-    "backdrop": "/backdrops/s10.jpg"
+    "backdrop": "/backdrops/s10.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=wPt0FJ1d0Tk"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=HJaUvV9Hwgs"
+    },
+    "episodes": [
+      {
+        "title": "Season 1 (all 25 episodes)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=wPt0FJ1d0Tk"
+      }
+    ]
   },
   {
     "id": "s11",
     "type": "show",
-    "title": "Bridgerton",
-    "year": 2020,
-    "rating": "TV-MA",
-    "runtime": "5 seasons",
+    "title": "That Time I Got Reincarnated as a Slime",
+    "year": 2018,
+    "rating": "TV-14",
+    "runtime": "Full season",
+    "runtimeMinutes": null,
     "genres": [
-      "Drama"
+      "Anime",
+      "Animation",
+      "Action",
+      "Fantasy"
     ],
-    "description": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
-    "tagline": "Even a wallflower can bloom.",
+    "description": "Corporate worker Mikami Satoru is stabbed by a random killer, and is reborn to an alternate world. But he turns out to be reborn a slime! Thrown into this new world with the name Rimuru, he begins his quest to create a world that’s welcoming to all races.",
+    "tagline": "Ascend into your true form.",
     "poster": "/posters/s11.jpg",
-    "backdrop": "/backdrops/s11.jpg"
+    "backdrop": "/backdrops/s11.jpg",
+    "watch": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=z87nrnFXFSQ"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=uOzwqb74K34"
+    },
+    "episodes": [
+      {
+        "title": "Season 1 (all episodes)",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=z87nrnFXFSQ"
+      }
+    ]
   },
   {
     "id": "s12",
     "type": "show",
-    "title": "The Queen's Gambit",
-    "year": 2020,
-    "rating": "TV-MA",
-    "runtime": "1 season",
+    "title": "Superman",
+    "year": 1941,
+    "rating": "NR",
+    "runtime": "17 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Drama"
+      "Animation",
+      "Action",
+      "Sci-Fi",
+      "Family"
     ],
-    "description": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction.",
-    "tagline": "Beth Harmon makes her move.",
+    "description": "After The Daily Planet receives a letter from a mad scientist threatening to wreak destruction with his Electrothanasia Ray, Lois Lane heads out in the hopes of getting more information for a news story.",
+    "tagline": "Amazing! Startling! Superman is here!",
     "poster": "/posters/s12.jpg",
-    "backdrop": "/backdrops/s12.jpg"
+    "backdrop": "/backdrops/s12.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/superman_1941"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=RzGOgcBXvmU"
+    },
+    "episodes": [
+      {
+        "title": "The Mad Scientist",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_1941"
+      },
+      {
+        "title": "The Mechanical Monsters",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_the_mechanical_monsters"
+      },
+      {
+        "title": "Billion Dollar Limited",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_billion_dollar_limited"
+      },
+      {
+        "title": "The Arctic Giant",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_arctic_giant"
+      },
+      {
+        "title": "The Bulleteers",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_bulleteers"
+      },
+      {
+        "title": "The Magnetic Telescope",
+        "provider": "archive",
+        "url": "https://archive.org/details/Superman_The_Magnetic_Telescope"
+      },
+      {
+        "title": "Electric Earthquake",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_electric_earthquake"
+      },
+      {
+        "title": "Volcano",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_volcano"
+      },
+      {
+        "title": "Terror on the Midway",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_terror_on_the_midway"
+      },
+      {
+        "title": "Japoteurs",
+        "provider": "archive",
+        "url": "https://archive.org/details/dom-6741japoteurssupermanepisode1"
+      },
+      {
+        "title": "Showdown",
+        "provider": "archive",
+        "url": "https://archive.org/details/dom-6744showdownsupermanepisode2"
+      },
+      {
+        "title": "Eleventh Hour",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_eleventh_hour"
+      },
+      {
+        "title": "Destruction, Inc.",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_destruction_inc"
+      },
+      {
+        "title": "The Mummy Strikes",
+        "provider": "archive",
+        "url": "https://archive.org/details/dom-6731mummystrikesnew"
+      },
+      {
+        "title": "Jungle Drums",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_jungle_drums"
+      },
+      {
+        "title": "The Underground World",
+        "provider": "archive",
+        "url": "https://archive.org/details/superman_underground_world"
+      },
+      {
+        "title": "Secret Agent",
+        "provider": "archive",
+        "url": "https://archive.org/details/dom-6743secretagentsupermanepisode8"
+      }
+    ]
   },
   {
     "id": "s13",
     "type": "show",
-    "title": "Atlanta",
-    "year": 2016,
-    "rating": "TV-MA",
-    "runtime": "4 seasons",
+    "title": "Flash Gordon Conquers the Universe",
+    "year": 1940,
+    "rating": "NR",
+    "runtime": "12 episodes",
+    "runtimeMinutes": null,
     "genres": [
-      "Comedy",
-      "Drama"
+      "Sci-Fi",
+      "Action"
     ],
-    "description": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
-    "tagline": "A side of the city you've never seen.",
+    "description": "A mysterious plague, the Purple Death, ravages the earth. Dr. Zarkov, investigating in his spaceship, finds a ship from planet Mongo seeding the atmosphere with dust. Sure enough, Ming the Merciless is up to his old tricks. So it's back to Mongo for Flash, Dale, and Zarkov.",
+    "tagline": "New Thrills...New Marvels, New Wonders New Thrills!...New Marvels, New Wonders",
     "poster": "/posters/s13.jpg",
-    "backdrop": "/backdrops/s13.jpg"
+    "backdrop": "/backdrops/s13.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/flash_gordon_ep1"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=AlEWl3igd0c"
+    },
+    "episodes": [
+      {
+        "title": "Chapter 1",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon_ep1"
+      },
+      {
+        "title": "Chapter 2",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon2"
+      },
+      {
+        "title": "Chapter 3",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon3"
+      },
+      {
+        "title": "Chapter 4",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon4"
+      },
+      {
+        "title": "Chapter 5",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon5"
+      },
+      {
+        "title": "Chapter 6",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon6"
+      },
+      {
+        "title": "Chapter 7",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon_7"
+      },
+      {
+        "title": "Chapter 8",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon8"
+      },
+      {
+        "title": "Chapter 9",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon9"
+      },
+      {
+        "title": "Chapter 10",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon10"
+      },
+      {
+        "title": "Chapter 11",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon11"
+      },
+      {
+        "title": "Chapter 12",
+        "provider": "archive",
+        "url": "https://archive.org/details/flash_gordon12"
+      }
+    ]
   },
   {
     "id": "s14",
     "type": "show",
-    "title": "Succession",
-    "year": 2018,
-    "rating": "TV-MA",
-    "runtime": "4 seasons",
+    "title": "Radar Men from the Moon",
+    "year": 1952,
+    "rating": "NR",
+    "runtime": "Full season",
+    "runtimeMinutes": null,
     "genres": [
-      "Drama",
-      "Comedy"
-    ],
-    "description": "Follow the lives of the Roy family as they contemplate their future once their aging father begins to step back from the media and entertainment conglomerate they control.",
-    "tagline": "Make your move.",
-    "poster": "/posters/s14.jpg",
-    "backdrop": "/backdrops/s14.jpg"
-  },
-  {
-    "id": "s15",
-    "type": "show",
-    "title": "Fleabag",
-    "year": 2016,
-    "rating": "TV-MA",
-    "runtime": "2 seasons",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "description": "A portrait into the mind of a dry-witted, sexual, angry, porn-watching, grief-riddled woman, trying to make sense of the world. As she hurls herself headlong at modern living, Fleabag is thrown roughly up against the walls of contemporary London, with all its frenetic energy, late nights, and bright lights.",
-    "tagline": "Hilarious and hurtful.",
-    "poster": "/posters/s15.jpg",
-    "backdrop": "/backdrops/s15.jpg"
-  },
-  {
-    "id": "s16",
-    "type": "show",
-    "title": "Black Mirror",
-    "year": 2011,
-    "rating": "TV-MA",
-    "runtime": "7 seasons",
-    "genres": [
-      "Sci-Fi",
-      "Drama",
-      "Mystery"
-    ],
-    "description": "Twisted tales run wild in this mind-bending anthology series that reveals humanity's worst traits, greatest innovations and more.",
-    "tagline": "The future is bright.",
-    "poster": "/posters/s16.jpg",
-    "backdrop": "/backdrops/s16.jpg"
-  },
-  {
-    "id": "s17",
-    "type": "show",
-    "title": "Avatar: The Last Airbender",
-    "year": 2005,
-    "rating": "TV-Y7",
-    "runtime": "3 seasons",
-    "genres": [
-      "Animation",
       "Action",
       "Sci-Fi"
     ],
-    "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
-    "tagline": "Water. Earth. Fire. Air.",
-    "poster": "/posters/s17.jpg",
-    "backdrop": "/backdrops/s17.jpg"
-  },
-  {
-    "id": "s18",
-    "type": "show",
-    "title": "Hacks",
-    "year": 2021,
-    "rating": "TV-MA",
-    "runtime": "5 seasons",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "description": "Explore a dark mentorship that forms between Deborah Vance, a legendary Las Vegas comedian, and an entitled, outcast 25-year-old.",
-    "tagline": "Saving the best for last.",
-    "poster": "/posters/s18.jpg",
-    "backdrop": "/backdrops/s18.jpg"
-  },
-  {
-    "id": "s19",
-    "type": "show",
-    "title": "Killing Eve",
-    "year": 2018,
-    "rating": "TV-14",
-    "runtime": "4 seasons",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "description": "A security consultant hunts for a ruthless assassin. Equally obsessed with each other, they go head to head in an epic game of cat-and-mouse.",
-    "tagline": "Sorry baby.",
-    "poster": "/posters/s19.jpg",
-    "backdrop": "/backdrops/s19.jpg"
-  },
-  {
-    "id": "s20",
-    "type": "show",
-    "title": "Ted Lasso",
-    "year": 2020,
-    "rating": "TV-MA",
-    "runtime": "4 seasons",
-    "genres": [
-      "Drama",
-      "Comedy"
-    ],
-    "description": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
-    "tagline": "Ted's back.",
-    "poster": "/posters/s20.jpg",
-    "backdrop": "/backdrops/s20.jpg"
+    "description": "Commando Cody, 'Sky Marshal of the Universe', works with American scientists Joan Gilbert and Ted Richards in the development of a flying suit and a rocket to the Moon. When the nation's defences are being sabotaged and destroyed, Cody learns that an atomic-gun is being used and that the men on the moon are the culprits.",
+    "tagline": "",
+    "poster": "/posters/s14.jpg",
+    "backdrop": "/backdrops/s14.jpg",
+    "watch": {
+      "provider": "archive",
+      "url": "https://archive.org/details/radarmenfromthemoon01moonrocket"
+    },
+    "trailer": {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Kd3D8d62Cps"
+    },
+    "episodes": [
+      {
+        "title": "Complete serial (all 12 chapters)",
+        "provider": "archive",
+        "url": "https://archive.org/details/radarmenfromthemoon01moonrocket"
+      }
+    ]
   }
 ]

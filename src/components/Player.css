@@ -1,0 +1,26 @@
+.player {
+  width: min(1100px, 96vw); max-height: 96vh; padding: 0; border: 3px solid var(--accent); border-radius: var(--radius);
+  background: var(--bg); color: var(--text); overflow: auto;
+}
+.player::backdrop { background: rgb(0 0 0 / 0.85); }
+.player-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 14px; }
+.player-title { font-size: 1.125rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.player-bar-actions { display: flex; gap: 8px; flex: none; }
+.player-btn {
+  min-height: 40px; padding: 0 14px; background: var(--surface); color: var(--text); cursor: pointer;
+  border: 1px solid var(--text-muted); border-radius: var(--radius); font: 600 0.9375rem var(--font-body);
+}
+.player-btn:hover, .player-btn:focus-visible { background: var(--surface-hover); border-color: var(--crown); }
+.player-stage { aspect-ratio: 16 / 9; background: #000; }
+.player-stage iframe { width: 100%; height: 100%; border: 0; display: block; }
+.player-error { margin: 0; padding: 2rem; text-align: center; color: var(--text-muted); }
+.player-episodes-wrap { max-height: 220px; overflow-y: auto; padding: 4px 14px 0; }
+.player-season { font-size: 0.9375rem; color: var(--crown); margin: 12px 0 8px; }
+.player-episodes { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.player-ep {
+  min-height: 40px; padding: 0 14px; background: var(--surface); color: var(--text-muted); cursor: pointer;
+  border: 1px solid transparent; border-radius: var(--radius); font: 500 0.9375rem var(--font-body);
+}
+.player-ep:hover { color: var(--text); }
+.player-ep.is-current { background: var(--accent); color: var(--on-accent); font-weight: 700; }
+.player-note { margin: 0; padding: 10px 14px 14px; color: var(--text-muted); font-size: 0.875rem; }

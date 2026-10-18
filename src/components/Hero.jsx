@@ -1,9 +1,12 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Player from './Player.jsx'
 import { useWatchlist } from '../context/WatchlistContext.jsx'
 import './Hero.css'
 
 export default function Hero({ title }) {
-  const { has, toggle, notify } = useWatchlist()
+  const { has, toggle } = useWatchlist()
+  const [playing, setPlaying] = useState(false)
   const saved = has(title.id)
   return (
     <section className="hero" aria-labelledby="hero-title">
@@ -19,8 +22,7 @@ export default function Hero({ title }) {
         <p className="hero-meta">{title.year} &bull; {title.rating} &bull; {title.runtime} &bull; {title.genres.slice(0, 3).join(', ')}</p>
         <p className="hero-desc">{title.description}</p>
         <div className="hero-actions">
-          <button type="button" className="btn btn-primary"
-            onClick={() => notify('Streaming is not part of this demo. Browse and build your list.')}>
+          <button type="button" className="btn btn-primary" onClick={() => setPlaying(true)}>
             <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M7 4l13 8-13 8z" /></svg>
             Play
           </button>
@@ -31,6 +33,7 @@ export default function Hero({ title }) {
           <Link to={`/titles/${title.id}`} className="btn btn-secondary">More Info</Link>
         </div>
       </div>
+      {playing && <Player title={title} mode="watch" onClose={() => setPlaying(false)} />}
     </section>
   )
 }

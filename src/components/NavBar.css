@@ -56,3 +56,11 @@
   .tabbar a[aria-current='page'] { color: #fff; font-weight: 700; }
   .tabbar a[aria-current='page'] svg { color: var(--accent); }
 }
+
+.profile-switch {
+  margin-left: auto; display: flex; align-items: center; gap: 0.5rem;
+  background: none; border: 0; color: var(--text-muted); cursor: pointer; font: inherit;
+}
+.profile-switch img { width: 32px; height: 32px; border-radius: 8px; }
+.profile-switch:hover, .profile-switch:focus-visible { color: var(--text); }
+@media (max-width: 767px) { .profile-switch span { display: none; } }

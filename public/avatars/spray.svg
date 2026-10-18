@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Spray avatar">
+  <rect width="160" height="160" rx="28" fill="#ffc83d"/>
+  <rect x="52" y="52" width="56" height="86" rx="14" fill="#ff2e93" stroke="#121014" stroke-width="5"/>
+  <rect x="64" y="30" width="32" height="24" rx="6" fill="#fff" stroke="#121014" stroke-width="5"/>
+  <rect x="74" y="16" width="12" height="16" rx="3" fill="#121014"/>
+  <circle cx="68" cy="84" r="5" fill="#121014"/><circle cx="92" cy="84" r="5" fill="#121014"/>
+  <path d="M70 98q10 10 20 0" fill="none" stroke="#121014" stroke-width="5" stroke-linecap="round"/>
+  <path d="M52 112h56" stroke="#121014" stroke-width="5"/>
+  <g fill="#fff" opacity=".9"><circle cx="30" cy="30" r="3"/><circle cx="42" cy="22" r="2.5"/><circle cx="24" cy="44" r="2.5"/><circle cx="38" cy="38" r="2"/></g>
+</svg>

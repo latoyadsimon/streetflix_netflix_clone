@@ -1,0 +1,309 @@
+- generic [ref=f2e2]:
+  - link "Skip to content" [ref=f2e32] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e33]:
+    - link "Streetflix home" [ref=f2e34] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f2e37]: Streetflix
+    - navigation "Primary" [ref=f2e38]:
+      - link "Home" [ref=f2e39] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f2e40] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f2e41] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f2e42] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f2e43] [cursor=pointer]:
+        - /url: /watchlist
+    - button "Switch profile (signed in as Queen B)" [ref=f2e44] [cursor=pointer]:
+      - generic [ref=f2e45]: Queen B
+  - main [ref=f2e46]:
+    - generic [ref=f2e47]:
+      - region [ref=f2e48]:
+        - generic [ref=f2e53]: Queen’spick
+        - generic [ref=f2e55]:
+          - paragraph [ref=f2e56]: Featured tonight
+          - heading "Helluva Boss" [level=1] [ref=f2e57]
+          - paragraph [ref=f2e58]: 2020 • TV-MA • 9 episodes • Animation, Comedy, Fantasy
+          - paragraph [ref=f2e59]: In Hell, imp Blitzø (the 'o' is silent) runs an assassin business targeting the world of the living, using a spell book borrowed from a prince of the underworld. With employees Moxxie, Millie, and Loona, they attempt to survive each other while keeping business afloat.
+          - generic [ref=f2e60]:
+            - button "Play" [ref=f2e61] [cursor=pointer]
+            - button "My List" [ref=f2e64] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f2e65]: +
+              - text: My List
+            - link "More Info" [ref=f2e66] [cursor=pointer]:
+              - /url: /titles/s1
+      - region [ref=f2e67]:
+        - generic [ref=f2e68]:
+          - heading "Popular Movies" [level=2] [ref=f2e69]
+          - link "See All" [ref=f2e70] [cursor=pointer]:
+            - /url: /movies
+        - list [ref=f2e71]:
+          - listitem [ref=f2e72]:
+            - article [ref=f2e73]:
+              - link [ref=f2e74] [cursor=pointer]:
+                - /url: /titles/m1
+                - generic [ref=f2e75]:
+                  - img "Poster for His Girl Friday" [ref=f2e76]
+                  - generic [aria-hidden] [ref=f2e77]:
+                    - paragraph [ref=f2e78]: Comedy, Romance, Crime
+                    - generic [ref=f2e79]: View details
+                - paragraph [ref=f2e80]: His Girl Friday
+                - paragraph [ref=f2e81]: 1940 • NR
+          - listitem [ref=f2e82]:
+            - article [ref=f2e83]:
+              - link [ref=f2e84] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=f2e85]:
+                  - img "Poster for Charade" [ref=f2e86]
+                  - generic [aria-hidden] [ref=f2e87]:
+                    - paragraph [ref=f2e88]: Comedy, Mystery, Romance
+                    - generic [ref=f2e89]: View details
+                - paragraph [ref=f2e90]: Charade
+                - paragraph [ref=f2e91]: 1963 • NR
+          - listitem [ref=f2e92]:
+            - article [ref=f2e93]:
+              - link [ref=f2e94] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=f2e95]:
+                  - img "Poster for The General" [ref=f2e96]
+                  - generic [aria-hidden] [ref=f2e97]:
+                    - paragraph [ref=f2e98]: Comedy, Romance
+                    - generic [ref=f2e99]: View details
+                - paragraph [ref=f2e100]: The General
+                - paragraph [ref=f2e101]: 1926 • NR
+          - listitem [ref=f2e102]:
+            - article [ref=f2e103]:
+              - link [ref=f2e104] [cursor=pointer]:
+                - /url: /titles/m4
+                - generic [ref=f2e105]:
+                  - img "Poster for Sherlock Jr." [ref=f2e106]
+                  - generic [aria-hidden] [ref=f2e107]:
+                    - paragraph [ref=f2e108]: Action, Comedy, Mystery
+                    - generic [ref=f2e109]: View details
+                - paragraph [ref=f2e110]: Sherlock Jr.
+                - paragraph [ref=f2e111]: 1924 • NR
+          - listitem [ref=f2e112]:
+            - article [ref=f2e113]:
+              - link [ref=f2e114] [cursor=pointer]:
+                - /url: /titles/m5
+                - generic [ref=f2e115]:
+                  - img "Poster for A Trip to the Moon" [ref=f2e116]
+                  - generic [aria-hidden] [ref=f2e117]:
+                    - paragraph [ref=f2e118]: Adventure, Sci-Fi, Comedy
+                    - generic [ref=f2e119]: View details
+                - paragraph [ref=f2e120]: A Trip to the Moon
+                - paragraph [ref=f2e121]: 1902 • G
+          - listitem [ref=f2e122]:
+            - article [ref=f2e123]:
+              - link [ref=f2e124] [cursor=pointer]:
+                - /url: /titles/m6
+                - generic [ref=f2e125]:
+                  - img "Poster for Metropolis" [ref=f2e126]
+                  - generic [aria-hidden] [ref=f2e127]:
+                    - paragraph [ref=f2e128]: Drama, Sci-Fi
+                    - generic [ref=f2e129]: View details
+                - paragraph [ref=f2e130]: Metropolis
+                - paragraph [ref=f2e131]: 1927 • NR
+          - listitem [ref=f2e132]:
+            - article [ref=f2e133]:
+              - link [ref=f2e134] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=f2e135]:
+                  - img "Poster for Sita Sings the Blues" [ref=f2e136]
+                  - generic [aria-hidden] [ref=f2e137]:
+                    - paragraph [ref=f2e138]: Animation, Drama, Romance, Fantasy
+                    - generic [ref=f2e139]: View details
+                - paragraph [ref=f2e140]: Sita Sings the Blues
+                - paragraph [ref=f2e141]: 2008 • NR
+          - listitem [ref=f2e142]:
+            - article [ref=f2e143]:
+              - link [ref=f2e144] [cursor=pointer]:
+                - /url: /titles/m8
+                - generic [ref=f2e145]:
+                  - img "Poster for Big Buck Bunny" [ref=f2e146]
+                  - generic [aria-hidden] [ref=f2e147]:
+                    - paragraph [ref=f2e148]: Animation, Comedy, Family
+                    - generic [ref=f2e149]: View details
+                - paragraph [ref=f2e150]: Big Buck Bunny
+                - paragraph [ref=f2e151]: 2008 • G
+          - listitem [ref=f2e152]:
+            - article [ref=f2e153]:
+              - link [ref=f2e154] [cursor=pointer]:
+                - /url: /titles/m9
+                - generic [ref=f2e155]:
+                  - img "Poster for Sintel" [ref=f2e156]
+                  - generic [aria-hidden] [ref=f2e157]:
+                    - paragraph [ref=f2e158]: Animation, Fantasy
+                    - generic [ref=f2e159]: View details
+                - paragraph [ref=f2e160]: Sintel
+                - paragraph [ref=f2e161]: 2010 • PG
+          - listitem [ref=f2e162]:
+            - article [ref=f2e163]:
+              - link [ref=f2e164] [cursor=pointer]:
+                - /url: /titles/m10
+                - generic [ref=f2e165]:
+                  - img "Poster for Tears of Steel" [ref=f2e166]
+                  - generic [aria-hidden] [ref=f2e167]:
+                    - paragraph [ref=f2e168]: Sci-Fi, Animation
+                    - generic [ref=f2e169]: View details
+                - paragraph [ref=f2e170]: Tears of Steel
+                - paragraph [ref=f2e171]: 2012 • NR
+          - listitem [ref=f2e172]:
+            - article [ref=f2e173]:
+              - link [ref=f2e174] [cursor=pointer]:
+                - /url: /titles/m11
+                - generic [ref=f2e175]:
+                  - img "Poster for Safety Last!" [ref=f2e177]
+                  - generic [aria-hidden] [ref=f2e178]:
+                    - paragraph [ref=f2e179]: Comedy, Romance, Thriller
+                    - generic [ref=f2e180]: View details
+                - paragraph [ref=f2e181]: Safety Last!
+                - paragraph [ref=f2e182]: 1923 • NR
+          - listitem [ref=f2e183]:
+            - article [ref=f2e184]:
+              - link [ref=f2e185] [cursor=pointer]:
+                - /url: /titles/m12
+                - generic [ref=f2e186]:
+                  - img "Poster for Plan 9 from Outer Space" [ref=f2e188]
+                  - generic [aria-hidden] [ref=f2e189]:
+                    - paragraph [ref=f2e190]: Sci-Fi
+                    - generic [ref=f2e191]: View details
+                - paragraph [ref=f2e192]: Plan 9 from Outer Space
+                - paragraph [ref=f2e193]: 1957 • NR
+      - region [ref=f2e194]:
+        - generic [ref=f2e195]:
+          - heading "Trending TV Shows" [level=2] [ref=f2e196]
+          - link "See All" [ref=f2e197] [cursor=pointer]:
+            - /url: /tv-shows
+        - list [ref=f2e198]:
+          - listitem [ref=f2e199]:
+            - article [ref=f2e200]:
+              - link [ref=f2e201] [cursor=pointer]:
+                - /url: /titles/s1
+                - generic [ref=f2e202]:
+                  - img "Poster for Helluva Boss" [ref=f2e203]
+                  - generic [aria-hidden] [ref=f2e204]:
+                    - paragraph [ref=f2e205]: Animation, Comedy, Fantasy, Drama
+                    - generic [ref=f2e206]: View details
+                - paragraph [ref=f2e207]: Helluva Boss
+                - paragraph [ref=f2e208]: 2020 • TV-MA
+          - listitem [ref=f2e209]:
+            - article [ref=f2e210]:
+              - link [ref=f2e211] [cursor=pointer]:
+                - /url: /titles/s2
+                - generic [ref=f2e212]:
+                  - img "Poster for Hazbin Hotel" [ref=f2e213]
+                  - generic [aria-hidden] [ref=f2e214]:
+                    - paragraph [ref=f2e215]: Animation, Comedy, Fantasy, Drama
+                    - generic [ref=f2e216]: View details
+                - paragraph [ref=f2e217]: Hazbin Hotel
+                - paragraph [ref=f2e218]: 2024 • TV-MA
+          - listitem [ref=f2e219]:
+            - article [ref=f2e220]:
+              - link [ref=f2e221] [cursor=pointer]:
+                - /url: /titles/s3
+                - generic [ref=f2e222]:
+                  - img "Poster for The Amazing Digital Circus" [ref=f2e223]
+                  - generic [aria-hidden] [ref=f2e224]:
+                    - paragraph [ref=f2e225]: Animation, Comedy, Fantasy
+                    - generic [ref=f2e226]: View details
+                - paragraph [ref=f2e227]: The Amazing Digital Circus
+                - paragraph [ref=f2e228]: 2023 • TV-PG
+          - listitem [ref=f2e229]:
+            - article [ref=f2e230]:
+              - link [ref=f2e231] [cursor=pointer]:
+                - /url: /titles/s4
+                - generic [ref=f2e232]:
+                  - img "Poster for Murder Drones" [ref=f2e233]
+                  - generic [aria-hidden] [ref=f2e234]:
+                    - paragraph [ref=f2e235]: Animation, Action, Sci-Fi
+                    - generic [ref=f2e236]: View details
+                - paragraph [ref=f2e237]: Murder Drones
+                - paragraph [ref=f2e238]: 2021 • TV-14
+          - listitem [ref=f2e239]:
+            - article [ref=f2e240]:
+              - link [ref=f2e241] [cursor=pointer]:
+                - /url: /titles/s5
+                - generic [ref=f2e242]:
+                  - img "Poster for Battle for Dream Island" [ref=f2e243]
+                  - generic [aria-hidden] [ref=f2e244]:
+                    - paragraph [ref=f2e245]: Animation, Comedy, Family
+                    - generic [ref=f2e246]: View details
+                - paragraph [ref=f2e247]: Battle for Dream Island
+                - paragraph [ref=f2e248]: 2010 • NR
+          - listitem [ref=f2e249]:
+            - article [ref=f2e250]:
+              - link [ref=f2e251] [cursor=pointer]:
+                - /url: /titles/s6
+                - generic [ref=f2e252]:
+                  - img "Poster for Superman" [ref=f2e253]
+                  - generic [aria-hidden] [ref=f2e254]:
+                    - paragraph [ref=f2e255]: Action, Animation, Family, Adventure, Sci-Fi, Fantasy
+                    - generic [ref=f2e256]: View details
+                - paragraph [ref=f2e257]: Superman
+                - paragraph [ref=f2e258]: 1941 • NR
+          - listitem [ref=f2e259]:
+            - article [ref=f2e260]:
+              - link [ref=f2e261] [cursor=pointer]:
+                - /url: /titles/s7
+                - generic [ref=f2e262]:
+                  - img "Poster for Popeye the Sailor" [ref=f2e263]
+                  - generic [aria-hidden] [ref=f2e264]:
+                    - paragraph [ref=f2e265]: Animation, Comedy, Action, Family
+                    - generic [ref=f2e266]: View details
+                - paragraph [ref=f2e267]: Popeye the Sailor
+                - paragraph [ref=f2e268]: 1933 • TV-Y
+          - listitem [ref=f2e269]:
+            - article [ref=f2e270]:
+              - link [ref=f2e271] [cursor=pointer]:
+                - /url: /titles/s8
+                - generic [ref=f2e272]:
+                  - img "Poster for Betty Boop" [ref=f2e273]
+                  - generic [aria-hidden] [ref=f2e274]:
+                    - paragraph [ref=f2e275]: Animation, Comedy, Family
+                    - generic [ref=f2e276]: View details
+                - paragraph [ref=f2e277]: Betty Boop
+                - paragraph [ref=f2e278]: 1932 • NR
+          - listitem [ref=f2e279]:
+            - article [ref=f2e280]:
+              - link [ref=f2e281] [cursor=pointer]:
+                - /url: /titles/s9
+                - generic [ref=f2e282]:
+                  - img "Poster for Flash Gordon Conquers the Universe" [ref=f2e283]
+                  - generic [aria-hidden] [ref=f2e284]:
+                    - paragraph [ref=f2e285]: Sci-Fi, Action
+                    - generic [ref=f2e286]: View details
+                - paragraph [ref=f2e287]: Flash Gordon Conquers the Universe
+                - paragraph [ref=f2e288]: 1940 • NR
+          - listitem [ref=f2e289]:
+            - article [ref=f2e290]:
+              - link [ref=f2e291] [cursor=pointer]:
+                - /url: /titles/s10
+                - generic [ref=f2e292]:
+                  - img "Poster for Radar Men from the Moon" [ref=f2e293]
+                  - generic [aria-hidden] [ref=f2e294]:
+                    - paragraph [ref=f2e295]: Action, Sci-Fi
+                    - generic [ref=f2e296]: View details
+                - paragraph [ref=f2e297]: Radar Men from the Moon
+                - paragraph [ref=f2e298]: 1952 • NR
+      - region [ref=f2e299]:
+        - heading "Browse by Category" [level=2] [ref=f2e300]
+        - list [ref=f2e301]:
+          - listitem [ref=f2e302]:
+            - link "Animation" [ref=f2e303] [cursor=pointer]:
+              - /url: /movies?genre=Animation
+          - listitem [ref=f2e304]:
+            - link "Comedy" [ref=f2e305] [cursor=pointer]:
+              - /url: /movies?genre=Comedy
+          - listitem [ref=f2e306]:
+            - link "Sci-Fi" [ref=f2e307] [cursor=pointer]:
+              - /url: /movies?genre=Sci-Fi
+          - listitem [ref=f2e308]:
+            - link "Western" [ref=f2e309] [cursor=pointer]:
+              - /url: /movies?genre=Western
+          - listitem [ref=f2e310]:
+            - link "All A–Z" [ref=f2e311] [cursor=pointer]:
+              - /url: /browse
+  - status

@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
+import { useProfile } from '../context/ProfileContext.jsx'
 import './NavBar.css'
 
 const LINKS = [
@@ -19,6 +20,7 @@ function Icon({ d }) {
 }
 
 export default function NavBar() {
+  const { profile, clear } = useProfile()
   return (
     <>
       <header className="topbar">
@@ -33,6 +35,10 @@ export default function NavBar() {
             <NavLink key={to} to={to} end={end}>{label}</NavLink>
           ))}
         </nav>
+        <button type="button" className="profile-switch" onClick={clear} aria-label={`Switch profile (signed in as ${profile.username})`}>
+          <img src={profile.avatar_url} alt="" width="32" height="32" />
+          <span>{profile.username}</span>
+        </button>
       </header>
       <nav aria-label="Primary mobile" className="tabbar">
         {LINKS.map(({ to, label, end, icon }) => (

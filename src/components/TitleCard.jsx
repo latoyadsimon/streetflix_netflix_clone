@@ -9,7 +9,8 @@ export function PosterArt({ title }) {
     return (
       <>
         {state === 'loading' && <span className="poster-skeleton" aria-hidden="true" />}
-        <img className={`poster-img${state === 'loaded' ? ' is-loaded' : ''}`} src={title.poster}
+        <img ref={(img) => { if (img?.complete && img.naturalWidth > 0) setState('loaded') }}
+          className={`poster-img${state === 'loaded' ? ' is-loaded' : ''}`} src={title.poster}
           alt={`Poster for ${title.title}`} loading="lazy" decoding="async" width="780" height="1170"
           onLoad={() => setState('loaded')} onError={() => setState('failed')} />
       </>

@@ -1,0 +1,720 @@
+[
+ {
+  "name": "His Girl Friday",
+  "year": 1940,
+  "kind": "movie",
+  "ia": "his_girl_friday"
+ },
+ {
+  "name": "Charade",
+  "year": 1963,
+  "kind": "movie",
+  "ia": "charade-1963-cary-grant-audrey-hepburn-comedy-mystery-romance-thriller-full-movie"
+ },
+ {
+  "name": "The General",
+  "year": 1926,
+  "kind": "movie",
+  "ia": "TheGeneral"
+ },
+ {
+  "name": "Sherlock Jr.",
+  "year": 1924,
+  "kind": "movie",
+  "ia": "sherlockjr1924_201909"
+ },
+ {
+  "name": "A Trip to the Moon",
+  "year": 1902,
+  "kind": "movie",
+  "ia": "ATripToTheMoonGeorgeMelies",
+  "minMin": 8
+ },
+ {
+  "name": "Metropolis",
+  "year": 1927,
+  "kind": "movie",
+  "ia": "metropolis-1927-bdrip-1080p-x-265-dts-hd-ma-5.1-d-0ct-0r-lew-sev"
+ },
+ {
+  "name": "Sita Sings the Blues",
+  "year": 2008,
+  "kind": "movie",
+  "ia": "Sita_Sings_the_Blues"
+ },
+ {
+  "name": "Big Buck Bunny",
+  "year": 2008,
+  "kind": "movie",
+  "ia": "BigBuckBunny_124",
+  "minMin": 8
+ },
+ {
+  "name": "Sintel",
+  "year": 2010,
+  "kind": "movie",
+  "ia": "Sintel",
+  "minMin": 8
+ },
+ {
+  "name": "Tears of Steel",
+  "year": 2012,
+  "kind": "movie",
+  "ia": "Tears-of-Steel",
+  "minMin": 8
+ },
+ {
+  "name": "Safety Last!",
+  "year": 1923,
+  "kind": "movie",
+  "ia": "SafetyLastHaroldLloyd1923.FullMovieexcellentQuality."
+ },
+ {
+  "name": "Plan 9 from Outer Space",
+  "year": 1957,
+  "kind": "movie",
+  "ia": "plan-9-from-outer-space",
+  "dropGenres": [
+   "Horror"
+  ]
+ },
+ {
+  "name": "Robot Monster",
+  "year": 1953,
+  "kind": "movie",
+  "ia": "robot-monster-1953",
+  "dropGenres": [
+   "Horror"
+  ]
+ },
+ {
+  "name": "The Lost World",
+  "year": 1925,
+  "kind": "movie",
+  "ia": "lost_world",
+  "dropGenres": [
+   "Horror"
+  ]
+ },
+ {
+  "name": "Teenagers from Outer Space",
+  "year": 1959,
+  "kind": "movie",
+  "ia": "teenagers_from_outerspace",
+  "dropGenres": [
+   "Horror"
+  ]
+ },
+ {
+  "name": "Santa Claus Conquers the Martians",
+  "year": 1964,
+  "kind": "movie",
+  "ia": "SantaClausConquerstheMartians1964"
+ },
+ {
+  "name": "Voyage to the Planet of Prehistoric Women",
+  "year": 1968,
+  "kind": "movie",
+  "ia": "VoyagetothePlanetofPrehistoricWomen"
+ },
+ {
+  "name": "D.O.A.",
+  "year": 1950,
+  "kind": "movie",
+  "ia": "d.-o.-a.-1950"
+ },
+ {
+  "name": "Detour",
+  "year": 1945,
+  "kind": "movie",
+  "ia": "Detour"
+ },
+ {
+  "name": "The Stranger",
+  "year": 1946,
+  "kind": "movie",
+  "ia": "Stranger1946HD"
+ },
+ {
+  "name": "Scarlet Street",
+  "year": 1945,
+  "kind": "movie",
+  "ia": "ScarletStreet"
+ },
+ {
+  "name": "Cyrano de Bergerac",
+  "year": 1950,
+  "kind": "movie",
+  "ia": "Cyrano_DeBergerac"
+ },
+ {
+  "name": "Meet John Doe",
+  "year": 1941,
+  "kind": "movie",
+  "ia": "meet_john_doe"
+ },
+ {
+  "name": "My Favorite Brunette",
+  "year": 1947,
+  "kind": "movie",
+  "ia": "my_favorite_brunette"
+ },
+ {
+  "name": "McLintock!",
+  "year": 1963,
+  "kind": "movie",
+  "ia": "mclintok_widescreen"
+ },
+ {
+  "name": "Sagebrush Trail",
+  "year": 1933,
+  "kind": "movie",
+  "ia": "SagebrushTrail"
+ },
+ {
+  "name": "Riders of Destiny",
+  "year": 1933,
+  "kind": "movie",
+  "ia": "RidersofDestiny_"
+ },
+ {
+  "name": "The Lawless Frontier",
+  "year": 1934,
+  "kind": "movie",
+  "ia": "TheLawlessFrontier1934"
+ },
+ {
+  "name": "The Man from Utah",
+  "year": 1934,
+  "kind": "movie",
+  "ia": "TheManFromUtah"
+ },
+ {
+  "name": "The Pied Piper of Hamelin",
+  "year": 1957,
+  "kind": "movie",
+  "ia": "The_Pied_Piper_of_Hamelin"
+ },
+ {
+  "name": "Alice in Wonderland",
+  "year": 1915,
+  "kind": "movie",
+  "ia": "AliceInWonderland1915_503"
+ },
+ {
+  "name": "The Wizard of Oz",
+  "year": 1925,
+  "kind": "movie",
+  "ia": "OliverHardyTheWizardOfOz1925"
+ },
+ {
+  "name": "Night of the Living Dead",
+  "year": 1968,
+  "kind": "movie",
+  "ia": "Night.Of.The.Living.Dead_1080p"
+ },
+ {
+  "name": "Nosferatu",
+  "year": 1922,
+  "kind": "movie",
+  "ia": "Nosferatu_most_complete_version_93_mins."
+ },
+ {
+  "name": "The Phantom of the Opera",
+  "year": 1925,
+  "kind": "movie",
+  "ia": "ThePhantomoftheOpera"
+ },
+ {
+  "name": "The Little Shop of Horrors",
+  "year": 1960,
+  "kind": "movie",
+  "ia": "The_Little_Shop_of_Horrors.mpeg"
+ },
+ {
+  "name": "Mobile Suit Gundam I",
+  "year": 1981,
+  "kind": "movie",
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Sci-Fi",
+   "Action"
+  ],
+  "episodes": [
+   {
+    "title": "Mobile Suit Gundam I",
+    "yt": "YYqJMKhaLhk"
+   }
+  ]
+ },
+ {
+  "name": "Mobile Suit Gundam II: Soldiers of Sorrow",
+  "year": 1981,
+  "kind": "movie",
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Sci-Fi",
+   "Action"
+  ],
+  "episodes": [
+   {
+    "title": "Soldiers of Sorrow",
+    "yt": "B60vNz15Hzg"
+   }
+  ]
+ },
+ {
+  "name": "Mobile Suit Gundam III: Encounters in Space",
+  "year": 1982,
+  "kind": "movie",
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Sci-Fi",
+   "Action"
+  ],
+  "episodes": [
+   {
+    "title": "Encounters in Space",
+    "yt": "JJMV4WrybjM"
+   }
+  ]
+ },
+ {
+  "name": "The Adventures of Prince Achmed",
+  "year": 1926,
+  "kind": "movie",
+  "ia": "the.-adventures.-of.-prince.-achmed.-1926.720p.-blu-ray.x-264-public-hd",
+  "setGenres": [
+   "Animation",
+   "Fantasy",
+   "Adventure",
+   "Family"
+  ]
+ },
+ {
+  "name": "Mr. Bug Goes to Town",
+  "year": 1941,
+  "kind": "movie",
+  "ia": "mr.-bug-goes-to-town-1941",
+  "setGenres": [
+   "Animation",
+   "Family",
+   "Adventure",
+   "Comedy"
+  ]
+ },
+ {
+  "name": "Spring",
+  "query": "Spring Blender Open Movie",
+  "year": 2019,
+  "kind": "movie",
+  "ia": "spring_blenderopenmovie",
+  "minMin": 4,
+  "setGenres": [
+   "Animation",
+   "Fantasy",
+   "Family"
+  ]
+ },
+ {
+  "name": "Elephants Dream",
+  "year": 2006,
+  "kind": "movie",
+  "ia": "ElephantsDream",
+  "minMin": 8,
+  "setGenres": [
+   "Animation",
+   "Sci-Fi",
+   "Fantasy"
+  ]
+ },
+ {
+  "name": "Agent 327: Operation Barbershop",
+  "year": 2017,
+  "kind": "movie",
+  "ia": "agent327operationbarbershop",
+  "minMin": 2,
+  "setGenres": [
+   "Animation",
+   "Comedy",
+   "Mystery"
+  ]
+ },
+ {
+  "name": "Cosmos Laundromat: First Cycle",
+  "year": 2015,
+  "kind": "movie",
+  "ia": "CosmosLaundromatFirstCycle",
+  "minMin": 8,
+  "setGenres": [
+   "Animation",
+   "Fantasy",
+   "Comedy"
+  ]
+ },
+ {
+  "name": "Helluva Boss",
+  "year": 2019,
+  "kind": "tv",
+  "setGenres": [
+   "Animation",
+   "Comedy",
+   "Fantasy",
+   "Drama"
+  ],
+  "seasons": [
+   {
+    "name": "Season 1",
+    "playlist": "PL-uopgYBi65HwiiDR9Y23lomAkGr9mm-S",
+    "match": "S1: Episode",
+    "strip": "HELLUVA BOSS - "
+   },
+   {
+    "name": "Season 2",
+    "playlist": "PL-uopgYBi65HwiiDR9Y23lomAkGr9mm-S",
+    "match": "S2: Episode",
+    "strip": "HELLUVA BOSS - "
+   }
+  ]
+ },
+ {
+  "name": "The Amazing Digital Circus",
+  "year": 2023,
+  "kind": "tv",
+  "setGenres": [
+   "Animation",
+   "Comedy",
+   "Fantasy"
+  ],
+  "seasons": [
+   {
+    "name": "Season 1",
+    "playlist": "PLHovnlOusNLgvAbnxluXCVB3KLj8e4QB-",
+    "strip": "THE AMAZING DIGITAL CIRCUS"
+   }
+  ]
+ },
+ {
+  "name": "Murder Drones",
+  "year": 2021,
+  "kind": "tv",
+  "setGenres": [
+   "Animation",
+   "Action",
+   "Sci-Fi"
+  ],
+  "seasons": [
+   {
+    "name": "Season 1",
+    "playlist": "PLHovnlOusNLiJz3sm0d5i2Evwa2LDLdrg",
+    "strip": "MURDER DRONES - "
+   }
+  ]
+ },
+ {
+  "name": "Battle for Dream Island",
+  "year": 2010,
+  "kind": "tv",
+  "setGenres": [
+   "Animation",
+   "Comedy",
+   "Family"
+  ],
+  "seasons": [
+   {
+    "name": "Season 1",
+    "playlist": "PLbDP9HpqeU_OJlQc0ym7ELpgep5o648VF"
+   },
+   {
+    "name": "Season 2",
+    "playlist": "PLbDP9HpqeU_Ntqqnfprn1RemanAZFn_v8"
+   }
+  ]
+ },
+ {
+  "name": "Mobile Suit Gundam SEED",
+  "year": 2002,
+  "kind": "tv",
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Sci-Fi",
+   "Action"
+  ],
+  "seasons": [
+   {
+    "name": "SEED (English dub)",
+    "playlist": "PLGpoKWN7Bq4g",
+    "strip": "\u3010EN Dub\u3011Mobile Suit Gundam SEED - "
+   },
+   {
+    "name": "SEED Destiny",
+    "playlist": "PLH28wqlpBLfA",
+    "strip": "Mobile Suit Gundam SEED DESTINY HD Remaster - "
+   }
+  ]
+ },
+ {
+  "name": "Mobile Suit Gundam: The Witch from Mercury",
+  "year": 2022,
+  "kind": "tv",
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Sci-Fi",
+   "Action"
+  ],
+  "seasons": [
+   {
+    "name": "Season 1 (English dub)",
+    "playlist": "PLJV1h9xQ7Hx-MSngXeq-sRbelh5zCVRNI",
+    "strip": "Mobile Suit Gundam the Witch from Mercury"
+   }
+  ]
+ },
+ {
+  "name": "After War Gundam X",
+  "year": 1996,
+  "kind": "tv",
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Sci-Fi",
+   "Action"
+  ],
+  "seasons": [
+   {
+    "name": "Season 1",
+    "playlist": "PLJV1h9xQ7Hx_RmW7By87bGVXlUSSd3Kgo",
+    "strip": "After War Gundam X -"
+   }
+  ]
+ },
+ {
+  "name": "Mobile Suit Gundam Unicorn RE:0096",
+  "year": 2016,
+  "kind": "tv",
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Sci-Fi",
+   "Action"
+  ],
+  "seasons": [
+   {
+    "name": "Season 1",
+    "playlist": "PLNnxffb3X1XE",
+    "strip": "Mobile Suit Gundam Unicorn RE:0096 "
+   }
+  ]
+ },
+ {
+  "name": "Speed Racer",
+  "query": "Speed Racer",
+  "year": 1967,
+  "kind": "tv",
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Action",
+   "Family"
+  ],
+  "seasons": [
+   {
+    "name": "Season 1",
+    "playlist": "PLnY1FL_e1HO5NAcu_AaLWeYkpUc5KqVI3",
+    "strip": "Mach GoGoGo | "
+   }
+  ]
+ },
+ {
+  "name": "Attack on Titan",
+  "year": 2013,
+  "kind": "tv",
+  "fullSeasonVideo": true,
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Action",
+   "Fantasy"
+  ],
+  "episodes": [
+   {
+    "title": "Season 1 (all 25 episodes)",
+    "yt": "wPt0FJ1d0Tk"
+   }
+  ]
+ },
+ {
+  "name": "That Time I Got Reincarnated as a Slime",
+  "year": 2018,
+  "kind": "tv",
+  "fullSeasonVideo": true,
+  "setGenres": [
+   "Anime",
+   "Animation",
+   "Action",
+   "Fantasy"
+  ],
+  "episodes": [
+   {
+    "title": "Season 1 (all episodes)",
+    "yt": "z87nrnFXFSQ"
+   }
+  ]
+ },
+ {
+  "name": "Superman",
+  "year": 1941,
+  "kind": "movie",
+  "type": "show",
+  "setGenres": [
+   "Animation",
+   "Action",
+   "Sci-Fi",
+   "Family"
+  ],
+  "episodes": [
+   {
+    "title": "The Mad Scientist",
+    "ia": "superman_1941"
+   },
+   {
+    "title": "The Mechanical Monsters",
+    "ia": "superman_the_mechanical_monsters"
+   },
+   {
+    "title": "Billion Dollar Limited",
+    "ia": "superman_billion_dollar_limited"
+   },
+   {
+    "title": "The Arctic Giant",
+    "ia": "superman_arctic_giant"
+   },
+   {
+    "title": "The Bulleteers",
+    "ia": "superman_bulleteers"
+   },
+   {
+    "title": "The Magnetic Telescope",
+    "ia": "Superman_The_Magnetic_Telescope"
+   },
+   {
+    "title": "Electric Earthquake",
+    "ia": "superman_electric_earthquake"
+   },
+   {
+    "title": "Volcano",
+    "ia": "superman_volcano"
+   },
+   {
+    "title": "Terror on the Midway",
+    "ia": "superman_terror_on_the_midway"
+   },
+   {
+    "title": "Japoteurs",
+    "ia": "dom-6741japoteurssupermanepisode1"
+   },
+   {
+    "title": "Showdown",
+    "ia": "dom-6744showdownsupermanepisode2"
+   },
+   {
+    "title": "Eleventh Hour",
+    "ia": "superman_eleventh_hour"
+   },
+   {
+    "title": "Destruction, Inc.",
+    "ia": "superman_destruction_inc"
+   },
+   {
+    "title": "The Mummy Strikes",
+    "ia": "dom-6731mummystrikesnew"
+   },
+   {
+    "title": "Jungle Drums",
+    "ia": "superman_jungle_drums"
+   },
+   {
+    "title": "The Underground World",
+    "ia": "superman_underground_world"
+   },
+   {
+    "title": "Secret Agent",
+    "ia": "dom-6743secretagentsupermanepisode8"
+   }
+  ]
+ },
+ {
+  "name": "Flash Gordon Conquers the Universe",
+  "year": 1940,
+  "kind": "movie",
+  "type": "show",
+  "episodes": [
+   {
+    "title": "Chapter 1",
+    "ia": "flash_gordon_ep1"
+   },
+   {
+    "title": "Chapter 2",
+    "ia": "flash_gordon2"
+   },
+   {
+    "title": "Chapter 3",
+    "ia": "flash_gordon3"
+   },
+   {
+    "title": "Chapter 4",
+    "ia": "flash_gordon4"
+   },
+   {
+    "title": "Chapter 5",
+    "ia": "flash_gordon5"
+   },
+   {
+    "title": "Chapter 6",
+    "ia": "flash_gordon6"
+   },
+   {
+    "title": "Chapter 7",
+    "ia": "flash_gordon_7"
+   },
+   {
+    "title": "Chapter 8",
+    "ia": "flash_gordon8"
+   },
+   {
+    "title": "Chapter 9",
+    "ia": "flash_gordon9"
+   },
+   {
+    "title": "Chapter 10",
+    "ia": "flash_gordon10"
+   },
+   {
+    "title": "Chapter 11",
+    "ia": "flash_gordon11"
+   },
+   {
+    "title": "Chapter 12",
+    "ia": "flash_gordon12"
+   }
+  ]
+ },
+ {
+  "name": "Radar Men from the Moon",
+  "year": 1952,
+  "kind": "movie",
+  "type": "show",
+  "episodes": [
+   {
+    "title": "Complete serial (all 12 chapters)",
+    "ia": "radarmenfromthemoon01moonrocket"
+   }
+  ],
+  "fullSeasonVideo": true
+ }
+]
