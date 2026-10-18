@@ -1,0 +1,127 @@
+- generic [ref=f35e2]:
+  - link "Skip to content" [ref=f35e611] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f35e612]:
+    - link "Streetflix home" [ref=f35e613] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f35e616]: Streetflix
+    - navigation "Primary" [ref=f35e617]:
+      - link "Home" [ref=f35e618] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f35e619] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [active] [ref=f35e620] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f35e621] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f35e622] [cursor=pointer]:
+        - /url: /watchlist
+    - button "Switch profile (signed in as Spray)" [ref=f35e623] [cursor=pointer]:
+      - generic [ref=f35e624]: Spray
+  - main [ref=f35e625]:
+    - generic [ref=f35e636]:
+      - heading "TV Shows" [level=1] [ref=f35e637]
+      - generic [ref=f35e638]:
+        - generic [ref=f35e639]: "Genre:"
+        - combobox "Genre:" [ref=f35e640] [cursor=pointer]:
+          - option "All Genres" [selected]
+          - option "Action"
+          - option "Animation"
+          - option "Anime"
+          - option "Comedy"
+          - option "Drama"
+          - option "Family"
+          - option "Fantasy"
+          - option "Sci-Fi"
+      - list [ref=f35e641]:
+        - listitem [ref=f35e642]:
+          - article [ref=f35e643]:
+            - link [ref=f35e644] [cursor=pointer]:
+              - /url: /titles/s1
+              - generic [ref=f35e645]:
+                - img "Poster for Helluva Boss" [ref=f35e646]
+                - generic [aria-hidden] [ref=f35e647]:
+                  - paragraph [ref=f35e648]: Animation, Comedy, Fantasy, Drama
+                  - generic [ref=f35e649]: View details
+              - paragraph [ref=f35e650]: Helluva Boss
+              - paragraph [ref=f35e651]: 2020 • TV-MA
+        - listitem [ref=f35e652]:
+          - article [ref=f35e653]:
+            - link [ref=f35e654] [cursor=pointer]:
+              - /url: /titles/s2
+              - generic [ref=f35e655]:
+                - img "Poster for The Amazing Digital Circus" [ref=f35e656]
+                - generic [aria-hidden] [ref=f35e657]:
+                  - paragraph [ref=f35e658]: Animation, Comedy, Fantasy
+                  - generic [ref=f35e659]: View details
+              - paragraph [ref=f35e660]: The Amazing Digital Circus
+              - paragraph [ref=f35e661]: 2023 • TV-PG
+        - listitem [ref=f35e662]:
+          - article [ref=f35e663]:
+            - link [ref=f35e664] [cursor=pointer]:
+              - /url: /titles/s3
+              - generic [ref=f35e665]:
+                - img "Poster for Murder Drones" [ref=f35e666]
+                - generic [aria-hidden] [ref=f35e667]:
+                  - paragraph [ref=f35e668]: Animation, Action, Sci-Fi
+                  - generic [ref=f35e669]: View details
+              - paragraph [ref=f35e670]: Murder Drones
+              - paragraph [ref=f35e671]: 2021 • TV-14
+        - listitem [ref=f35e672]:
+          - article [ref=f35e673]:
+            - link [ref=f35e674] [cursor=pointer]:
+              - /url: /titles/s4
+              - generic [ref=f35e675]:
+                - img "Poster for Battle for Dream Island" [ref=f35e676]
+                - generic [aria-hidden] [ref=f35e677]:
+                  - paragraph [ref=f35e678]: Animation, Comedy, Family
+                  - generic [ref=f35e679]: View details
+              - paragraph [ref=f35e680]: Battle for Dream Island
+              - paragraph [ref=f35e681]: 2010 • NR
+        - listitem [ref=f35e682]:
+          - article [ref=f35e683]:
+            - link [ref=f35e684] [cursor=pointer]:
+              - /url: /titles/s5
+              - generic [ref=f35e685]:
+                - img "Poster for Mobile Suit Gundam SEED" [ref=f35e686]
+                - generic [aria-hidden] [ref=f35e687]:
+                  - paragraph [ref=f35e688]: Anime, Animation, Sci-Fi, Action
+                  - generic [ref=f35e689]: View details
+              - paragraph [ref=f35e690]: Mobile Suit Gundam SEED
+              - paragraph [ref=f35e691]: 2002 • TV-PG
+        - listitem [ref=f35e692]:
+          - article [ref=f35e693]:
+            - link [ref=f35e694] [cursor=pointer]:
+              - /url: /titles/s6
+              - generic [ref=f35e695]:
+                - 'img "Poster for Mobile Suit Gundam: The Witch from Mercury" [ref=f35e696]'
+                - generic [aria-hidden] [ref=f35e697]:
+                  - paragraph [ref=f35e698]: Anime, Animation, Sci-Fi, Action
+                  - generic [ref=f35e699]: View details
+              - paragraph [ref=f35e700]: "Mobile Suit Gundam: The Witch from Mercury"
+              - paragraph [ref=f35e701]: 2022 • TV-14
+        - listitem [ref=f35e702]:
+          - article [ref=f35e703]:
+            - link [ref=f35e704] [cursor=pointer]:
+              - /url: /titles/s7
+              - generic [ref=f35e705]:
+                - img "Poster for After War Gundam X" [ref=f35e706]
+                - generic [aria-hidden] [ref=f35e707]:
+                  - paragraph [ref=f35e708]: Anime, Animation, Sci-Fi, Action
+                  - generic [ref=f35e709]: View details
+              - paragraph [ref=f35e710]: After War Gundam X
+              - paragraph [ref=f35e711]: 1996 • TV-PG
+        - listitem [ref=f35e712]:
+          - article [ref=f35e713]:
+            - link [ref=f35e714] [cursor=pointer]:
+              - /url: /titles/s8
+              - generic [ref=f35e715]:
+                - img "Poster for Mobile Suit Gundam Unicorn RE:0096" [ref=f35e716]
+                - generic [aria-hidden] [ref=f35e717]:
+                  - paragraph [ref=f35e718]: Anime, Animation, Sci-Fi, Action
+                  - generic [ref=f35e719]: View details
+              - paragraph [ref=f35e720]: Mobile Suit Gundam Unicorn RE:0096
+              - paragraph [ref=f35e721]: 2016 • TV-14
+      - paragraph [ref=f35e722]: Showing 8 of 14 shows
+      - button "Load More" [ref=f35e723] [cursor=pointer]
+  - status

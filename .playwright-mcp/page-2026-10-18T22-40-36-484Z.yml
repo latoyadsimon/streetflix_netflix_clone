@@ -1,0 +1,115 @@
+- generic [ref=f37e2]:
+  - link "Skip to content" [ref=f37e16] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f37e17]:
+    - link "Streetflix home" [ref=f37e18] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f37e21]: Streetflix
+    - navigation "Primary" [ref=f37e22]:
+      - link "Home" [ref=f37e23] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f37e24] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f37e25] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f37e26] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f37e27] [cursor=pointer]:
+        - /url: /watchlist
+    - button "Switch profile (signed in as Spray)" [ref=f37e28] [cursor=pointer]:
+      - generic [ref=f37e29]: Spray
+  - main [ref=f37e30]:
+    - generic [ref=f37e31]:
+      - heading "TV Shows" [level=1] [ref=f37e32]
+      - generic [ref=f37e33]:
+        - generic [ref=f37e34]: "Genre:"
+        - combobox "Genre:" [ref=f37e35] [cursor=pointer]:
+          - option "All Genres"
+          - option "Action"
+          - option "Animation"
+          - option "Anime" [selected]
+          - option "Comedy"
+          - option "Drama"
+          - option "Family"
+          - option "Fantasy"
+          - option "Sci-Fi"
+      - list [ref=f37e36]:
+        - listitem [ref=f37e37]:
+          - article [ref=f37e38]:
+            - link [ref=f37e39] [cursor=pointer]:
+              - /url: /titles/s5
+              - generic [ref=f37e40]:
+                - img "Poster for Mobile Suit Gundam SEED" [ref=f37e41]
+                - generic [aria-hidden] [ref=f37e42]:
+                  - paragraph [ref=f37e43]: Anime, Animation, Sci-Fi, Action
+                  - generic [ref=f37e44]: View details
+              - paragraph [ref=f37e45]: Mobile Suit Gundam SEED
+              - paragraph [ref=f37e46]: 2002 • TV-PG
+        - listitem [ref=f37e47]:
+          - article [ref=f37e48]:
+            - link [ref=f37e49] [cursor=pointer]:
+              - /url: /titles/s6
+              - generic [ref=f37e50]:
+                - 'img "Poster for Mobile Suit Gundam: The Witch from Mercury" [ref=f37e51]'
+                - generic [aria-hidden] [ref=f37e52]:
+                  - paragraph [ref=f37e53]: Anime, Animation, Sci-Fi, Action
+                  - generic [ref=f37e54]: View details
+              - paragraph [ref=f37e55]: "Mobile Suit Gundam: The Witch from Mercury"
+              - paragraph [ref=f37e56]: 2022 • TV-14
+        - listitem [ref=f37e57]:
+          - article [ref=f37e58]:
+            - link [ref=f37e59] [cursor=pointer]:
+              - /url: /titles/s7
+              - generic [ref=f37e60]:
+                - img "Poster for After War Gundam X" [ref=f37e61]
+                - generic [aria-hidden] [ref=f37e62]:
+                  - paragraph [ref=f37e63]: Anime, Animation, Sci-Fi, Action
+                  - generic [ref=f37e64]: View details
+              - paragraph [ref=f37e65]: After War Gundam X
+              - paragraph [ref=f37e66]: 1996 • TV-PG
+        - listitem [ref=f37e67]:
+          - article [ref=f37e68]:
+            - link [ref=f37e69] [cursor=pointer]:
+              - /url: /titles/s8
+              - generic [ref=f37e70]:
+                - img "Poster for Mobile Suit Gundam Unicorn RE:0096" [ref=f37e71]
+                - generic [aria-hidden] [ref=f37e72]:
+                  - paragraph [ref=f37e73]: Anime, Animation, Sci-Fi, Action
+                  - generic [ref=f37e74]: View details
+              - paragraph [ref=f37e75]: Mobile Suit Gundam Unicorn RE:0096
+              - paragraph [ref=f37e76]: 2016 • TV-14
+        - listitem [ref=f37e77]:
+          - article [ref=f37e78]:
+            - link [ref=f37e79] [cursor=pointer]:
+              - /url: /titles/s9
+              - generic [ref=f37e80]:
+                - img "Poster for Speed Racer" [ref=f37e81]
+                - generic [aria-hidden] [ref=f37e82]:
+                  - paragraph [ref=f37e83]: Anime, Animation, Action, Family
+                  - generic [ref=f37e84]: View details
+              - paragraph [ref=f37e85]: Speed Racer
+              - paragraph [ref=f37e86]: 1967 • TV-Y7
+        - listitem [ref=f37e87]:
+          - article [ref=f37e88]:
+            - link [ref=f37e89] [cursor=pointer]:
+              - /url: /titles/s10
+              - generic [ref=f37e90]:
+                - img "Poster for Attack on Titan" [ref=f37e91]
+                - generic [aria-hidden] [ref=f37e92]:
+                  - paragraph [ref=f37e93]: Anime, Animation, Action, Fantasy
+                  - generic [ref=f37e94]: View details
+              - paragraph [ref=f37e95]: Attack on Titan
+              - paragraph [ref=f37e96]: 2013 • TV-MA
+        - listitem [ref=f37e97]:
+          - article [ref=f37e98]:
+            - link [ref=f37e99] [cursor=pointer]:
+              - /url: /titles/s11
+              - generic [ref=f37e100]:
+                - img "Poster for That Time I Got Reincarnated as a Slime" [ref=f37e101]
+                - generic [aria-hidden] [ref=f37e102]:
+                  - paragraph [ref=f37e103]: Anime, Animation, Action, Fantasy
+                  - generic [ref=f37e104]: View details
+              - paragraph [ref=f37e105]: That Time I Got Reincarnated as a Slime
+              - paragraph [ref=f37e106]: 2018 • TV-14
+      - paragraph [ref=f37e107]: Showing 7 of 7 shows
+  - status

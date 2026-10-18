@@ -1,0 +1,5 @@
+[     123ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=bbddd817:15803
+[   10166ms] [WARNING] Allow attribute will take precedence over 'allowfullscreen'. @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=bbddd817:10414
+[   10966ms] [WARNING] No available adapters. @ https://www.youtube-nocookie.com/embed/OlahNrlcgS4?autoplay=1&rel=0:0
+[   10966ms] [WARNING] No available adapters. @ https://www.youtube-nocookie.com/embed/OlahNrlcgS4?autoplay=1&rel=0:0
+[  149881ms] [WARNING] No available adapters. @ https://www.youtube-nocookie.com/embed/el_PChGfJN8?autoplay=1&rel=0:0

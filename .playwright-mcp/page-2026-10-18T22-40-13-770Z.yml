@@ -1,0 +1,32 @@
+- generic [ref=f35e2]:
+  - link "Skip to content" [ref=f35e611] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f35e612]:
+    - link "Streetflix home" [ref=f35e613] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f35e616]: Streetflix
+    - navigation "Primary" [ref=f35e617]:
+      - link "Home" [ref=f35e618] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f35e619] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f35e620] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f35e621] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [active] [ref=f35e622] [cursor=pointer]:
+        - /url: /watchlist
+    - button "Switch profile (signed in as Spray)" [ref=f35e623] [cursor=pointer]:
+      - generic [ref=f35e624]: Spray
+  - main [ref=f35e625]:
+    - generic [ref=f35e626]:
+      - generic [ref=f35e627]:
+        - heading "My List" [level=1] [ref=f35e628]
+        - link "Browse Titles" [ref=f35e629] [cursor=pointer]:
+          - /url: /browse
+      - generic [ref=f35e630]:
+        - heading "Your list is empty" [level=2] [ref=f35e633]
+        - paragraph [ref=f35e634]: Save movies and TV shows to watch later. Your throne is waiting.
+        - link "Browse Titles" [ref=f35e635] [cursor=pointer]:
+          - /url: /browse
+  - status

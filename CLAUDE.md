@@ -2,11 +2,23 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repository layout
+
+Full-stack monorepo:
+
+- `front-end/` — the React/Vite app: `src/`, `public/`, `app_outline/` (specs), `scripts/` (catalog tooling), package/vite/eslint config, `.env.local`.
+- `supabase/` — the database side: `schema.sql` (DDL), `seed.sql` (catalog rows), `user_stories.md`, `streetflix_erd.png`, `supabasePrompt.md`.
+- `.claude/`, `.mcp.json` — shared Claude Code skills, agents and MCP config at the root.
+
+Paths below that don't start with `supabase/` or `.` are relative to `front-end/`.
+
 ## Project
 
-"Streetflix" — a React 19 + Vite SPA (React Router `BrowserRouter`) that is a catalog + watchlist with free, fully playable titles, themed street-graffiti / queen energy rather than a Netflix copy. There is no login, no app backend and no tests. The only live backend call is reading profiles from Supabase. Specs live in `app_outline/` (`user_journey.md`, `style_guide.md`, `app.png`, per-page wireframes in `pages/`); the Postgres/backend/persistence lines in those docs are intentionally ignored (the style guide's Netflix-red palette is also superseded by `src/index.css`).
+"Streetflix" — a React 19 + Vite SPA (React Router `BrowserRouter`) that is a catalog + watchlist with free, fully playable titles, themed street-graffiti / queen energy rather than a Netflix copy. There is no login and no tests; Supabase (anon key, RLS) is the data layer for the catalog, profiles and per-profile watchlists. Specs live in `front-end/app_outline/` (`user_journey.md`, `style_guide.md`, `app.png`, per-page wireframes in `pages/`); the Postgres/backend/persistence lines in those docs are intentionally ignored (the style guide's Netflix-red palette is also superseded by `front-end/src/index.css`).
 
 ## Commands
+
+Run all of these from `front-end/` (the repo root has no package.json).
 
 - `npm run dev` — Vite dev server (SPA fallback works for deep links like `/titles/m1`). Port is not fixed: it takes 5173 or the next free port, and old dev servers may still be running.
   - **Restart the dev server after the catalog build rewrites `public/posters|backdrops`.** Vite lists `public/` files at startup; a long-running server answers new image URLs with `index.html`, so cards look blank even though the files exist.
@@ -19,15 +31,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Hard requirements
 
-- **All state is in-memory.** A refresh must reset everything, including the chosen profile and the watchlist. Do not add localStorage/sessionStorage.
-- **The only runtime network call is the Supabase read of profiles** (`src/lib/supabase.js`). Catalog data, watchlist and toast stay local; the only other external requests are the video/trailer iframes. Do not add other API calls without asking.
-- `.env.local` (gitignored via `*.local`) holds `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY` (client-safe, RLS does the gatekeeping) and `TMDB_API_KEY` (dev scripts only, never imported by app code).
+- **The chosen profile is in-memory only.** A refresh returns to "Who's watching?". Do not add localStorage/sessionStorage. The catalog is re-fetched on every load; the watchlist is re-read from Supabase when a profile is picked.
+- **All Supabase calls live in `front-end/src/lib/api.js`** (catalog, watchlist read/add/remove; profiles are read in `ProfileSelect` via `lib/supabase.js`). The only other external requests are the video/trailer iframes. Do not add other API calls without asking. No authentication/authorization: the contract is the `catalog_titles` view plus anon policies on `watchlist_items`.
+- `front-end/.env.local` (gitignored via `*.local`) holds `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY` (client-safe, RLS does the gatekeeping) and `TMDB_API_KEY` (dev scripts only, never imported by app code).
 
 ## Architecture
 
-- **Provider stack and routing**: `main.jsx` mounts `BrowserRouter` > `ProfileProvider` > `WatchlistProvider` > `App`. `App.jsx` has one layout route (`components/Layout.jsx`: skip link, `NavBar`, `<main>`, `Toast`, scroll-to-top on pathname change) wrapping `/`, `/movies`, `/tv-shows`, `/browse` (all titles A–Z), `/search?q=`, `/titles/:id`, `/watchlist`, `*` (404).
-- **Profiles** (`context/ProfileContext.jsx`, `pages/ProfileSelect.jsx`): no login, Netflix-style profile picker. `Layout` renders "Who's watching?" instead of the app until a profile is chosen; the nav shows the active profile and clicking it switches. Profiles are read from the Supabase `users` table (`username`, `avatar_url`; 5 seeded rows); SVG avatars live in `public/avatars/`. The chosen profile is not yet used for anything else (watchlist is shared, not per-profile).
-- **Watchlist + toast** (`context/WatchlistContext.jsx`): the single global state. Holds an array of title ids (adds are idempotent) and the toast message. `useWatchlist()` exposes `has/add/remove/toggle/notify`. Hero, Title Details, and My List share it; `Toast` renders from it. Only in-app (client-side) navigation preserves it — `page.goto`/typing a URL resets it, which is expected.
+- **Provider stack and routing**: `main.jsx` mounts `BrowserRouter` > `ProfileProvider` > `CatalogProvider` > `WatchlistProvider` > `App`. `App.jsx` has one layout route (`components/Layout.jsx`: skip link, `NavBar`, `<main>`, `Toast`, scroll-to-top on pathname change) wrapping `/`, `/movies`, `/tv-shows`, `/browse` (all titles A–Z), `/search?q=`, `/titles/:id`, `/watchlist`, `*` (404).
+- **Profiles** (`context/ProfileContext.jsx`, `pages/ProfileSelect.jsx`): no login, Netflix-style profile picker. `Layout` renders "Who's watching?" instead of the app until a profile is chosen; the nav shows the active profile and clicking it switches. Profiles are read from the Supabase `users` table (`username`, `avatar_url`); SVG avatars live in `public/avatars/`. The profile's `id` keys that profile's watchlist.
+- **Watchlist + toast** (`context/WatchlistContext.jsx`): the active profile's list of title slugs, persisted in Supabase `watchlist_items` (reloaded whenever the profile changes, tagged with its owner so lists never leak across a switch). `add/remove/toggle` are optimistic; a failed write rolls back and toasts an error. Adds are idempotent (upsert). `useWatchlist()` exposes `ids/loading/has/add/remove/toggle/notify`; Hero, Title Details and My List share it; `Toast` renders from it (toast is in-memory).
 - **Catalog data** (the part that spans several files):
   - `src/data/catalog.json` is generated, never hand-edited. Input is `scripts/catalog-sources.json`, a hand-curated list of free, fully playable titles (public-domain films and serials on the Internet Archive, official free YouTube series and playlists). `scripts/build-catalog.mjs` adds TMDB metadata, posters/backdrops (`public/posters|backdrops`) and trailers, verifies every watch link (YouTube watch page must be playable in an embed — age-restricted videos are dropped — and archive.org items must exist, be unrestricted and long enough), prunes genres with fewer than 4 titles, and writes the JSON. `src/data/catalog.js` wraps it and exports `CATALOG/MOVIES/SHOWS/GENRES/getTitle/relatedTo` and derives a `hue` per id.
   - Source entries: movies use `ia` (archive.org id); shows use `seasons` (`{name, playlist, match?, strip?}` expands a YouTube playlist) and/or `episodes` (`{title, yt|ia}`); `setGenres`/`dropGenres`/`query`/`minMin` override TMDB genres, search text and the minimum length check.
@@ -35,7 +47,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - **Rules**: only full-length shows (a full season or more) are allowed; a show with a single episode is left out (a single video holding a whole season is allowed via `fullSeasonVideo`). Horror is capped at 4 titles. Only free, official or public-domain sources; no fan re-uploads.
   - YouTube answers 429 if checked quickly. The script is throttled, retries, caches results in `scripts/.verify-cache.json` (gitignored), and aborts instead of writing a bad catalog. Re-run it to resume.
   - `scripts/fetch-tmdb.mjs` is the original one-off loader for the first 40 mainstream titles; it is superseded and would overwrite `catalog.json`. Do not run it.
-  - The same data is mirrored in Supabase (`titles`, `genres`, `title_genres`; DDL in `supabase/schema.sql`, rows in `supabase/seed.sql`) but the app reads the JSON. After changing the catalog, push it with `catalog-to-sql.py` and `apply_migration`. `watchlist_items` exists in the DB with owner-only RLS (inert without auth) and is unused by the app.
+  - The app reads the catalog from the Supabase view `catalog_titles` (same shape as catalog.json plus the title `uuid`, needed for watchlist writes), fetched once by `context/CatalogContext.jsx`, which exposes `CATALOG/MOVIES/SHOWS/GENRES/getTitle/relatedTo` plus `status` (`loading|ready|error`) and `retry`; `Layout` shows a skeleton/error state until it is ready, so deep links do not 404 while loading. `data/catalog.js` holds the pure helpers (incl. the `hue` derivation); app code never imports catalog.json. Tables: `titles`, `genres`, `title_genres` (DDL in `supabase/schema.sql`). After changing the catalog, push it with `catalog-to-sql.py` and `apply_migration`.
 - **Playback** (`components/Player.jsx`): native `<dialog>` modal with an embedded YouTube (nocookie) or archive.org iframe, a Full screen button, an "open in new tab" fallback, and an episode picker for shows grouped by `episode.season`. Used by `Hero` (Play) and `TitleDetails` (Play/Watch and Trailer). Titles without a trailer hide the Trailer button.
 - **Shared components**: `TitleCard` is the one card used on every page (whole card is a link; optional `onRemove` renders a sibling remove button on My List). `PosterArt` (exported from `TitleCard.jsx`) shows the real poster with a shimmer skeleton and falls back to generated gradient art on load error. `ContentRow` (horizontal scroll row), `Hero`, and `BrowsePage` (shared by Movies and TV Shows: genre filter in the `?genre=` query param, Load More in steps of 8, state reset via `key={genre}`).
 - **Search** (`pages/Search.jsx`): title-substring match only, split into Movies/TV Shows sections; empty queries never change the URL.
@@ -56,5 +68,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repo notes
 
-- `skills/` and `.claude/skills|agents` hold the design skills (frontend-design, ui-ux-pro-max, taste-skill, design-motion-principles), the postgresql-table-design skill and course agents; `screenshots/` and `.playwright-mcp/` are test artifacts.
-- `README.md` is the untouched Vite template.
+- `.claude/skills|agents` (repo root, shared by both halves) hold the design skills (frontend-design, ui-ux-pro-max, taste-skill, design-motion-principles), the postgresql-table-design skill and course agents. `.agents/` + `skills-lock.json` hold the Supabase agent skills. `.mcp.json` (root) configures the Supabase MCP.
+- `screenshots/`, `.playwright-mcp/` (root and `supabase/`) are test artifacts.
+- `README.md` is a short top-level overview.

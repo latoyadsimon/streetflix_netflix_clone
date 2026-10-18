@@ -1,0 +1,15 @@
+- main [ref=f35e590]:
+  - heading "Who's watching?" [level=1] [ref=f35e591]
+  - list [ref=f35e592]:
+    - listitem [ref=f35e593]:
+      - button "Queen B" [ref=f35e594] [cursor=pointer]
+    - listitem [ref=f35e596]:
+      - button "Spray" [ref=f35e597] [cursor=pointer]
+    - listitem [ref=f35e599]:
+      - button "Crown" [ref=f35e600] [cursor=pointer]
+    - listitem [ref=f35e602]:
+      - button "Stencil" [ref=f35e603] [cursor=pointer]
+    - listitem [ref=f35e605]:
+      - button "Kid Neon" [ref=f35e606] [cursor=pointer]
+    - listitem [ref=f35e608]:
+      - button "Toyzilla" [ref=f35e609] [cursor=pointer]

@@ -1,0 +1,4 @@
+[     115ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=bbddd817:15803
+[    6595ms] [WARNING] Allow attribute will take precedence over 'allowfullscreen'. @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=bbddd817:10414
+[    7413ms] [WARNING] No available adapters. @ https://www.youtube-nocookie.com/embed/el_PChGfJN8?autoplay=1&rel=0:0
+[   25822ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5199/@vite/client:1082

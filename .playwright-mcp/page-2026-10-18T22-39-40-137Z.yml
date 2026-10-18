@@ -1,0 +1,8 @@
+- main [ref=f34e3]:
+  - heading "Who's watching?" [level=1] [ref=f34e4]
+  - list "Loading profiles" [ref=f34e5]:
+    - listitem [ref=f34e6]
+    - listitem [ref=f34e8]
+    - listitem [ref=f34e10]
+    - listitem [ref=f34e12]
+    - listitem [ref=f34e14]
