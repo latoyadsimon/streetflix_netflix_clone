@@ -57,8 +57,25 @@
   .tabbar a[aria-current='page'] svg { color: var(--accent); }
 }
 
+.account { position: relative; margin-left: auto; }
+.account-panel {
+  position: absolute; right: 0; top: calc(100% + 12px); z-index: 60;
+  width: max-content; max-width: min(300px, calc(100vw - 32px));
+  display: flex; flex-direction: column; padding: 8px;
+  background: var(--surface); border-radius: var(--radius); box-shadow: 4px 4px 0 var(--accent);
+  transform-origin: top right; animation: account-in 150ms var(--ease);
+}
+@keyframes account-in { from { opacity: 0; transform: scale(0.96); } }
+.account-who { margin: 0; padding: 8px 12px 10px; color: var(--text-muted); font-size: 0.875rem; overflow-wrap: anywhere; }
+.account-who strong { display: block; color: var(--text); font-weight: 600; }
+.account-panel button {
+  min-height: 44px; padding: 0 12px; text-align: left; border: 0; border-radius: var(--radius);
+  background: none; color: var(--text); font: 600 1rem var(--font-body); cursor: pointer;
+}
+.account-panel button:hover { background: var(--surface-hover); }
+
 .profile-switch {
-  margin-left: auto; display: flex; align-items: center; gap: 0.5rem;
+  display: flex; align-items: center; gap: 0.5rem;
   background: none; border: 0; color: var(--text-muted); cursor: pointer; font: inherit;
 }
 .profile-switch img { width: 32px; height: 32px; border-radius: 8px; }

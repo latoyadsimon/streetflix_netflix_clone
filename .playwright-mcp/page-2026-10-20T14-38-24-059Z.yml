@@ -1,0 +1,11 @@
+- main [ref=e25]:
+  - heading "Who's watching?" [level=1] [ref=e61]
+  - list [ref=e62]:
+    - listitem [ref=e63]:
+      - button "Queen B" [ref=e64] [cursor=pointer]
+    - listitem [ref=e66]:
+      - button "Kid Neon" [ref=e67] [cursor=pointer]
+    - listitem [ref=e69]:
+      - button "Add profile" [ref=e70] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e71]: +
+  - button "Sign out" [ref=e73] [cursor=pointer]

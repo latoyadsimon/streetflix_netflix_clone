@@ -1,0 +1,9 @@
+- main [ref=f1e138]:
+  - heading "Who's watching?" [level=1] [ref=f1e139]
+  - list [ref=f1e140]:
+    - listitem [ref=f1e141]:
+      - button "Queen B" [ref=f1e142] [cursor=pointer]
+    - listitem [ref=f1e144]:
+      - button "Add profile" [ref=f1e145] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e146]: +
+  - button "Sign out" [ref=f1e148] [cursor=pointer]

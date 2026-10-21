@@ -1,0 +1,7 @@
+- main [ref=e26]:
+  - heading "Who's watching?" [level=1] [ref=e27]
+  - list "Loading profiles" [ref=e28]:
+    - listitem [ref=e29]
+    - listitem [ref=e31]
+    - listitem [ref=e33]
+  - button "Sign out" [ref=e35] [cursor=pointer]

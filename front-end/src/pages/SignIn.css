@@ -1,0 +1,28 @@
+.signin {
+  min-height: 100vh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 2rem; padding: 3rem var(--gutter);
+}
+.signin-brand {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--font-tag); font-size: 2.4rem; transform: rotate(-3deg);
+}
+.signin-brand svg { color: var(--crown); }
+.signin-card {
+  width: min(100%, 400px);
+  display: flex; flex-direction: column; gap: 1.1rem;
+  padding: 2rem clamp(20px, 5vw, 36px);
+  background: var(--surface); border-radius: var(--radius); box-shadow: 6px 6px 0 var(--accent);
+}
+.signin-card h1 {
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
+  background: var(--spray-stroke) no-repeat bottom left / 5.5em 0.3em; padding-bottom: 0.3em;
+}
+.signin-submit { margin-top: 0.4rem; }
+.signin-error { margin: 0; color: var(--error); }
+.signin-notice { margin: 0; color: var(--crown); }
+.signin-switch { margin: 0; color: var(--text-muted); text-align: center; }
+.signin-switch button {
+  background: none; border: 0; padding: 0; cursor: pointer;
+  color: var(--accent-hover); font: inherit; font-weight: 700; text-decoration: underline;
+}

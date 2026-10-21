@@ -1,5 +1,8 @@
+import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext.jsx'
 import { useProfile } from '../context/ProfileContext.jsx'
+import { signOut } from '../lib/api.js'
 import './NavBar.css'
 
 const LINKS = [
@@ -19,8 +22,46 @@ function Icon({ d }) {
   )
 }
 
-export default function NavBar() {
+// Active profile button that opens a small panel: who is signed in, Switch profile, Log out.
+function AccountMenu() {
+  const { user } = useAuth()
   const { profile, clear } = useProfile()
+  const [open, setOpen] = useState(false)
+  const root = useRef(null)
+  const toggleBtn = useRef(null)
+
+  useEffect(() => {
+    if (!open) return undefined
+    const onPointer = (e) => { if (!root.current.contains(e.target)) setOpen(false) }
+    const onKey = (e) => { if (e.key === 'Escape') { setOpen(false); toggleBtn.current.focus() } }
+    document.addEventListener('pointerdown', onPointer)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('pointerdown', onPointer)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+
+  return (
+    <div className="account" ref={root}>
+      <button type="button" ref={toggleBtn} className="profile-switch" aria-expanded={open}
+        aria-controls="account-panel" onClick={() => setOpen((o) => !o)}
+        aria-label={`Account: ${profile.username}`}>
+        <img src={profile.avatar_url} alt="" width="32" height="32" />
+        <span>{profile.username}</span>
+      </button>
+      {open && (
+        <div className="account-panel" id="account-panel">
+          <p className="account-who">Signed in as <strong>{user.email}</strong></p>
+          <button type="button" onClick={clear}>Switch profile</button>
+          <button type="button" onClick={() => signOut()}>Log out</button>
+        </div>
+      )}
+    </div>
+  )
+}
+
+export default function NavBar() {
   return (
     <>
       <header className="topbar">
@@ -35,10 +76,7 @@ export default function NavBar() {
             <NavLink key={to} to={to} end={end}>{label}</NavLink>
           ))}
         </nav>
-        <button type="button" className="profile-switch" onClick={clear} aria-label={`Switch profile (signed in as ${profile.username})`}>
-          <img src={profile.avatar_url} alt="" width="32" height="32" />
-          <span>{profile.username}</span>
-        </button>
+        <AccountMenu />
       </header>
       <nav aria-label="Primary mobile" className="tabbar">
         {LINKS.map(({ to, label, end, icon }) => (

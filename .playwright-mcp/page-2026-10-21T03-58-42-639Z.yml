@@ -1,0 +1,135 @@
+- generic [ref=f1e2]:
+  - link "Skip to content" [ref=f1e183] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e184]:
+    - link "Streetflix home" [ref=f1e185] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f1e188]: Streetflix
+    - navigation "Primary" [ref=f1e189]:
+      - link "Home" [ref=f1e190] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f1e191] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f1e192] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f1e193] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f1e194] [cursor=pointer]:
+        - /url: /watchlist
+    - button "Switch profile (signed in as Spray)" [ref=f1e195] [cursor=pointer]:
+      - generic [ref=f1e196]: Spray
+  - main [ref=f1e197]:
+    - generic [ref=f1e198]:
+      - region [ref=f1e199]:
+        - generic [ref=f1e201]:
+          - img "Poster for The Amazing Digital Circus" [ref=f1e203]
+          - generic [ref=f1e204]:
+            - heading "The Amazing Digital Circus" [level=1] [ref=f1e205]
+            - paragraph [ref=f1e206]:
+              - generic [ref=f1e207]: "2023"
+              - generic [ref=f1e208]: TV-PG
+              - generic [ref=f1e209]: 9 episodes
+              - generic [ref=f1e210]: TV Show
+            - paragraph [ref=f1e211]: Animation, Comedy, Fantasy
+            - paragraph [ref=f1e212]: A woman finds herself trapped in a virtual circus where she and five other humans are subject to the whims of a wacky AI ringmaster. In this digital purgatory they must face frightening NPCs and cope with their own personal traumas.
+            - generic [ref=f1e213]:
+              - button "Watch" [ref=f1e214] [cursor=pointer]
+              - button "Trailer" [ref=f1e217] [cursor=pointer]
+              - button "In My List (press to remove from My List)" [active] [pressed] [ref=f1e306] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f1e219]: ✓
+                - text: In My List
+                - generic [ref=f1e220]: (press to remove from My List)
+              - button "Remove from My List" [ref=f1e307] [cursor=pointer]
+      - region [ref=f1e222]:
+        - heading "More Like This" [level=2] [ref=f1e224]
+        - list [ref=f1e225]:
+          - listitem [ref=f1e226]:
+            - article [ref=f1e227]:
+              - link [ref=f1e228] [cursor=pointer]:
+                - /url: /titles/m44
+                - generic [ref=f1e229]:
+                  - img "Poster for Cosmos Laundromat" [ref=f1e230]
+                  - generic [aria-hidden] [ref=f1e231]:
+                    - paragraph [ref=f1e232]: Animation, Fantasy, Comedy
+                    - generic [ref=f1e233]: View details
+                - paragraph [ref=f1e234]: Cosmos Laundromat
+                - paragraph [ref=f1e235]: 2015 • NR
+          - listitem [ref=f1e236]:
+            - article [ref=f1e237]:
+              - link [ref=f1e238] [cursor=pointer]:
+                - /url: /titles/s1
+                - generic [ref=f1e239]:
+                  - img "Poster for Helluva Boss" [ref=f1e240]
+                  - generic [aria-hidden] [ref=f1e241]:
+                    - paragraph [ref=f1e242]: Animation, Comedy, Fantasy, Drama
+                    - generic [ref=f1e243]: View details
+                - paragraph [ref=f1e244]: Helluva Boss
+                - paragraph [ref=f1e245]: 2020 • TV-MA
+          - listitem [ref=f1e246]:
+            - article [ref=f1e247]:
+              - link [ref=f1e248] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=f1e249]:
+                  - img "Poster for Sita Sings the Blues" [ref=f1e250]
+                  - generic [aria-hidden] [ref=f1e251]:
+                    - paragraph [ref=f1e252]: Animation, Drama, Romance, Fantasy
+                    - generic [ref=f1e253]: View details
+                - paragraph [ref=f1e254]: Sita Sings the Blues
+                - paragraph [ref=f1e255]: 2008 • NR
+          - listitem [ref=f1e256]:
+            - article [ref=f1e257]:
+              - link [ref=f1e258] [cursor=pointer]:
+                - /url: /titles/m8
+                - generic [ref=f1e259]:
+                  - img "Poster for Big Buck Bunny" [ref=f1e260]
+                  - generic [aria-hidden] [ref=f1e261]:
+                    - paragraph [ref=f1e262]: Animation, Comedy, Family
+                    - generic [ref=f1e263]: View details
+                - paragraph [ref=f1e264]: Big Buck Bunny
+                - paragraph [ref=f1e265]: 2008 • G
+          - listitem [ref=f1e266]:
+            - article [ref=f1e267]:
+              - link [ref=f1e268] [cursor=pointer]:
+                - /url: /titles/m9
+                - generic [ref=f1e269]:
+                  - img "Poster for Sintel" [ref=f1e270]
+                  - generic [aria-hidden] [ref=f1e271]:
+                    - paragraph [ref=f1e272]: Animation, Fantasy
+                    - generic [ref=f1e273]: View details
+                - paragraph [ref=f1e274]: Sintel
+                - paragraph [ref=f1e275]: 2010 • PG
+          - listitem [ref=f1e276]:
+            - article [ref=f1e277]:
+              - link [ref=f1e278] [cursor=pointer]:
+                - /url: /titles/m16
+                - generic [ref=f1e279]:
+                  - img "Poster for Santa Claus Conquers the Martians" [ref=f1e280]
+                  - generic [aria-hidden] [ref=f1e281]:
+                    - paragraph [ref=f1e282]: Comedy, Fantasy, Sci-Fi
+                    - generic [ref=f1e283]: View details
+                - paragraph [ref=f1e284]: Santa Claus Conquers the Martians
+                - paragraph [ref=f1e285]: 1964 • NR
+          - listitem [ref=f1e286]:
+            - article [ref=f1e287]:
+              - link [ref=f1e288] [cursor=pointer]:
+                - /url: /titles/m30
+                - generic [ref=f1e289]:
+                  - img "Poster for The Pied Piper of Hamelin" [ref=f1e290]
+                  - generic [aria-hidden] [ref=f1e291]:
+                    - paragraph [ref=f1e292]: Fantasy, Comedy
+                    - generic [ref=f1e293]: View details
+                - paragraph [ref=f1e294]: The Pied Piper of Hamelin
+                - paragraph [ref=f1e295]: 1957 • NR
+          - listitem [ref=f1e296]:
+            - article [ref=f1e297]:
+              - link [ref=f1e298] [cursor=pointer]:
+                - /url: /titles/m32
+                - generic [ref=f1e299]:
+                  - img "Poster for The Wizard of Oz" [ref=f1e300]
+                  - generic [aria-hidden] [ref=f1e301]:
+                    - paragraph [ref=f1e302]: Comedy, Family, Fantasy
+                    - generic [ref=f1e303]: View details
+                - paragraph [ref=f1e304]: The Wizard of Oz
+                - paragraph [ref=f1e305]: 1925 • NR
+  - status:
+    - paragraph: The Amazing Digital Circus added to My List

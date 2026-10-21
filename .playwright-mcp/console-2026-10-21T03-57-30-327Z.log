@@ -1,0 +1,2 @@
+[    2895ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:15803
+[    3722ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/auth/v1/token?grant_type=refresh_token:0

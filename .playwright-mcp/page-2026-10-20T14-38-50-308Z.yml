@@ -1,0 +1,14 @@
+- main [ref=f1e164]:
+  - generic [ref=f1e168]: Streetflix
+  - generic [ref=f1e169]:
+    - heading "Sign in" [level=1] [ref=f1e170]
+    - generic [ref=f1e171]:
+      - generic [ref=f1e172]: Email
+      - textbox "Email" [ref=f1e173]
+    - generic [ref=f1e174]:
+      - generic [ref=f1e175]: Password
+      - textbox "Password" [ref=f1e176]
+    - button "Sign in" [ref=f1e177] [cursor=pointer]
+    - paragraph [ref=f1e178]:
+      - text: New to Streetflix?
+      - button "Create one" [ref=f1e179] [cursor=pointer]

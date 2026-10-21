@@ -4,15 +4,26 @@ import NavBar from './NavBar.jsx'
 import Toast from './Toast.jsx'
 import './Layout.css'
 import ProfileSelect from '../pages/ProfileSelect.jsx'
+import SignIn from '../pages/SignIn.jsx'
+import { useAuth } from '../context/AuthContext.jsx'
 import { useCatalog } from '../context/CatalogContext.jsx'
 import { useProfile } from '../context/ProfileContext.jsx'
 
 export default function Layout() {
   const { pathname } = useLocation()
+  const { ready, user } = useAuth()
   const { profile } = useProfile()
   const { status, retry } = useCatalog()
   useEffect(() => { window.scrollTo(0, 0) }, [pathname])
-  if (!profile) return <ProfileSelect />
+  if (!ready) {
+    return (
+      <main id="main" className="profiles" aria-busy="true">
+        <p className="profiles-msg" role="status">Checking your session…</p>
+      </main>
+    )
+  }
+  if (!user) return <SignIn />
+  if (!profile) return <ProfileSelect key={user.id} />
   return (
     <>
       <a href="#main" className="skip-link">Skip to content</a>

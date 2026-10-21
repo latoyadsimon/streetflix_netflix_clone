@@ -1,0 +1,20 @@
+[     118ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:15803
+[   20490ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://hxxrdhisjrujwxolanej.supabase.co/auth/v1/signup:0
+[  110891ms] Error: useAuth must be used inside AuthProvider
+    at useAuth (http://localhost:5199/src/context/AuthContext.jsx:33:18)
+    at Layout (http://localhost:5199/src/components/Layout.jsx:17:26)
+    at Object.react_stack_bottom_frame (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:14141:12)
+    at renderWithHooks (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:4399:19)
+    at updateFunctionComponent (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:5774:16)
+    at beginWork (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:6390:20)
+    at runWithFiberInDEV (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:943:66)
+    at performUnitOfWork (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:9147:92)
+    at workLoopSync (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:9043:37)
+    at renderRootSync (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:9027:6)
+[  110887ms] [WARNING] %s
+
+%s
+ An error occurred in the <Layout> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5199/@vite/client:356
+[  111722ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:15803
+[  144475ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/auth/v1/token?grant_type=refresh_token:0

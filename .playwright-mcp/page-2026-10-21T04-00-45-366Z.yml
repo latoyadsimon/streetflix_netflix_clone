@@ -1,0 +1,140 @@
+- generic [ref=f3e2]:
+  - link "Skip to content" [ref=f3e30] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f3e31]:
+    - link "Streetflix home" [ref=f3e32] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f3e35]: Streetflix
+    - generic [ref=f3e36]:
+      - 'button "Account: Queen B" [expanded] [active] [ref=f3e37] [cursor=pointer]'
+      - generic [ref=f3e170]:
+        - paragraph [ref=f3e171]:
+          - text: Signed in as
+          - strong [ref=f3e172]: streetflix.test.a@example.com
+        - button "Switch profile" [ref=f3e173] [cursor=pointer]
+        - button "Log out" [ref=f3e174] [cursor=pointer]
+  - navigation "Primary mobile" [ref=f3e38]:
+    - link "Home" [ref=f3e39] [cursor=pointer]:
+      - /url: /
+    - link "Movies" [ref=f3e43] [cursor=pointer]:
+      - /url: /movies
+    - link "TV Shows" [ref=f3e47] [cursor=pointer]:
+      - /url: /tv-shows
+    - link "Search" [ref=f3e51] [cursor=pointer]:
+      - /url: /search
+    - link "My List" [ref=f3e55] [cursor=pointer]:
+      - /url: /watchlist
+  - main [ref=f3e59]:
+    - generic [ref=f3e60]:
+      - region [ref=f3e61]:
+        - generic [ref=f3e63]:
+          - img "Poster for A Trip to the Moon" [ref=f3e65]
+          - generic [ref=f3e66]:
+            - heading "A Trip to the Moon" [level=1] [ref=f3e67]
+            - paragraph [ref=f3e68]: The first science fiction film!
+            - paragraph [ref=f3e69]:
+              - generic [ref=f3e70]: "1902"
+              - generic [ref=f3e71]: G
+              - generic [ref=f3e72]: 15m
+              - generic [ref=f3e73]: Movie
+            - paragraph [ref=f3e74]: Adventure, Sci-Fi, Comedy
+            - paragraph [ref=f3e75]: Professor Barbenfouillis and five of his colleagues from the Academy of Astronomy travel to the Moon aboard a rocket propelled by a giant cannon. Once on the lunar surface, the bold explorers face the many perils hidden in the caves of the mysterious planet.
+            - generic [ref=f3e76]:
+              - button "Play" [ref=f3e77] [cursor=pointer]
+              - button "Trailer" [ref=f3e80] [cursor=pointer]
+              - button "My List (add to My List)" [ref=f3e81] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f3e82]: +
+                - text: My List
+                - generic [ref=f3e83]: (add to My List)
+      - region [ref=f3e85]:
+        - heading "More Like This" [level=2] [ref=f3e87]
+        - list [ref=f3e88]:
+          - listitem [ref=f3e89]:
+            - article [ref=f3e90]:
+              - link [ref=f3e91] [cursor=pointer]:
+                - /url: /titles/m14
+                - generic [ref=f3e92]:
+                  - img "Poster for The Lost World" [ref=f3e93]
+                  - generic [aria-hidden] [ref=f3e94]:
+                    - paragraph [ref=f3e95]: Adventure, Fantasy, Drama, Romance, Sci-Fi, Thriller
+                    - generic [ref=f3e96]: View details
+                - paragraph [ref=f3e97]: The Lost World
+                - paragraph [ref=f3e98]: 1925 • NR
+          - listitem [ref=f3e99]:
+            - article [ref=f3e100]:
+              - link [ref=f3e101] [cursor=pointer]:
+                - /url: /titles/m16
+                - generic [ref=f3e102]:
+                  - img "Poster for Santa Claus Conquers the Martians" [ref=f3e103]
+                  - generic [aria-hidden] [ref=f3e104]:
+                    - paragraph [ref=f3e105]: Comedy, Fantasy, Sci-Fi
+                    - generic [ref=f3e106]: View details
+                - paragraph [ref=f3e107]: Santa Claus Conquers the Martians
+                - paragraph [ref=f3e108]: 1964 • NR
+          - listitem [ref=f3e109]:
+            - article [ref=f3e110]:
+              - link [ref=f3e111] [cursor=pointer]:
+                - /url: /titles/m17
+                - generic [ref=f3e112]:
+                  - img "Poster for Voyage to the Planet of Prehistoric Women" [ref=f3e113]
+                  - generic [aria-hidden] [ref=f3e114]:
+                    - paragraph [ref=f3e115]: Adventure, Sci-Fi
+                    - generic [ref=f3e116]: View details
+                - paragraph [ref=f3e117]: Voyage to the Planet of Prehistoric Women
+                - paragraph [ref=f3e118]: 1968 • NR
+          - listitem [ref=f3e119]:
+            - article [ref=f3e120]:
+              - link [ref=f3e121] [cursor=pointer]:
+                - /url: /titles/m41
+                - generic [ref=f3e122]:
+                  - img "Poster for Mr. Bug Goes to Town" [ref=f3e123]
+                  - generic [aria-hidden] [ref=f3e124]:
+                    - paragraph [ref=f3e125]: Animation, Family, Adventure, Comedy
+                    - generic [ref=f3e126]: View details
+                - paragraph [ref=f3e127]: Mr. Bug Goes to Town
+                - paragraph [ref=f3e128]: 1941 • G
+          - listitem [ref=f3e129]:
+            - article [ref=f3e130]:
+              - link [ref=f3e131] [cursor=pointer]:
+                - /url: /titles/m1
+                - generic [ref=f3e132]:
+                  - img "Poster for His Girl Friday" [ref=f3e133]
+                  - generic [aria-hidden] [ref=f3e134]:
+                    - paragraph [ref=f3e135]: Comedy, Romance, Crime
+                    - generic [ref=f3e136]: View details
+                - paragraph [ref=f3e137]: His Girl Friday
+                - paragraph [ref=f3e138]: 1940 • NR
+          - listitem [ref=f3e139]:
+            - article [ref=f3e140]:
+              - link [ref=f3e141] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=f3e142]:
+                  - img "Poster for Charade" [ref=f3e143]
+                  - generic [aria-hidden] [ref=f3e144]:
+                    - paragraph [ref=f3e145]: Comedy, Mystery, Romance
+                    - generic [ref=f3e146]: View details
+                - paragraph [ref=f3e147]: Charade
+                - paragraph [ref=f3e148]: 1963 • NR
+          - listitem [ref=f3e149]:
+            - article [ref=f3e150]:
+              - link [ref=f3e151] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=f3e152]:
+                  - img "Poster for The General" [ref=f3e153]
+                  - generic [aria-hidden] [ref=f3e154]:
+                    - paragraph [ref=f3e155]: Comedy, Romance
+                    - generic [ref=f3e156]: View details
+                - paragraph [ref=f3e157]: The General
+                - paragraph [ref=f3e158]: 1926 • NR
+          - listitem [ref=f3e159]:
+            - article [ref=f3e160]:
+              - link [ref=f3e161] [cursor=pointer]:
+                - /url: /titles/m4
+                - generic [ref=f3e162]:
+                  - img "Poster for Sherlock Jr." [ref=f3e164]
+                  - generic [aria-hidden] [ref=f3e165]:
+                    - paragraph [ref=f3e166]: Action, Comedy, Mystery
+                    - generic [ref=f3e167]: View details
+                - paragraph [ref=f3e168]: Sherlock Jr.
+                - paragraph [ref=f3e169]: 1924 • NR
+  - status

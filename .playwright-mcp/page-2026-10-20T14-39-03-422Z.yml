@@ -1,0 +1,40 @@
+- generic [ref=f1e2]:
+  - link "Skip to content" [ref=f1e195] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e196]:
+    - link "Streetflix home" [ref=f1e197] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f1e200]: Streetflix
+    - button "Switch profile (signed in as Kid Neon)" [ref=f1e201] [cursor=pointer]
+  - navigation "Primary mobile" [ref=f1e202]:
+    - link "Home" [ref=f1e203] [cursor=pointer]:
+      - /url: /
+    - link "Movies" [ref=f1e207] [cursor=pointer]:
+      - /url: /movies
+    - link "TV Shows" [ref=f1e211] [cursor=pointer]:
+      - /url: /tv-shows
+    - link "Search" [ref=f1e215] [cursor=pointer]:
+      - /url: /search
+    - link "My List" [active] [ref=f1e219] [cursor=pointer]:
+      - /url: /watchlist
+  - main [ref=f1e223]:
+    - generic [ref=f1e334]:
+      - generic [ref=f1e335]:
+        - heading "My List" [level=1] [ref=f1e336]
+        - link "Browse Titles" [ref=f1e337] [cursor=pointer]:
+          - /url: /browse
+      - paragraph [ref=f1e338]: 1 saved title
+      - list [ref=f1e339]:
+        - listitem [ref=f1e340]:
+          - article [ref=f1e341]:
+            - link [ref=f1e342] [cursor=pointer]:
+              - /url: /titles/m1
+              - generic [ref=f1e343]:
+                - img "Poster for His Girl Friday" [ref=f1e344]
+                - generic [aria-hidden] [ref=f1e345]:
+                  - paragraph [ref=f1e346]: Comedy, Romance, Crime
+                  - generic [ref=f1e347]: View details
+              - paragraph [ref=f1e348]: His Girl Friday
+              - paragraph [ref=f1e349]: 1940 • NR
+            - button "Remove His Girl Friday from My List" [ref=f1e350] [cursor=pointer]
+  - status

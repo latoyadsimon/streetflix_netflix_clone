@@ -1,0 +1,134 @@
+- generic [ref=f1e2]:
+  - link "Skip to content" [ref=f1e24] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e25]:
+    - link "Streetflix home" [ref=f1e26] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f1e29]: Streetflix
+    - navigation "Primary" [ref=f1e30]:
+      - link "Home" [ref=f1e31] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f1e32] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f1e33] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f1e34] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f1e35] [cursor=pointer]:
+        - /url: /watchlist
+    - button "Switch profile (signed in as Kid Neon)" [ref=f1e36] [cursor=pointer]:
+      - generic [ref=f1e37]: Kid Neon
+  - main [ref=f1e38]:
+    - generic [ref=f1e39]:
+      - region [ref=f1e40]:
+        - generic [ref=f1e42]:
+          - img "Poster for His Girl Friday" [ref=f1e44]
+          - generic [ref=f1e45]:
+            - heading "His Girl Friday" [level=1] [ref=f1e46]
+            - paragraph [ref=f1e47]: They're at each other's throats when they're not in each other's arms!
+            - paragraph [ref=f1e48]:
+              - generic [ref=f1e49]: "1940"
+              - generic [ref=f1e50]: NR
+              - generic [ref=f1e51]: 1h 32m
+              - generic [ref=f1e52]: Movie
+            - paragraph [ref=f1e53]: Comedy, Romance, Crime
+            - paragraph [ref=f1e54]: "Walter Burns is an irresistibly conniving newspaper publisher desperate to woo back his paper’s star reporter, who also happens to be his estranged wife. She’s threatening to quit and settle down with a new beau, but, as Walter knows, she has a weakness: she can’t resist a juicy scoop."
+            - generic [ref=f1e55]:
+              - button "Play" [ref=f1e56] [cursor=pointer]
+              - button "Trailer" [ref=f1e59] [cursor=pointer]
+              - button "My List (add to My List)" [ref=f1e60] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f1e61]: +
+                - text: My List
+                - generic [ref=f1e62]: (add to My List)
+      - region [ref=f1e64]:
+        - heading "More Like This" [level=2] [ref=f1e66]
+        - list [ref=f1e67]:
+          - listitem [ref=f1e68]:
+            - article [ref=f1e69]:
+              - link [ref=f1e70] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=f1e71]:
+                  - img "Poster for Charade" [ref=f1e72]
+                  - generic [aria-hidden] [ref=f1e73]:
+                    - paragraph [ref=f1e74]: Comedy, Mystery, Romance
+                    - generic [ref=f1e75]: View details
+                - paragraph [ref=f1e76]: Charade
+                - paragraph [ref=f1e77]: 1963 • NR
+          - listitem [ref=f1e78]:
+            - article [ref=f1e79]:
+              - link [ref=f1e80] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=f1e81]:
+                  - img "Poster for The General" [ref=f1e82]
+                  - generic [aria-hidden] [ref=f1e83]:
+                    - paragraph [ref=f1e84]: Comedy, Romance
+                    - generic [ref=f1e85]: View details
+                - paragraph [ref=f1e86]: The General
+                - paragraph [ref=f1e87]: 1926 • NR
+          - listitem [ref=f1e88]:
+            - article [ref=f1e89]:
+              - link [ref=f1e90] [cursor=pointer]:
+                - /url: /titles/m11
+                - generic [ref=f1e91]:
+                  - img "Poster for Safety Last!" [ref=f1e92]
+                  - generic [aria-hidden] [ref=f1e93]:
+                    - paragraph [ref=f1e94]: Comedy, Romance, Thriller
+                    - generic [ref=f1e95]: View details
+                - paragraph [ref=f1e96]: Safety Last!
+                - paragraph [ref=f1e97]: 1923 • NR
+          - listitem [ref=f1e98]:
+            - article [ref=f1e99]:
+              - link [ref=f1e100] [cursor=pointer]:
+                - /url: /titles/m15
+                - generic [ref=f1e101]:
+                  - img "Poster for Teenagers from Outer Space" [ref=f1e102]
+                  - generic [aria-hidden] [ref=f1e103]:
+                    - paragraph [ref=f1e104]: Crime, Sci-Fi, Romance, Thriller
+                    - generic [ref=f1e105]: View details
+                - paragraph [ref=f1e106]: Teenagers from Outer Space
+                - paragraph [ref=f1e107]: 1959 • NR
+          - listitem [ref=f1e108]:
+            - article [ref=f1e109]:
+              - link [ref=f1e110] [cursor=pointer]:
+                - /url: /titles/m23
+                - generic [ref=f1e111]:
+                  - img "Poster for Meet John Doe" [ref=f1e112]
+                  - generic [aria-hidden] [ref=f1e113]:
+                    - paragraph [ref=f1e114]: Drama, Comedy, Romance
+                    - generic [ref=f1e115]: View details
+                - paragraph [ref=f1e116]: Meet John Doe
+                - paragraph [ref=f1e117]: 1941 • NR
+          - listitem [ref=f1e118]:
+            - article [ref=f1e119]:
+              - link [ref=f1e120] [cursor=pointer]:
+                - /url: /titles/m24
+                - generic [ref=f1e121]:
+                  - img "Poster for My Favorite Brunette" [ref=f1e122]
+                  - generic [aria-hidden] [ref=f1e123]:
+                    - paragraph [ref=f1e124]: Comedy, Mystery, Romance
+                    - generic [ref=f1e125]: View details
+                - paragraph [ref=f1e126]: My Favorite Brunette
+                - paragraph [ref=f1e127]: 1947 • NR
+          - listitem [ref=f1e128]:
+            - article [ref=f1e129]:
+              - link [ref=f1e130] [cursor=pointer]:
+                - /url: /titles/m4
+                - generic [ref=f1e131]:
+                  - img "Poster for Sherlock Jr." [ref=f1e132]
+                  - generic [aria-hidden] [ref=f1e133]:
+                    - paragraph [ref=f1e134]: Action, Comedy, Mystery
+                    - generic [ref=f1e135]: View details
+                - paragraph [ref=f1e136]: Sherlock Jr.
+                - paragraph [ref=f1e137]: 1924 • NR
+          - listitem [ref=f1e138]:
+            - article [ref=f1e139]:
+              - link [ref=f1e140] [cursor=pointer]:
+                - /url: /titles/m5
+                - generic [ref=f1e141]:
+                  - img "Poster for A Trip to the Moon" [ref=f1e142]
+                  - generic [aria-hidden] [ref=f1e143]:
+                    - paragraph [ref=f1e144]: Adventure, Sci-Fi, Comedy
+                    - generic [ref=f1e145]: View details
+                - paragraph [ref=f1e146]: A Trip to the Moon
+                - paragraph [ref=f1e147]: 1902 • G
+  - status

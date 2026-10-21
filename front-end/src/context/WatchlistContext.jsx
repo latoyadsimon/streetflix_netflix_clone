@@ -12,6 +12,8 @@ export function WatchlistProvider({ children }) {
   const profileId = profile?.id
   // The list is tagged with its owner, so a profile switch never shows the previous profile's list.
   const [list, setList] = useState({ owner: null, ids: [] })
+  // Drop the previous profile's list once no profile is active (e.g. after log out).
+  if (!profileId && list.owner) setList({ owner: null, ids: [] })
   const ids = list.owner === profileId ? list.ids : EMPTY
   const loading = Boolean(profileId) && list.owner !== profileId
   const setIds = useCallback((update) => {

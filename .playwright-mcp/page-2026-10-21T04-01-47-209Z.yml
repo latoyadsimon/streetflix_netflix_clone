@@ -1,0 +1,41 @@
+- generic [ref=f6e2]:
+  - link "Skip to content" [ref=f6e23] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f6e24]:
+    - link "Streetflix home" [ref=f6e25] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f6e28]: Streetflix
+    - navigation "Primary" [ref=f6e29]:
+      - link "Home" [ref=f6e30] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=f6e31] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=f6e32] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=f6e33] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=f6e34] [cursor=pointer]:
+        - /url: /watchlist
+    - 'button "Account: Queen B" [ref=f6e36] [cursor=pointer]':
+      - generic [ref=f6e37]: Queen B
+  - main [ref=f6e38]:
+    - generic [ref=f6e39]:
+      - generic [ref=f6e40]:
+        - heading "My List" [level=1] [ref=f6e41]
+        - link "Browse Titles" [ref=f6e42] [cursor=pointer]:
+          - /url: /browse
+      - paragraph [ref=f6e43]: 1 saved title
+      - list [ref=f6e44]:
+        - listitem [ref=f6e45]:
+          - article [ref=f6e46]:
+            - link [ref=f6e47] [cursor=pointer]:
+              - /url: /titles/s2
+              - generic [ref=f6e48]:
+                - img "Poster for The Amazing Digital Circus" [ref=f6e49]
+                - generic [aria-hidden] [ref=f6e50]:
+                  - paragraph [ref=f6e51]: Animation, Comedy, Fantasy
+                  - generic [ref=f6e52]: View details
+              - paragraph [ref=f6e53]: The Amazing Digital Circus
+              - paragraph [ref=f6e54]: 2023 • TV-PG
+            - button "Remove The Amazing Digital Circus from My List" [ref=f6e55] [cursor=pointer]
+  - status

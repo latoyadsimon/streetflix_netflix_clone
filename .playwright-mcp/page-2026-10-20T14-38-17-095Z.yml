@@ -1,0 +1,25 @@
+- main [ref=e25]:
+  - heading "Add a profile" [level=1] [ref=e36]
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - generic [ref=e39]: Profile name
+      - textbox "Profile name" [ref=e40]: Kid Neon
+    - group "Avatar" [ref=e41]:
+      - generic [ref=e43] [cursor=pointer]:
+        - radio "Queen B" [ref=e44]
+        - img "Queen B" [ref=e45]
+      - generic [ref=e46] [cursor=pointer]:
+        - radio "Crown" [ref=e47]
+        - img "Crown" [ref=e48]
+      - generic [ref=e49] [cursor=pointer]:
+        - radio "Spray" [ref=e50]
+        - img "Spray" [ref=e51]
+      - generic [ref=e52] [cursor=pointer]:
+        - radio "Stencil" [ref=e53]
+        - img "Stencil" [ref=e54]
+      - generic [ref=e55] [cursor=pointer]:
+        - radio "Kid Neon" [checked] [active] [ref=e56]
+        - img "Kid Neon" [ref=e57]
+    - generic [ref=e58]:
+      - button "Save" [ref=e59] [cursor=pointer]
+      - button "Cancel" [ref=e60] [cursor=pointer]

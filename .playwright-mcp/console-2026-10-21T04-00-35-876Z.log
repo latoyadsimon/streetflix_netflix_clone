@@ -1,0 +1,18 @@
+[      89ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:15803
+[   50008ms] Error: useAuth must be used inside AuthProvider
+    at useAuth (http://localhost:5199/src/context/AuthContext.jsx?t=1792555196652:33:18)
+    at Layout (http://localhost:5199/src/components/Layout.jsx?t=1792555199449:17:26)
+    at Object.react_stack_bottom_frame (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:14141:12)
+    at renderWithHooks (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:4399:19)
+    at updateFunctionComponent (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:5774:16)
+    at beginWork (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:6390:20)
+    at runWithFiberInDEV (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:943:66)
+    at performUnitOfWork (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:9147:92)
+    at workLoopSync (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:9043:37)
+    at renderRootSync (http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:9027:6)
+[   50007ms] [WARNING] %s
+
+%s
+ An error occurred in the <Layout> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5199/@vite/client:356
+[   50326ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=74c95ccf:15803

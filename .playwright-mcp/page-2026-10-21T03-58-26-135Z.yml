@@ -1,0 +1,17 @@
+- main [ref=f1e149]:
+  - generic [ref=f1e153]: Streetflix
+  - generic [ref=f1e154]:
+    - heading "Create account" [level=1] [ref=f1e165]
+    - generic [ref=f1e156]:
+      - generic [ref=f1e157]: Email
+      - textbox "Email" [ref=f1e158]
+    - generic [ref=f1e159]:
+      - generic [ref=f1e160]: Password
+      - textbox "Password" [ref=f1e161]
+    - generic [ref=f1e166]:
+      - generic [ref=f1e167]: Profile name
+      - textbox "Profile name" [ref=f1e168]
+    - button "Create account" [ref=f1e169] [cursor=pointer]
+    - paragraph [ref=f1e163]:
+      - text: Already have an account?
+      - button "Sign in" [active] [ref=f1e170] [cursor=pointer]

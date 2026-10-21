@@ -1,0 +1,9 @@
+- main [ref=f1e384]:
+  - heading "Who's watching?" [level=1] [ref=f1e385]
+  - list [ref=f1e386]:
+    - listitem [ref=f1e387]:
+      - button "Spray" [ref=f1e388] [cursor=pointer]
+    - listitem [ref=f1e390]:
+      - button "Add profile" [ref=f1e391] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e392]: +
+  - button "Sign out" [ref=f1e394] [cursor=pointer]
