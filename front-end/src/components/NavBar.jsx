@@ -76,6 +76,9 @@ export default function NavBar() {
             <NavLink key={to} to={to} end={end}>{label}</NavLink>
           ))}
         </nav>
+        <Link to="/donate" className="donate-link" aria-label="Donate — buy us a coffee">
+          <img src="/coffee-cup.png" alt="" width="30" height="38" />
+        </Link>
         <AccountMenu />
       </header>
       <nav aria-label="Primary mobile" className="tabbar">

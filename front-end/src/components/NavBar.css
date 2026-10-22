@@ -57,7 +57,13 @@
   .tabbar a[aria-current='page'] svg { color: var(--accent); }
 }
 
-.account { position: relative; margin-left: auto; }
+.account { position: relative; }
+.donate-link { margin-left: auto; margin-right: -24px; display: grid; place-items: center; width: 44px; height: 44px; border-radius: var(--radius); }
+.donate-link img { display: block; height: 38px; width: auto; transition: transform 200ms var(--ease); }
+.donate-link:hover img, .donate-link:focus-visible img { transform: rotate(-8deg) scale(1.1); }
+.donate-link:focus-visible { outline: 3px solid var(--crown); outline-offset: 2px; }
+@media (max-width: 767px) { .donate-link { margin-right: -32px; } }
+@media (prefers-reduced-motion: reduce) { .donate-link:hover img, .donate-link:focus-visible img { transform: none; } }
 .account-panel {
   position: absolute; right: 0; top: calc(100% + 12px); z-index: 60;
   width: max-content; max-width: min(300px, calc(100vw - 32px));

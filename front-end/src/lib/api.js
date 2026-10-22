@@ -1,3 +1,4 @@
+import { FunctionsHttpError } from '@supabase/supabase-js'
 import { supabase } from './supabase.js'
 
 // Every Supabase call the app makes lives here. Supabase Auth signs the viewer in; RLS
@@ -89,3 +90,24 @@ export const addToWatchlist = (profileId, titleUuid) =>
 
 export const removeFromWatchlist = (profileId, titleUuid) =>
   supabase.from('watchlist_items').delete().eq('user_id', profileId).eq('title_id', titleUuid).then(check)
+
+// ----- Donations -----
+
+// Asks the `process-donation` Edge Function for a Stripe PaymentIntent and returns its
+// client_secret (the card itself goes to Stripe.js, never through here). Failures are thrown
+// tagged: { kind: 'network' } when the function can't be reached, { kind: 'server', message,
+// status } when it answered with an error (message is the function's own `{ error }` text).
+export const createDonationIntent = async (amountCents, userId) => {
+  const { data, error } = await supabase.functions.invoke('process-donation', {
+    body: { amount: amountCents, user_id: userId },
+  })
+  if (error) {
+    if (error instanceof FunctionsHttpError) {
+      const body = await error.context.json().catch(() => null)
+      throw { kind: 'server', status: error.context.status, message: body?.error ?? '' }
+    }
+    throw { kind: 'network' }
+  }
+  if (!data?.client_secret) throw { kind: 'server', status: 500, message: '' }
+  return data.client_secret
+}

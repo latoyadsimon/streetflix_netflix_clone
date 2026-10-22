@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { createProfile, fetchProfiles, signOut } from '../lib/api.js'
 import { useProfile } from '../context/ProfileContext.jsx'
 import { AVATARS } from '../data/avatars.js'
@@ -25,7 +26,12 @@ export default function ProfileSelect() {
 
   return (
     <main className="profiles" id="main">
-      <h1 className="profiles-title">{adding ? 'Add a profile' : "Who's watching?"}</h1>
+      <div className="profiles-head">
+        <Link to="/donate" className="donate-link donate-link-picker" aria-label="Donate — buy us a coffee">
+          <img src="/coffee-cup.png" alt="" width="60" height="77" />
+        </Link>
+        <h1 className="profiles-title">{adding ? 'Add a profile' : "Who's watching?"}</h1>
+      </div>
       {error && (
         <div className="profiles-msg" role="alert">
           <p>We couldn't load the profiles. Check your connection and try again.</p>

@@ -1,9 +1,10 @@
 import { useEffect } from 'react'
-import { Outlet, useLocation } from 'react-router-dom'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 import NavBar from './NavBar.jsx'
 import Toast from './Toast.jsx'
 import './Layout.css'
 import ProfileSelect from '../pages/ProfileSelect.jsx'
+import Donate from '../pages/Donate.jsx'
 import SignIn from '../pages/SignIn.jsx'
 import { useAuth } from '../context/AuthContext.jsx'
 import { useCatalog } from '../context/CatalogContext.jsx'
@@ -23,6 +24,15 @@ export default function Layout() {
     )
   }
   if (!user) return <SignIn />
+  // Donations belong to the login, so /donate works before a profile is picked.
+  if (!profile && pathname === '/donate') {
+    return (
+      <main id="main" className="donate-standalone">
+        <Link to="/" className="donate-back">&larr; Back</Link>
+        <Donate />
+      </main>
+    )
+  }
   if (!profile) return <ProfileSelect key={user.id} />
   return (
     <>

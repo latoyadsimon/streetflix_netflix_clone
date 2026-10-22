@@ -1,0 +1,40 @@
+.donate { max-width: 560px; margin: 0 auto; display: flex; flex-direction: column; gap: 1.25rem; }
+.donate-title { align-self: flex-start; }
+.donate-lede { margin: 0; color: var(--text-muted); max-width: 52ch; }
+.donate-form { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 0.5rem; }
+.donate-amounts { margin: 0; padding: 0; border: 0; min-width: 0; }
+.donate-amounts legend, .donate-label { padding: 0; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem; }
+.donate-label { display: block; }
+.donate-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(84px, 1fr)); gap: 10px; }
+.donate-option { position: relative; display: block; cursor: pointer; }
+.donate-option input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.donate-option span {
+  display: grid; place-items: center; min-height: 52px; border-radius: var(--radius);
+  background: var(--surface); border: 2px solid var(--surface-hover);
+  font: 400 1.4rem var(--font-display); letter-spacing: 0.02em;
+  transition: transform 150ms var(--ease), border-color 150ms var(--ease);
+}
+.donate-option:hover span { transform: translate(-1px, -1px); border-color: var(--accent); }
+.donate-option input:checked + span { border-color: var(--crown); background: var(--surface-hover); color: var(--crown); }
+.donate-option input:focus-visible + span { outline: 3px solid var(--crown); outline-offset: 3px; }
+.donate-custom { margin-top: 14px; }
+.donate-custom small { color: var(--text-muted); }
+.donate-custom small.donate-bad, .donate-error { color: var(--error); }
+.donate-card-box {
+  padding: 14px; border-radius: var(--radius); background: var(--surface); border: 2px solid var(--surface-hover);
+}
+.donate-card-box:focus-within { border-color: var(--crown); }
+.donate-live { min-height: 1.5rem; }
+.donate-live p, .donate-sub { margin: 0; }
+.donate-sub { color: var(--text-muted); }
+.donate-submit { align-self: flex-start; }
+.donate-submit:disabled { cursor: not-allowed; }
+.donate-done { display: flex; flex-direction: column; align-items: flex-start; gap: 1rem; padding: 1.5rem; background: var(--surface); border-left: 6px solid var(--crown); border-radius: var(--radius); }
+.donate-thanks { margin: 0; font: 400 clamp(1.5rem, 4vw, 2rem) var(--font-display); text-transform: uppercase; }
+
+/* No profile picked: Donate stands alone with a Back link instead of the nav */
+.donate-standalone { min-height: 100vh; padding: 1.5rem var(--gutter) 3rem; }
+.donate-standalone .donate { padding: 1.5rem 0 0; }
+.donate-back { display: inline-block; padding: 10px 0; color: var(--text-muted); text-decoration: none; font-weight: 600; }
+.donate-back:hover { color: #fff; }
+.donate-back:focus-visible { outline: 3px solid var(--crown); outline-offset: 3px; }

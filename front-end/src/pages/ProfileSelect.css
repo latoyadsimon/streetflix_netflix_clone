@@ -56,3 +56,7 @@
 .avatar-option input:checked + img { border-color: var(--crown); }
 .avatar-option input:focus-visible + img { outline: 3px solid var(--crown); outline-offset: 3px; }
 .profile-form-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.profiles-head { display: flex; align-items: center; justify-content: center; gap: clamp(12px, 2vw, 24px); }
+.donate-link-picker { margin: 0; width: auto; height: auto; padding: 4px; }
+.donate-link-picker img { height: clamp(48px, 7vw, 80px); }

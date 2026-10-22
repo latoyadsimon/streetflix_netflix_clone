@@ -7,6 +7,7 @@ import Browse from './pages/Browse.jsx'
 import Search from './pages/Search.jsx'
 import TitleDetails from './pages/TitleDetails.jsx'
 import Watchlist from './pages/Watchlist.jsx'
+import Donate from './pages/Donate.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="search" element={<Search />} />
         <Route path="titles/:id" element={<TitleDetails />} />
         <Route path="watchlist" element={<Watchlist />} />
+        <Route path="donate" element={<Donate />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

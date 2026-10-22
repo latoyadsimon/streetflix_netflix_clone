@@ -226,3 +226,26 @@ create policy "Owners can unmark watched titles"
 
 revoke all on public.watched_titles from anon, authenticated;
 grant select, insert, delete on public.watched_titles to authenticated;
+
+-- donations: one row per Stripe PaymentIntent, written only by the stripe-webhook Edge Function
+-- (service_role). A signed-in user can read only their own donations; clients cannot write.
+create table public.donations (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  amount integer not null check (amount > 0),  -- cents
+  stripe_payment_intent_id text not null unique,
+  status text not null check (status in ('succeeded','failed')),
+  created_at timestamptz not null default now()
+);
+create index donations_user_id_idx on public.donations (user_id);
+
+alter table public.donations enable row level security;
+
+create policy "Users can read their own donations"
+  on public.donations for select to authenticated
+  using (user_id = (select auth.uid()));
+
+revoke all on public.donations from anon, authenticated;
+grant select on public.donations to authenticated;
+revoke all on public.donations from service_role;
+grant select, insert, update on public.donations to service_role;
