@@ -1,0 +1,224 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e76] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e77]:
+    - link "Streetflix home" [ref=e78] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e81]: Streetflix
+    - navigation "Primary" [ref=e82]:
+      - link "Home" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=e84] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=e85] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=e86] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=e87] [cursor=pointer]:
+        - /url: /watchlist
+    - link "Donate — buy us a coffee" [ref=e88] [cursor=pointer]:
+      - /url: /donate
+    - 'button "Account: QA One" [ref=e90] [cursor=pointer]':
+      - generic [ref=e91]: QA One
+  - main [ref=e92]:
+    - generic [ref=e629]:
+      - heading "Movies" [level=1] [ref=e630]
+      - generic [ref=e631]:
+        - generic [ref=e632]: "Genre:"
+        - combobox "Genre:" [ref=e633] [cursor=pointer]:
+          - option "All Genres" [selected]
+          - option "Action"
+          - option "Adventure"
+          - option "Animation"
+          - option "Anime"
+          - option "Comedy"
+          - option "Crime"
+          - option "Drama"
+          - option "Family"
+          - option "Fantasy"
+          - option "Horror"
+          - option "Mystery"
+          - option "Romance"
+          - option "Sci-Fi"
+          - option "Thriller"
+          - option "Western"
+      - list [ref=e634]:
+        - listitem [ref=e635]:
+          - article [ref=e636]:
+            - link [ref=e637] [cursor=pointer]:
+              - /url: /titles/m1
+              - generic [ref=e638]:
+                - img "Poster for His Girl Friday" [ref=e639]
+                - generic [aria-hidden] [ref=e640]:
+                  - paragraph [ref=e641]: Comedy, Romance, Crime
+                  - generic [ref=e642]: View details
+              - paragraph [ref=e643]: His Girl Friday
+              - paragraph [ref=e644]: 1940 • NR
+        - listitem [ref=e645]:
+          - article [ref=e646]:
+            - link [ref=e647] [cursor=pointer]:
+              - /url: /titles/m2
+              - generic [ref=e648]:
+                - img "Poster for Charade" [ref=e649]
+                - generic [aria-hidden] [ref=e650]:
+                  - paragraph [ref=e651]: Comedy, Mystery, Romance
+                  - generic [ref=e652]: View details
+              - paragraph [ref=e653]: Charade
+              - paragraph [ref=e654]: 1963 • NR
+        - listitem [ref=e655]:
+          - article [ref=e656]:
+            - link [ref=e657] [cursor=pointer]:
+              - /url: /titles/m3
+              - generic [ref=e658]:
+                - img "Poster for The General" [ref=e659]
+                - generic [aria-hidden] [ref=e660]:
+                  - paragraph [ref=e661]: Comedy, Romance
+                  - generic [ref=e662]: View details
+              - paragraph [ref=e663]: The General
+              - paragraph [ref=e664]: 1926 • NR
+        - listitem [ref=e665]:
+          - article [ref=e666]:
+            - link [ref=e667] [cursor=pointer]:
+              - /url: /titles/m4
+              - generic [ref=e668]:
+                - img "Poster for Sherlock Jr." [ref=e669]
+                - generic [aria-hidden] [ref=e670]:
+                  - paragraph [ref=e671]: Action, Comedy, Mystery
+                  - generic [ref=e672]: View details
+              - paragraph [ref=e673]: Sherlock Jr.
+              - paragraph [ref=e674]: 1924 • NR
+        - listitem [ref=e675]:
+          - article [ref=e676]:
+            - link [ref=e677] [cursor=pointer]:
+              - /url: /titles/m5
+              - generic [ref=e678]:
+                - img "Poster for A Trip to the Moon" [ref=e679]
+                - generic [aria-hidden] [ref=e680]:
+                  - paragraph [ref=e681]: Adventure, Sci-Fi, Comedy
+                  - generic [ref=e682]: View details
+              - paragraph [ref=e683]: A Trip to the Moon
+              - paragraph [ref=e684]: 1902 • G
+        - listitem [ref=e685]:
+          - article [ref=e686]:
+            - link [ref=e687] [cursor=pointer]:
+              - /url: /titles/m6
+              - generic [ref=e688]:
+                - img "Poster for Metropolis" [ref=e689]
+                - generic [aria-hidden] [ref=e690]:
+                  - paragraph [ref=e691]: Drama, Sci-Fi
+                  - generic [ref=e692]: View details
+              - paragraph [ref=e693]: Metropolis
+              - paragraph [ref=e694]: 1927 • NR
+        - listitem [ref=e695]:
+          - article [ref=e696]:
+            - link [ref=e697] [cursor=pointer]:
+              - /url: /titles/m7
+              - generic [ref=e698]:
+                - img "Poster for Sita Sings the Blues" [ref=e699]
+                - generic [aria-hidden] [ref=e700]:
+                  - paragraph [ref=e701]: Animation, Drama, Romance, Fantasy
+                  - generic [ref=e702]: View details
+              - paragraph [ref=e703]: Sita Sings the Blues
+              - paragraph [ref=e704]: 2008 • NR
+        - listitem [ref=e705]:
+          - article [ref=e706]:
+            - link [ref=e707] [cursor=pointer]:
+              - /url: /titles/m8
+              - generic [ref=e708]:
+                - img "Poster for Big Buck Bunny" [ref=e709]
+                - generic [aria-hidden] [ref=e710]:
+                  - paragraph [ref=e711]: Animation, Comedy, Family
+                  - generic [ref=e712]: View details
+              - paragraph [ref=e713]: Big Buck Bunny
+              - paragraph [ref=e714]: 2008 • G
+        - listitem [ref=e717]:
+          - article [ref=e718]:
+            - link [ref=e719] [cursor=pointer]:
+              - /url: /titles/m9
+              - generic [ref=e720]:
+                - img "Poster for Sintel" [ref=e721]
+                - generic [aria-hidden] [ref=e722]:
+                  - paragraph [ref=e723]: Animation, Fantasy
+                  - generic [ref=e724]: View details
+              - paragraph [ref=e725]: Sintel
+              - paragraph [ref=e726]: 2010 • PG
+        - listitem [ref=e727]:
+          - article [ref=e728]:
+            - link [ref=e729] [cursor=pointer]:
+              - /url: /titles/m10
+              - generic [ref=e730]:
+                - img "Poster for Tears of Steel" [ref=e731]
+                - generic [aria-hidden] [ref=e732]:
+                  - paragraph [ref=e733]: Sci-Fi, Animation
+                  - generic [ref=e734]: View details
+              - paragraph [ref=e735]: Tears of Steel
+              - paragraph [ref=e736]: 2012 • NR
+        - listitem [ref=e737]:
+          - article [ref=e738]:
+            - link [ref=e739] [cursor=pointer]:
+              - /url: /titles/m11
+              - generic [ref=e740]:
+                - img "Poster for Safety Last!" [ref=e741]
+                - generic [aria-hidden] [ref=e742]:
+                  - paragraph [ref=e743]: Comedy, Romance, Thriller
+                  - generic [ref=e744]: View details
+              - paragraph [ref=e745]: Safety Last!
+              - paragraph [ref=e746]: 1923 • NR
+        - listitem [ref=e747]:
+          - article [ref=e748]:
+            - link [ref=e749] [cursor=pointer]:
+              - /url: /titles/m12
+              - generic [ref=e750]:
+                - img "Poster for Plan 9 from Outer Space" [ref=e751]
+                - generic [aria-hidden] [ref=e752]:
+                  - paragraph [ref=e753]: Sci-Fi
+                  - generic [ref=e754]: View details
+              - paragraph [ref=e755]: Plan 9 from Outer Space
+              - paragraph [ref=e756]: 1957 • NR
+        - listitem [ref=e757]:
+          - article [ref=e758]:
+            - link [ref=e759] [cursor=pointer]:
+              - /url: /titles/m13
+              - generic [ref=e760]:
+                - img "Poster for Robot Monster" [ref=e761]
+                - generic [aria-hidden] [ref=e762]:
+                  - paragraph [ref=e763]: Sci-Fi
+                  - generic [ref=e764]: View details
+              - paragraph [ref=e765]: Robot Monster
+              - paragraph [ref=e766]: 1953 • NR
+        - listitem [ref=e767]:
+          - article [ref=e768]:
+            - link [ref=e769] [cursor=pointer]:
+              - /url: /titles/m14
+              - generic [ref=e770]:
+                - img "Poster for The Lost World" [ref=e771]
+                - generic [aria-hidden] [ref=e772]:
+                  - paragraph [ref=e773]: Adventure, Fantasy, Drama, Romance, Sci-Fi, Thriller
+                  - generic [ref=e774]: View details
+              - paragraph [ref=e775]: The Lost World
+              - paragraph [ref=e776]: 1925 • NR
+        - listitem [ref=e777]:
+          - article [ref=e778]:
+            - link [ref=e779] [cursor=pointer]:
+              - /url: /titles/m15
+              - generic [ref=e780]:
+                - img "Poster for Teenagers from Outer Space" [ref=e781]
+                - generic [aria-hidden] [ref=e782]:
+                  - paragraph [ref=e783]: Crime, Sci-Fi, Romance, Thriller
+                  - generic [ref=e784]: View details
+              - paragraph [ref=e785]: Teenagers from Outer Space
+              - paragraph [ref=e786]: 1959 • NR
+        - listitem [ref=e787]:
+          - article [ref=e788]:
+            - link [ref=e789] [cursor=pointer]:
+              - /url: /titles/m16
+              - generic [ref=e790]:
+                - img "Poster for Santa Claus Conquers the Martians" [ref=e791]
+                - generic [aria-hidden] [ref=e792]:
+                  - paragraph [ref=e793]: Comedy, Fantasy, Sci-Fi
+                  - generic [ref=e794]: View details
+              - paragraph [ref=e795]: Santa Claus Conquers the Martians
+              - paragraph [ref=e796]: 1964 • NR
+      - paragraph [ref=e715]: Showing 16 of 44 movies
+      - button "Load More" [active] [ref=e716] [cursor=pointer]
+  - status

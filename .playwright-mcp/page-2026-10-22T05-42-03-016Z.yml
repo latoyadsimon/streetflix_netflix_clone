@@ -1,0 +1,44 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e76] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e77]:
+    - link "Streetflix home" [ref=e78] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e81]: Streetflix
+    - navigation "Primary" [ref=e82]:
+      - link "Home" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=e84] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=e85] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=e86] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=e87] [cursor=pointer]:
+        - /url: /watchlist
+    - link "Donate — buy us a coffee" [ref=e88] [cursor=pointer]:
+      - /url: /donate
+    - 'button "Account: QA One" [ref=e90] [cursor=pointer]':
+      - generic [ref=e91]: QA One
+  - main [ref=e92]:
+    - generic [ref=e1013]:
+      - generic [ref=e1014]:
+        - heading "My List" [active] [level=1] [ref=e1015]
+        - link "Browse Titles" [ref=e1016] [cursor=pointer]:
+          - /url: /browse
+      - paragraph [ref=e1017]: 1 saved title
+      - list [ref=e1018]:
+        - listitem [ref=e1032]:
+          - article [ref=e1033]:
+            - link [ref=e1034] [cursor=pointer]:
+              - /url: /titles/s1
+              - generic [ref=e1035]:
+                - img "Poster for Helluva Boss" [ref=e1036]
+                - generic [aria-hidden] [ref=e1037]:
+                  - paragraph [ref=e1038]: Animation, Comedy, Fantasy, Drama
+                  - generic [ref=e1039]: View details
+              - paragraph [ref=e1040]: Helluva Boss
+              - paragraph [ref=e1041]: 2020 • TV-MA
+            - button "Remove Helluva Boss from My List" [ref=e1042] [cursor=pointer]
+  - status:
+    - paragraph: His Girl Friday removed from My List

@@ -1,0 +1,247 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e76] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e77]:
+    - link "Streetflix home" [ref=e78] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e81]: Streetflix
+    - navigation "Primary" [ref=e82]:
+      - link "Home" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=e84] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=e85] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=e86] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=e87] [cursor=pointer]:
+        - /url: /watchlist
+    - link "Donate — buy us a coffee" [ref=e88] [cursor=pointer]:
+      - /url: /donate
+    - 'button "Account: QA One" [ref=e90] [cursor=pointer]':
+      - generic [ref=e91]: QA One
+  - main [ref=e92]:
+    - generic [ref=e797]:
+      - heading "Search" [level=1] [ref=e798]
+      - search [ref=e807]:
+        - generic [ref=e808]:
+          - searchbox "Search movies and shows" [ref=e811]: the
+          - button "Clear search" [ref=e812] [cursor=pointer]
+        - button "Search" [ref=e815] [cursor=pointer]
+      - paragraph [ref=e816]: Results for “the” (19)
+      - region "Movies" [ref=e817]:
+        - heading "Movies (15)" [level=2] [ref=e818]
+        - list [ref=e819]:
+          - listitem [ref=e820]:
+            - article [ref=e821]:
+              - link [ref=e822] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=e823]:
+                  - img "Poster for The General" [ref=e824]
+                  - generic [aria-hidden] [ref=e825]:
+                    - paragraph [ref=e826]: Comedy, Romance
+                    - generic [ref=e827]: View details
+                - paragraph [ref=e828]: The General
+                - paragraph [ref=e829]: 1926 • NR
+          - listitem [ref=e830]:
+            - article [ref=e831]:
+              - link [ref=e832] [cursor=pointer]:
+                - /url: /titles/m5
+                - generic [ref=e833]:
+                  - img "Poster for A Trip to the Moon" [ref=e834]
+                  - generic [aria-hidden] [ref=e835]:
+                    - paragraph [ref=e836]: Adventure, Sci-Fi, Comedy
+                    - generic [ref=e837]: View details
+                - paragraph [ref=e838]: A Trip to the Moon
+                - paragraph [ref=e839]: 1902 • G
+          - listitem [ref=e840]:
+            - article [ref=e841]:
+              - link [ref=e842] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=e843]:
+                  - img "Poster for Sita Sings the Blues" [ref=e844]
+                  - generic [aria-hidden] [ref=e845]:
+                    - paragraph [ref=e846]: Animation, Drama, Romance, Fantasy
+                    - generic [ref=e847]: View details
+                - paragraph [ref=e848]: Sita Sings the Blues
+                - paragraph [ref=e849]: 2008 • NR
+          - listitem [ref=e850]:
+            - article [ref=e851]:
+              - link [ref=e852] [cursor=pointer]:
+                - /url: /titles/m14
+                - generic [ref=e853]:
+                  - img "Poster for The Lost World" [ref=e854]
+                  - generic [aria-hidden] [ref=e855]:
+                    - paragraph [ref=e856]: Adventure, Fantasy, Drama, Romance, Sci-Fi, Thriller
+                    - generic [ref=e857]: View details
+                - paragraph [ref=e858]: The Lost World
+                - paragraph [ref=e859]: 1925 • NR
+          - listitem [ref=e860]:
+            - article [ref=e861]:
+              - link [ref=e862] [cursor=pointer]:
+                - /url: /titles/m16
+                - generic [ref=e863]:
+                  - img "Poster for Santa Claus Conquers the Martians" [ref=e864]
+                  - generic [aria-hidden] [ref=e865]:
+                    - paragraph [ref=e866]: Comedy, Fantasy, Sci-Fi
+                    - generic [ref=e867]: View details
+                - paragraph [ref=e868]: Santa Claus Conquers the Martians
+                - paragraph [ref=e869]: 1964 • NR
+          - listitem [ref=e870]:
+            - article [ref=e871]:
+              - link [ref=e872] [cursor=pointer]:
+                - /url: /titles/m17
+                - generic [ref=e873]:
+                  - img "Poster for Voyage to the Planet of Prehistoric Women" [ref=e874]
+                  - generic [aria-hidden] [ref=e875]:
+                    - paragraph [ref=e876]: Adventure, Sci-Fi
+                    - generic [ref=e877]: View details
+                - paragraph [ref=e878]: Voyage to the Planet of Prehistoric Women
+                - paragraph [ref=e879]: 1968 • NR
+          - listitem [ref=e880]:
+            - article [ref=e881]:
+              - link [ref=e882] [cursor=pointer]:
+                - /url: /titles/m20
+                - generic [ref=e883]:
+                  - img "Poster for The Stranger" [ref=e884]
+                  - generic [aria-hidden] [ref=e885]:
+                    - paragraph [ref=e886]: Thriller, Crime
+                    - generic [ref=e887]: View details
+                - paragraph [ref=e888]: The Stranger
+                - paragraph [ref=e889]: 1946 • NR
+          - listitem [ref=e890]:
+            - article [ref=e891]:
+              - link [ref=e892] [cursor=pointer]:
+                - /url: /titles/m28
+                - generic [ref=e893]:
+                  - img "Poster for The Lawless Frontier" [ref=e894]
+                  - generic [aria-hidden] [ref=e895]:
+                    - paragraph [ref=e896]: Action, Western
+                    - generic [ref=e897]: View details
+                - paragraph [ref=e898]: The Lawless Frontier
+                - paragraph [ref=e899]: 1934 • NR
+          - listitem [ref=e900]:
+            - article [ref=e901]:
+              - link [ref=e902] [cursor=pointer]:
+                - /url: /titles/m29
+                - generic [ref=e903]:
+                  - img "Poster for The Man from Utah" [ref=e904]
+                  - generic [aria-hidden] [ref=e905]:
+                    - paragraph [ref=e906]: Action, Adventure, Western
+                    - generic [ref=e907]: View details
+                - paragraph [ref=e908]: The Man from Utah
+                - paragraph [ref=e909]: 1934 • G
+          - listitem [ref=e910]:
+            - article [ref=e911]:
+              - link [ref=e912] [cursor=pointer]:
+                - /url: /titles/m30
+                - generic [ref=e913]:
+                  - img "Poster for The Pied Piper of Hamelin" [ref=e914]
+                  - generic [aria-hidden] [ref=e915]:
+                    - paragraph [ref=e916]: Fantasy, Comedy
+                    - generic [ref=e917]: View details
+                - paragraph [ref=e918]: The Pied Piper of Hamelin
+                - paragraph [ref=e919]: 1957 • NR
+          - listitem [ref=e920]:
+            - article [ref=e921]:
+              - link [ref=e922] [cursor=pointer]:
+                - /url: /titles/m32
+                - generic [ref=e923]:
+                  - img "Poster for The Wizard of Oz" [ref=e924]
+                  - generic [aria-hidden] [ref=e925]:
+                    - paragraph [ref=e926]: Comedy, Family, Fantasy
+                    - generic [ref=e927]: View details
+                - paragraph [ref=e928]: The Wizard of Oz
+                - paragraph [ref=e929]: 1925 • NR
+          - listitem [ref=e930]:
+            - article [ref=e931]:
+              - link [ref=e932] [cursor=pointer]:
+                - /url: /titles/m33
+                - generic [ref=e933]:
+                  - img "Poster for Night of the Living Dead" [ref=e934]
+                  - generic [aria-hidden] [ref=e935]:
+                    - paragraph [ref=e936]: Horror
+                    - generic [ref=e937]: View details
+                - paragraph [ref=e938]: Night of the Living Dead
+                - paragraph [ref=e939]: 1968 • NR
+          - listitem [ref=e940]:
+            - article [ref=e941]:
+              - link [ref=e942] [cursor=pointer]:
+                - /url: /titles/m35
+                - generic [ref=e943]:
+                  - img "Poster for The Phantom of the Opera" [ref=e944]
+                  - generic [aria-hidden] [ref=e945]:
+                    - paragraph [ref=e946]: Horror
+                    - generic [ref=e947]: View details
+                - paragraph [ref=e948]: The Phantom of the Opera
+                - paragraph [ref=e949]: 1925 • NR
+          - listitem [ref=e950]:
+            - article [ref=e951]:
+              - link [ref=e952] [cursor=pointer]:
+                - /url: /titles/m36
+                - generic [ref=e953]:
+                  - img "Poster for The Little Shop of Horrors" [ref=e954]
+                  - generic [aria-hidden] [ref=e955]:
+                    - paragraph [ref=e956]: Horror, Comedy, Fantasy
+                    - generic [ref=e957]: View details
+                - paragraph [ref=e958]: The Little Shop of Horrors
+                - paragraph [ref=e959]: 1960 • NR
+          - listitem [ref=e960]:
+            - article [ref=e961]:
+              - link [ref=e962] [cursor=pointer]:
+                - /url: /titles/m40
+                - generic [ref=e963]:
+                  - img "Poster for The Adventures of Prince Achmed" [ref=e964]
+                  - generic [aria-hidden] [ref=e965]:
+                    - paragraph [ref=e966]: Animation, Fantasy, Adventure, Family
+                    - generic [ref=e967]: View details
+                - paragraph [ref=e968]: The Adventures of Prince Achmed
+                - paragraph [ref=e969]: 1926 • NR
+      - region "TV Shows" [ref=e970]:
+        - heading "TV Shows (4)" [level=2] [ref=e971]
+        - list [ref=e972]:
+          - listitem [ref=e973]:
+            - article [ref=e974]:
+              - link [ref=e975] [cursor=pointer]:
+                - /url: /titles/s2
+                - generic [ref=e976]:
+                  - img "Poster for The Amazing Digital Circus" [ref=e977]
+                  - generic [aria-hidden] [ref=e978]:
+                    - paragraph [ref=e979]: Animation, Comedy, Fantasy
+                    - generic [ref=e980]: View details
+                - paragraph [ref=e981]: The Amazing Digital Circus
+                - paragraph [ref=e982]: 2023 • TV-PG
+          - listitem [ref=e983]:
+            - article [ref=e984]:
+              - link [ref=e985] [cursor=pointer]:
+                - /url: /titles/s6
+                - generic [ref=e986]:
+                  - 'img "Poster for Mobile Suit Gundam: The Witch from Mercury" [ref=e987]'
+                  - generic [aria-hidden] [ref=e988]:
+                    - paragraph [ref=e989]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e990]: View details
+                - paragraph [ref=e991]: "Mobile Suit Gundam: The Witch from Mercury"
+                - paragraph [ref=e992]: 2022 • TV-14
+          - listitem [ref=e993]:
+            - article [ref=e994]:
+              - link [ref=e995] [cursor=pointer]:
+                - /url: /titles/s13
+                - generic [ref=e996]:
+                  - img "Poster for Flash Gordon Conquers the Universe" [ref=e997]
+                  - generic [aria-hidden] [ref=e998]:
+                    - paragraph [ref=e999]: Sci-Fi, Action
+                    - generic [ref=e1000]: View details
+                - paragraph [ref=e1001]: Flash Gordon Conquers the Universe
+                - paragraph [ref=e1002]: 1940 • NR
+          - listitem [ref=e1003]:
+            - article [ref=e1004]:
+              - link [ref=e1005] [cursor=pointer]:
+                - /url: /titles/s14
+                - generic [ref=e1006]:
+                  - img "Poster for Radar Men from the Moon" [ref=e1007]
+                  - generic [aria-hidden] [ref=e1008]:
+                    - paragraph [ref=e1009]: Action, Sci-Fi
+                    - generic [ref=e1010]: View details
+                - paragraph [ref=e1011]: Radar Men from the Moon
+                - paragraph [ref=e1012]: 1952 • NR
+  - status

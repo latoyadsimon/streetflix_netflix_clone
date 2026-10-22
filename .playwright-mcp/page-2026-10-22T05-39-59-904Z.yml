@@ -1,0 +1,136 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e76] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e77]:
+    - link "Streetflix home" [ref=e78] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e81]: Streetflix
+    - navigation "Primary" [ref=e82]:
+      - link "Home" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [active] [ref=e84] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=e85] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=e86] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=e87] [cursor=pointer]:
+        - /url: /watchlist
+    - link "Donate — buy us a coffee" [ref=e88] [cursor=pointer]:
+      - /url: /donate
+    - 'button "Account: QA One" [ref=e90] [cursor=pointer]':
+      - generic [ref=e91]: QA One
+  - main [ref=e92]:
+    - generic [ref=e629]:
+      - heading "Movies" [level=1] [ref=e630]
+      - generic [ref=e631]:
+        - generic [ref=e632]: "Genre:"
+        - combobox "Genre:" [ref=e633] [cursor=pointer]:
+          - option "All Genres" [selected]
+          - option "Action"
+          - option "Adventure"
+          - option "Animation"
+          - option "Anime"
+          - option "Comedy"
+          - option "Crime"
+          - option "Drama"
+          - option "Family"
+          - option "Fantasy"
+          - option "Horror"
+          - option "Mystery"
+          - option "Romance"
+          - option "Sci-Fi"
+          - option "Thriller"
+          - option "Western"
+      - list [ref=e634]:
+        - listitem [ref=e635]:
+          - article [ref=e636]:
+            - link [ref=e637] [cursor=pointer]:
+              - /url: /titles/m1
+              - generic [ref=e638]:
+                - img "Poster for His Girl Friday" [ref=e639]
+                - generic [aria-hidden] [ref=e640]:
+                  - paragraph [ref=e641]: Comedy, Romance, Crime
+                  - generic [ref=e642]: View details
+              - paragraph [ref=e643]: His Girl Friday
+              - paragraph [ref=e644]: 1940 • NR
+        - listitem [ref=e645]:
+          - article [ref=e646]:
+            - link [ref=e647] [cursor=pointer]:
+              - /url: /titles/m2
+              - generic [ref=e648]:
+                - img "Poster for Charade" [ref=e649]
+                - generic [aria-hidden] [ref=e650]:
+                  - paragraph [ref=e651]: Comedy, Mystery, Romance
+                  - generic [ref=e652]: View details
+              - paragraph [ref=e653]: Charade
+              - paragraph [ref=e654]: 1963 • NR
+        - listitem [ref=e655]:
+          - article [ref=e656]:
+            - link [ref=e657] [cursor=pointer]:
+              - /url: /titles/m3
+              - generic [ref=e658]:
+                - img "Poster for The General" [ref=e659]
+                - generic [aria-hidden] [ref=e660]:
+                  - paragraph [ref=e661]: Comedy, Romance
+                  - generic [ref=e662]: View details
+              - paragraph [ref=e663]: The General
+              - paragraph [ref=e664]: 1926 • NR
+        - listitem [ref=e665]:
+          - article [ref=e666]:
+            - link [ref=e667] [cursor=pointer]:
+              - /url: /titles/m4
+              - generic [ref=e668]:
+                - img "Poster for Sherlock Jr." [ref=e669]
+                - generic [aria-hidden] [ref=e670]:
+                  - paragraph [ref=e671]: Action, Comedy, Mystery
+                  - generic [ref=e672]: View details
+              - paragraph [ref=e673]: Sherlock Jr.
+              - paragraph [ref=e674]: 1924 • NR
+        - listitem [ref=e675]:
+          - article [ref=e676]:
+            - link [ref=e677] [cursor=pointer]:
+              - /url: /titles/m5
+              - generic [ref=e678]:
+                - img "Poster for A Trip to the Moon" [ref=e679]
+                - generic [aria-hidden] [ref=e680]:
+                  - paragraph [ref=e681]: Adventure, Sci-Fi, Comedy
+                  - generic [ref=e682]: View details
+              - paragraph [ref=e683]: A Trip to the Moon
+              - paragraph [ref=e684]: 1902 • G
+        - listitem [ref=e685]:
+          - article [ref=e686]:
+            - link [ref=e687] [cursor=pointer]:
+              - /url: /titles/m6
+              - generic [ref=e688]:
+                - img "Poster for Metropolis" [ref=e689]
+                - generic [aria-hidden] [ref=e690]:
+                  - paragraph [ref=e691]: Drama, Sci-Fi
+                  - generic [ref=e692]: View details
+              - paragraph [ref=e693]: Metropolis
+              - paragraph [ref=e694]: 1927 • NR
+        - listitem [ref=e695]:
+          - article [ref=e696]:
+            - link [ref=e697] [cursor=pointer]:
+              - /url: /titles/m7
+              - generic [ref=e698]:
+                - img "Poster for Sita Sings the Blues" [ref=e699]
+                - generic [aria-hidden] [ref=e700]:
+                  - paragraph [ref=e701]: Animation, Drama, Romance, Fantasy
+                  - generic [ref=e702]: View details
+              - paragraph [ref=e703]: Sita Sings the Blues
+              - paragraph [ref=e704]: 2008 • NR
+        - listitem [ref=e705]:
+          - article [ref=e706]:
+            - link [ref=e707] [cursor=pointer]:
+              - /url: /titles/m8
+              - generic [ref=e708]:
+                - img "Poster for Big Buck Bunny" [ref=e709]
+                - generic [aria-hidden] [ref=e710]:
+                  - paragraph [ref=e711]: Animation, Comedy, Family
+                  - generic [ref=e712]: View details
+              - paragraph [ref=e713]: Big Buck Bunny
+              - paragraph [ref=e714]: 2008 • G
+      - paragraph [ref=e715]: Showing 8 of 44 movies
+      - button "Load More" [ref=e716] [cursor=pointer]
+  - status

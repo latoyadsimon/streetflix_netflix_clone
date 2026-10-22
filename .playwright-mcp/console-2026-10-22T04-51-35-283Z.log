@@ -1,0 +1,19 @@
+[     581ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=c316710d:15803
+[    1413ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ http://localhost:5175/@vite/client:356
+[   22620ms] [ERROR] Failed to load resource: the server responded with a status of 402 () @ https://api.stripe.com/v1/payment_intents/pi_3UTDyq0dmrYEVEpz12SPX5Yw/confirm:0
+[   22620ms] [ERROR] Failed to load resource: the server responded with a status of 402 () @ https://api.stripe.com/v1/payment_intents/pi_3UTDyq0dmrYEVEpz12SPX5Yw/confirm:0
+[   22620ms] [ERROR] Failed to load resource: the server responded with a status of 402 () @ https://api.stripe.com/v1/payment_intents/pi_3UTDyq0dmrYEVEpz12SPX5Yw/confirm:0
+[   79403ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   79816ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   80275ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   80660ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   81013ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   81394ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   82458ms] [ERROR] Access to fetch at 'https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/stripe-webhook' from origin 'http://localhost:5175' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:5175/donate:0
+[   82459ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/stripe-webhook:0
+[   90055ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   90404ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   90760ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   91213ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   91573ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0
+[   91933ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://hxxrdhisjrujwxolanej.supabase.co/functions/v1/process-donation:0

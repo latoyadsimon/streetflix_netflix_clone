@@ -1,0 +1,28 @@
+- main [ref=e25]:
+  - generic [ref=e26]:
+    - link "Donate — buy us a coffee" [ref=e27] [cursor=pointer]:
+      - /url: /donate
+    - heading "Add a profile" [level=1] [ref=e38]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]: Profile name
+      - textbox "Profile name" [active] [ref=e42]
+    - group "Avatar" [ref=e43]:
+      - generic [ref=e45] [cursor=pointer]:
+        - radio "Queen B" [checked] [ref=e46]
+        - img "Queen B" [ref=e47]
+      - generic [ref=e48] [cursor=pointer]:
+        - radio "Crown" [ref=e49]
+        - img "Crown" [ref=e50]
+      - generic [ref=e51] [cursor=pointer]:
+        - radio "Spray" [ref=e52]
+        - img "Spray" [ref=e53]
+      - generic [ref=e54] [cursor=pointer]:
+        - radio "Stencil" [ref=e55]
+        - img "Stencil" [ref=e56]
+      - generic [ref=e57] [cursor=pointer]:
+        - radio "Kid Neon" [ref=e58]
+        - img "Kid Neon" [ref=e59]
+    - generic [ref=e60]:
+      - button "Save" [ref=e61] [cursor=pointer]
+      - button "Cancel" [ref=e62] [cursor=pointer]

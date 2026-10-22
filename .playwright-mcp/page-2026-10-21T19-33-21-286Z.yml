@@ -1,0 +1,9 @@
+- main [ref=e25]:
+  - heading "Who's watching?" [level=1] [ref=e26]
+  - list [ref=e27]:
+    - listitem [ref=e28]:
+      - button "QA One" [ref=e29] [cursor=pointer]
+    - listitem [ref=e31]:
+      - button "Add profile" [ref=e32] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e33]: +
+  - button "Log out" [ref=e35] [cursor=pointer]

@@ -1,0 +1,17 @@
+- main [ref=e3]:
+  - generic [ref=e7]: Streetflix
+  - generic [ref=e8]:
+    - heading "Create account" [level=1] [ref=e19]
+    - generic [ref=e10]:
+      - generic [ref=e11]: Email
+      - textbox "Email" [ref=e12]: streetflix.test.qa1@example.com
+    - generic [ref=e13]:
+      - generic [ref=e14]: Password
+      - textbox "Password" [active] [ref=e15]: "123"
+    - generic [ref=e20]:
+      - generic [ref=e21]: Profile name
+      - textbox "Profile name" [ref=e22]: QA One
+    - button "Create account" [ref=e23] [cursor=pointer]
+    - paragraph [ref=e17]:
+      - text: Already have an account?
+      - button "Log in" [ref=e24] [cursor=pointer]

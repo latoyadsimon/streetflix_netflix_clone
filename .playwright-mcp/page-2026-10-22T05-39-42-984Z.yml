@@ -1,0 +1,597 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e76] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e77]:
+    - link "Streetflix home" [ref=e78] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e81]: Streetflix
+    - navigation "Primary" [ref=e82]:
+      - link "Home" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "Movies" [ref=e84] [cursor=pointer]:
+        - /url: /movies
+      - link "TV Shows" [ref=e85] [cursor=pointer]:
+        - /url: /tv-shows
+      - link "Search" [ref=e86] [cursor=pointer]:
+        - /url: /search
+      - link "My List" [ref=e87] [cursor=pointer]:
+        - /url: /watchlist
+    - link "Donate — buy us a coffee" [ref=e88] [cursor=pointer]:
+      - /url: /donate
+    - generic [ref=e89]:
+      - 'button "Account: QA One" [expanded] [active] [ref=e90] [cursor=pointer]':
+        - generic [ref=e91]: QA One
+      - generic [ref=e624]:
+        - paragraph [ref=e625]:
+          - text: Signed in as
+          - strong [ref=e626]: streetflix.test.qa1@example.com
+        - button "Switch profile" [ref=e627] [cursor=pointer]
+        - button "Log out" [ref=e628] [cursor=pointer]
+  - main [ref=e92]:
+    - generic [ref=e93]:
+      - region [ref=e94]:
+        - generic [ref=e99]: Queen’spick
+        - generic [ref=e101]:
+          - paragraph [ref=e102]: Featured tonight
+          - heading "Helluva Boss" [level=1] [ref=e103]
+          - paragraph [ref=e104]: 2020 • TV-MA • 20 episodes • Animation, Comedy, Fantasy
+          - paragraph [ref=e105]: In Hell, imp Blitzø (the 'o' is silent) runs an assassin business targeting the world of the living, using a spell book borrowed from a prince of the underworld. With employees Moxxie, Millie, and Loona, they attempt to survive each other while keeping business afloat.
+          - generic [ref=e106]:
+            - button "Play" [ref=e107] [cursor=pointer]
+            - button "My List" [ref=e110] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e111]: +
+              - text: My List
+            - link "More Info" [ref=e112] [cursor=pointer]:
+              - /url: /titles/s1
+      - region [ref=e113]:
+        - generic [ref=e114]:
+          - heading "Popular Movies" [level=2] [ref=e115]
+          - link "See All" [ref=e116] [cursor=pointer]:
+            - /url: /movies
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - article [ref=e119]:
+              - link [ref=e120] [cursor=pointer]:
+                - /url: /titles/m1
+                - generic [ref=e121]:
+                  - img "Poster for His Girl Friday" [ref=e122]
+                  - generic [aria-hidden] [ref=e123]:
+                    - paragraph [ref=e124]: Comedy, Romance, Crime
+                    - generic [ref=e125]: View details
+                - paragraph [ref=e126]: His Girl Friday
+                - paragraph [ref=e127]: 1940 • NR
+          - listitem [ref=e128]:
+            - article [ref=e129]:
+              - link [ref=e130] [cursor=pointer]:
+                - /url: /titles/m2
+                - generic [ref=e131]:
+                  - img "Poster for Charade" [ref=e132]
+                  - generic [aria-hidden] [ref=e133]:
+                    - paragraph [ref=e134]: Comedy, Mystery, Romance
+                    - generic [ref=e135]: View details
+                - paragraph [ref=e136]: Charade
+                - paragraph [ref=e137]: 1963 • NR
+          - listitem [ref=e138]:
+            - article [ref=e139]:
+              - link [ref=e140] [cursor=pointer]:
+                - /url: /titles/m3
+                - generic [ref=e141]:
+                  - img "Poster for The General" [ref=e142]
+                  - generic [aria-hidden] [ref=e143]:
+                    - paragraph [ref=e144]: Comedy, Romance
+                    - generic [ref=e145]: View details
+                - paragraph [ref=e146]: The General
+                - paragraph [ref=e147]: 1926 • NR
+          - listitem [ref=e148]:
+            - article [ref=e149]:
+              - link [ref=e150] [cursor=pointer]:
+                - /url: /titles/m4
+                - generic [ref=e151]:
+                  - img "Poster for Sherlock Jr." [ref=e152]
+                  - generic [aria-hidden] [ref=e153]:
+                    - paragraph [ref=e154]: Action, Comedy, Mystery
+                    - generic [ref=e155]: View details
+                - paragraph [ref=e156]: Sherlock Jr.
+                - paragraph [ref=e157]: 1924 • NR
+          - listitem [ref=e158]:
+            - article [ref=e159]:
+              - link [ref=e160] [cursor=pointer]:
+                - /url: /titles/m5
+                - generic [ref=e161]:
+                  - img "Poster for A Trip to the Moon" [ref=e162]
+                  - generic [aria-hidden] [ref=e163]:
+                    - paragraph [ref=e164]: Adventure, Sci-Fi, Comedy
+                    - generic [ref=e165]: View details
+                - paragraph [ref=e166]: A Trip to the Moon
+                - paragraph [ref=e167]: 1902 • G
+          - listitem [ref=e168]:
+            - article [ref=e169]:
+              - link [ref=e170] [cursor=pointer]:
+                - /url: /titles/m6
+                - generic [ref=e171]:
+                  - img "Poster for Metropolis" [ref=e172]
+                  - generic [aria-hidden] [ref=e173]:
+                    - paragraph [ref=e174]: Drama, Sci-Fi
+                    - generic [ref=e175]: View details
+                - paragraph [ref=e176]: Metropolis
+                - paragraph [ref=e177]: 1927 • NR
+          - listitem [ref=e178]:
+            - article [ref=e179]:
+              - link [ref=e180] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=e181]:
+                  - img "Poster for Sita Sings the Blues" [ref=e182]
+                  - generic [aria-hidden] [ref=e183]:
+                    - paragraph [ref=e184]: Animation, Drama, Romance, Fantasy
+                    - generic [ref=e185]: View details
+                - paragraph [ref=e186]: Sita Sings the Blues
+                - paragraph [ref=e187]: 2008 • NR
+          - listitem [ref=e188]:
+            - article [ref=e189]:
+              - link [ref=e190] [cursor=pointer]:
+                - /url: /titles/m8
+                - generic [ref=e191]:
+                  - img "Poster for Big Buck Bunny" [ref=e192]
+                  - generic [aria-hidden] [ref=e193]:
+                    - paragraph [ref=e194]: Animation, Comedy, Family
+                    - generic [ref=e195]: View details
+                - paragraph [ref=e196]: Big Buck Bunny
+                - paragraph [ref=e197]: 2008 • G
+          - listitem [ref=e198]:
+            - article [ref=e199]:
+              - link [ref=e200] [cursor=pointer]:
+                - /url: /titles/m9
+                - generic [ref=e201]:
+                  - img "Poster for Sintel" [ref=e202]
+                  - generic [aria-hidden] [ref=e203]:
+                    - paragraph [ref=e204]: Animation, Fantasy
+                    - generic [ref=e205]: View details
+                - paragraph [ref=e206]: Sintel
+                - paragraph [ref=e207]: 2010 • PG
+          - listitem [ref=e208]:
+            - article [ref=e209]:
+              - link [ref=e210] [cursor=pointer]:
+                - /url: /titles/m10
+                - generic [ref=e211]:
+                  - img "Poster for Tears of Steel" [ref=e212]
+                  - generic [aria-hidden] [ref=e213]:
+                    - paragraph [ref=e214]: Sci-Fi, Animation
+                    - generic [ref=e215]: View details
+                - paragraph [ref=e216]: Tears of Steel
+                - paragraph [ref=e217]: 2012 • NR
+          - listitem [ref=e218]:
+            - article [ref=e219]:
+              - link [ref=e220] [cursor=pointer]:
+                - /url: /titles/m11
+                - generic [ref=e221]:
+                  - img "Poster for Safety Last!" [ref=e223]
+                  - generic [aria-hidden] [ref=e224]:
+                    - paragraph [ref=e225]: Comedy, Romance, Thriller
+                    - generic [ref=e226]: View details
+                - paragraph [ref=e227]: Safety Last!
+                - paragraph [ref=e228]: 1923 • NR
+          - listitem [ref=e229]:
+            - article [ref=e230]:
+              - link [ref=e231] [cursor=pointer]:
+                - /url: /titles/m12
+                - generic [ref=e232]:
+                  - img "Poster for Plan 9 from Outer Space" [ref=e234]
+                  - generic [aria-hidden] [ref=e235]:
+                    - paragraph [ref=e236]: Sci-Fi
+                    - generic [ref=e237]: View details
+                - paragraph [ref=e238]: Plan 9 from Outer Space
+                - paragraph [ref=e239]: 1957 • NR
+      - region [ref=e240]:
+        - generic [ref=e241]:
+          - heading "Trending TV Shows" [level=2] [ref=e242]
+          - link "See All" [ref=e243] [cursor=pointer]:
+            - /url: /tv-shows
+        - list [ref=e244]:
+          - listitem [ref=e245]:
+            - article [ref=e246]:
+              - link [ref=e247] [cursor=pointer]:
+                - /url: /titles/s1
+                - generic [ref=e248]:
+                  - img "Poster for Helluva Boss" [ref=e249]
+                  - generic [aria-hidden] [ref=e250]:
+                    - paragraph [ref=e251]: Animation, Comedy, Fantasy, Drama
+                    - generic [ref=e252]: View details
+                - paragraph [ref=e253]: Helluva Boss
+                - paragraph [ref=e254]: 2020 • TV-MA
+          - listitem [ref=e255]:
+            - article [ref=e256]:
+              - link [ref=e257] [cursor=pointer]:
+                - /url: /titles/s2
+                - generic [ref=e258]:
+                  - img "Poster for The Amazing Digital Circus" [ref=e259]
+                  - generic [aria-hidden] [ref=e260]:
+                    - paragraph [ref=e261]: Animation, Comedy, Fantasy
+                    - generic [ref=e262]: View details
+                - paragraph [ref=e263]: The Amazing Digital Circus
+                - paragraph [ref=e264]: 2023 • TV-PG
+          - listitem [ref=e265]:
+            - article [ref=e266]:
+              - link [ref=e267] [cursor=pointer]:
+                - /url: /titles/s3
+                - generic [ref=e268]:
+                  - img "Poster for Murder Drones" [ref=e269]
+                  - generic [aria-hidden] [ref=e270]:
+                    - paragraph [ref=e271]: Animation, Action, Sci-Fi
+                    - generic [ref=e272]: View details
+                - paragraph [ref=e273]: Murder Drones
+                - paragraph [ref=e274]: 2021 • TV-14
+          - listitem [ref=e275]:
+            - article [ref=e276]:
+              - link [ref=e277] [cursor=pointer]:
+                - /url: /titles/s4
+                - generic [ref=e278]:
+                  - img "Poster for Battle for Dream Island" [ref=e279]
+                  - generic [aria-hidden] [ref=e280]:
+                    - paragraph [ref=e281]: Animation, Comedy, Family
+                    - generic [ref=e282]: View details
+                - paragraph [ref=e283]: Battle for Dream Island
+                - paragraph [ref=e284]: 2010 • NR
+          - listitem [ref=e285]:
+            - article [ref=e286]:
+              - link [ref=e287] [cursor=pointer]:
+                - /url: /titles/s5
+                - generic [ref=e288]:
+                  - img "Poster for Mobile Suit Gundam SEED" [ref=e289]
+                  - generic [aria-hidden] [ref=e290]:
+                    - paragraph [ref=e291]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e292]: View details
+                - paragraph [ref=e293]: Mobile Suit Gundam SEED
+                - paragraph [ref=e294]: 2002 • TV-PG
+          - listitem [ref=e295]:
+            - article [ref=e296]:
+              - link [ref=e297] [cursor=pointer]:
+                - /url: /titles/s6
+                - generic [ref=e298]:
+                  - 'img "Poster for Mobile Suit Gundam: The Witch from Mercury" [ref=e299]'
+                  - generic [aria-hidden] [ref=e300]:
+                    - paragraph [ref=e301]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e302]: View details
+                - paragraph [ref=e303]: "Mobile Suit Gundam: The Witch from Mercury"
+                - paragraph [ref=e304]: 2022 • TV-14
+          - listitem [ref=e305]:
+            - article [ref=e306]:
+              - link [ref=e307] [cursor=pointer]:
+                - /url: /titles/s7
+                - generic [ref=e308]:
+                  - img "Poster for After War Gundam X" [ref=e309]
+                  - generic [aria-hidden] [ref=e310]:
+                    - paragraph [ref=e311]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e312]: View details
+                - paragraph [ref=e313]: After War Gundam X
+                - paragraph [ref=e314]: 1996 • TV-PG
+          - listitem [ref=e315]:
+            - article [ref=e316]:
+              - link [ref=e317] [cursor=pointer]:
+                - /url: /titles/s8
+                - generic [ref=e318]:
+                  - img "Poster for Mobile Suit Gundam Unicorn RE:0096" [ref=e319]
+                  - generic [aria-hidden] [ref=e320]:
+                    - paragraph [ref=e321]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e322]: View details
+                - paragraph [ref=e323]: Mobile Suit Gundam Unicorn RE:0096
+                - paragraph [ref=e324]: 2016 • TV-14
+          - listitem [ref=e325]:
+            - article [ref=e326]:
+              - link [ref=e327] [cursor=pointer]:
+                - /url: /titles/s9
+                - generic [ref=e328]:
+                  - img "Poster for Speed Racer" [ref=e329]
+                  - generic [aria-hidden] [ref=e330]:
+                    - paragraph [ref=e331]: Anime, Animation, Action, Family
+                    - generic [ref=e332]: View details
+                - paragraph [ref=e333]: Speed Racer
+                - paragraph [ref=e334]: 1967 • TV-Y7
+          - listitem [ref=e335]:
+            - article [ref=e336]:
+              - link [ref=e337] [cursor=pointer]:
+                - /url: /titles/s10
+                - generic [ref=e338]:
+                  - img "Poster for Attack on Titan" [ref=e339]
+                  - generic [aria-hidden] [ref=e340]:
+                    - paragraph [ref=e341]: Anime, Animation, Action, Fantasy
+                    - generic [ref=e342]: View details
+                - paragraph [ref=e343]: Attack on Titan
+                - paragraph [ref=e344]: 2013 • TV-MA
+          - listitem [ref=e345]:
+            - article [ref=e346]:
+              - link [ref=e347] [cursor=pointer]:
+                - /url: /titles/s11
+                - generic [ref=e348]:
+                  - img "Poster for That Time I Got Reincarnated as a Slime" [ref=e350]
+                  - generic [aria-hidden] [ref=e351]:
+                    - paragraph [ref=e352]: Anime, Animation, Action, Fantasy
+                    - generic [ref=e353]: View details
+                - paragraph [ref=e354]: That Time I Got Reincarnated as a Slime
+                - paragraph [ref=e355]: 2018 • TV-14
+          - listitem [ref=e356]:
+            - article [ref=e357]:
+              - link [ref=e358] [cursor=pointer]:
+                - /url: /titles/s12
+                - generic [ref=e359]:
+                  - img "Poster for Superman" [ref=e361]
+                  - generic [aria-hidden] [ref=e362]:
+                    - paragraph [ref=e363]: Animation, Action, Sci-Fi, Family
+                    - generic [ref=e364]: View details
+                - paragraph [ref=e365]: Superman
+                - paragraph [ref=e366]: 1941 • NR
+      - region [ref=e367]:
+        - generic [ref=e368]:
+          - heading "Anime" [level=2] [ref=e369]
+          - link "See All" [ref=e370] [cursor=pointer]:
+            - /url: /tv-shows?genre=Anime
+        - list [ref=e371]:
+          - listitem [ref=e372]:
+            - article [ref=e373]:
+              - link [ref=e374] [cursor=pointer]:
+                - /url: /titles/m37
+                - generic [ref=e375]:
+                  - img "Poster for Mobile Suit Gundam I" [ref=e376]
+                  - generic [aria-hidden] [ref=e377]:
+                    - paragraph [ref=e378]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e379]: View details
+                - paragraph [ref=e380]: Mobile Suit Gundam I
+                - paragraph [ref=e381]: 1981 • NR
+          - listitem [ref=e382]:
+            - article [ref=e383]:
+              - link [ref=e384] [cursor=pointer]:
+                - /url: /titles/m38
+                - generic [ref=e385]:
+                  - 'img "Poster for Mobile Suit Gundam II: Soldiers of Sorrow" [ref=e386]'
+                  - generic [aria-hidden] [ref=e387]:
+                    - paragraph [ref=e388]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e389]: View details
+                - paragraph [ref=e390]: "Mobile Suit Gundam II: Soldiers of Sorrow"
+                - paragraph [ref=e391]: 1981 • NR
+          - listitem [ref=e392]:
+            - article [ref=e393]:
+              - link [ref=e394] [cursor=pointer]:
+                - /url: /titles/m39
+                - generic [ref=e395]:
+                  - 'img "Poster for Mobile Suit Gundam III: Encounters in Space" [ref=e396]'
+                  - generic [aria-hidden] [ref=e397]:
+                    - paragraph [ref=e398]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e399]: View details
+                - paragraph [ref=e400]: "Mobile Suit Gundam III: Encounters in Space"
+                - paragraph [ref=e401]: 1982 • NR
+          - listitem [ref=e402]:
+            - article [ref=e403]:
+              - link [ref=e404] [cursor=pointer]:
+                - /url: /titles/s5
+                - generic [ref=e405]:
+                  - img "Poster for Mobile Suit Gundam SEED" [ref=e406]
+                  - generic [aria-hidden] [ref=e407]:
+                    - paragraph [ref=e408]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e409]: View details
+                - paragraph [ref=e410]: Mobile Suit Gundam SEED
+                - paragraph [ref=e411]: 2002 • TV-PG
+          - listitem [ref=e412]:
+            - article [ref=e413]:
+              - link [ref=e414] [cursor=pointer]:
+                - /url: /titles/s6
+                - generic [ref=e415]:
+                  - 'img "Poster for Mobile Suit Gundam: The Witch from Mercury" [ref=e416]'
+                  - generic [aria-hidden] [ref=e417]:
+                    - paragraph [ref=e418]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e419]: View details
+                - paragraph [ref=e420]: "Mobile Suit Gundam: The Witch from Mercury"
+                - paragraph [ref=e421]: 2022 • TV-14
+          - listitem [ref=e422]:
+            - article [ref=e423]:
+              - link [ref=e424] [cursor=pointer]:
+                - /url: /titles/s7
+                - generic [ref=e425]:
+                  - img "Poster for After War Gundam X" [ref=e426]
+                  - generic [aria-hidden] [ref=e427]:
+                    - paragraph [ref=e428]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e429]: View details
+                - paragraph [ref=e430]: After War Gundam X
+                - paragraph [ref=e431]: 1996 • TV-PG
+          - listitem [ref=e432]:
+            - article [ref=e433]:
+              - link [ref=e434] [cursor=pointer]:
+                - /url: /titles/s8
+                - generic [ref=e435]:
+                  - img "Poster for Mobile Suit Gundam Unicorn RE:0096" [ref=e436]
+                  - generic [aria-hidden] [ref=e437]:
+                    - paragraph [ref=e438]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e439]: View details
+                - paragraph [ref=e440]: Mobile Suit Gundam Unicorn RE:0096
+                - paragraph [ref=e441]: 2016 • TV-14
+          - listitem [ref=e442]:
+            - article [ref=e443]:
+              - link [ref=e444] [cursor=pointer]:
+                - /url: /titles/s9
+                - generic [ref=e445]:
+                  - img "Poster for Speed Racer" [ref=e446]
+                  - generic [aria-hidden] [ref=e447]:
+                    - paragraph [ref=e448]: Anime, Animation, Action, Family
+                    - generic [ref=e449]: View details
+                - paragraph [ref=e450]: Speed Racer
+                - paragraph [ref=e451]: 1967 • TV-Y7
+          - listitem [ref=e452]:
+            - article [ref=e453]:
+              - link [ref=e454] [cursor=pointer]:
+                - /url: /titles/s10
+                - generic [ref=e455]:
+                  - img "Poster for Attack on Titan" [ref=e456]
+                  - generic [aria-hidden] [ref=e457]:
+                    - paragraph [ref=e458]: Anime, Animation, Action, Fantasy
+                    - generic [ref=e459]: View details
+                - paragraph [ref=e460]: Attack on Titan
+                - paragraph [ref=e461]: 2013 • TV-MA
+          - listitem [ref=e462]:
+            - article [ref=e463]:
+              - link [ref=e464] [cursor=pointer]:
+                - /url: /titles/s11
+                - generic [ref=e465]:
+                  - img "Poster for That Time I Got Reincarnated as a Slime" [ref=e466]
+                  - generic [aria-hidden] [ref=e467]:
+                    - paragraph [ref=e468]: Anime, Animation, Action, Fantasy
+                    - generic [ref=e469]: View details
+                - paragraph [ref=e470]: That Time I Got Reincarnated as a Slime
+                - paragraph [ref=e471]: 2018 • TV-14
+      - region [ref=e472]:
+        - generic [ref=e473]:
+          - heading "Animated Films" [level=2] [ref=e474]
+          - link "See All" [ref=e475] [cursor=pointer]:
+            - /url: /movies?genre=Animation
+        - list [ref=e476]:
+          - listitem [ref=e477]:
+            - article [ref=e478]:
+              - link [ref=e479] [cursor=pointer]:
+                - /url: /titles/m7
+                - generic [ref=e480]:
+                  - img "Poster for Sita Sings the Blues" [ref=e482]
+                  - generic [aria-hidden] [ref=e483]:
+                    - paragraph [ref=e484]: Animation, Drama, Romance, Fantasy
+                    - generic [ref=e485]: View details
+                - paragraph [ref=e486]: Sita Sings the Blues
+                - paragraph [ref=e487]: 2008 • NR
+          - listitem [ref=e488]:
+            - article [ref=e489]:
+              - link [ref=e490] [cursor=pointer]:
+                - /url: /titles/m8
+                - generic [ref=e491]:
+                  - img "Poster for Big Buck Bunny" [ref=e493]
+                  - generic [aria-hidden] [ref=e494]:
+                    - paragraph [ref=e495]: Animation, Comedy, Family
+                    - generic [ref=e496]: View details
+                - paragraph [ref=e497]: Big Buck Bunny
+                - paragraph [ref=e498]: 2008 • G
+          - listitem [ref=e499]:
+            - article [ref=e500]:
+              - link [ref=e501] [cursor=pointer]:
+                - /url: /titles/m9
+                - generic [ref=e502]:
+                  - img "Poster for Sintel" [ref=e504]
+                  - generic [aria-hidden] [ref=e505]:
+                    - paragraph [ref=e506]: Animation, Fantasy
+                    - generic [ref=e507]: View details
+                - paragraph [ref=e508]: Sintel
+                - paragraph [ref=e509]: 2010 • PG
+          - listitem [ref=e510]:
+            - article [ref=e511]:
+              - link [ref=e512] [cursor=pointer]:
+                - /url: /titles/m10
+                - generic [ref=e513]:
+                  - img "Poster for Tears of Steel" [ref=e515]
+                  - generic [aria-hidden] [ref=e516]:
+                    - paragraph [ref=e517]: Sci-Fi, Animation
+                    - generic [ref=e518]: View details
+                - paragraph [ref=e519]: Tears of Steel
+                - paragraph [ref=e520]: 2012 • NR
+          - listitem [ref=e521]:
+            - article [ref=e522]:
+              - link [ref=e523] [cursor=pointer]:
+                - /url: /titles/m37
+                - generic [ref=e524]:
+                  - img "Poster for Mobile Suit Gundam I" [ref=e526]
+                  - generic [aria-hidden] [ref=e527]:
+                    - paragraph [ref=e528]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e529]: View details
+                - paragraph [ref=e530]: Mobile Suit Gundam I
+                - paragraph [ref=e531]: 1981 • NR
+          - listitem [ref=e532]:
+            - article [ref=e533]:
+              - link [ref=e534] [cursor=pointer]:
+                - /url: /titles/m38
+                - generic [ref=e535]:
+                  - 'img "Poster for Mobile Suit Gundam II: Soldiers of Sorrow" [ref=e537]'
+                  - generic [aria-hidden] [ref=e538]:
+                    - paragraph [ref=e539]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e540]: View details
+                - paragraph [ref=e541]: "Mobile Suit Gundam II: Soldiers of Sorrow"
+                - paragraph [ref=e542]: 1981 • NR
+          - listitem [ref=e543]:
+            - article [ref=e544]:
+              - link [ref=e545] [cursor=pointer]:
+                - /url: /titles/m39
+                - generic [ref=e546]:
+                  - 'img "Poster for Mobile Suit Gundam III: Encounters in Space" [ref=e548]'
+                  - generic [aria-hidden] [ref=e549]:
+                    - paragraph [ref=e550]: Anime, Animation, Sci-Fi, Action
+                    - generic [ref=e551]: View details
+                - paragraph [ref=e552]: "Mobile Suit Gundam III: Encounters in Space"
+                - paragraph [ref=e553]: 1982 • NR
+          - listitem [ref=e554]:
+            - article [ref=e555]:
+              - link [ref=e556] [cursor=pointer]:
+                - /url: /titles/m40
+                - generic [ref=e557]:
+                  - img "Poster for The Adventures of Prince Achmed" [ref=e559]
+                  - generic [aria-hidden] [ref=e560]:
+                    - paragraph [ref=e561]: Animation, Fantasy, Adventure, Family
+                    - generic [ref=e562]: View details
+                - paragraph [ref=e563]: The Adventures of Prince Achmed
+                - paragraph [ref=e564]: 1926 • NR
+          - listitem [ref=e565]:
+            - article [ref=e566]:
+              - link [ref=e567] [cursor=pointer]:
+                - /url: /titles/m41
+                - generic [ref=e568]:
+                  - img "Poster for Mr. Bug Goes to Town" [ref=e570]
+                  - generic [aria-hidden] [ref=e571]:
+                    - paragraph [ref=e572]: Animation, Family, Adventure, Comedy
+                    - generic [ref=e573]: View details
+                - paragraph [ref=e574]: Mr. Bug Goes to Town
+                - paragraph [ref=e575]: 1941 • G
+          - listitem [ref=e576]:
+            - article [ref=e577]:
+              - link [ref=e578] [cursor=pointer]:
+                - /url: /titles/m42
+                - generic [ref=e579]:
+                  - img "Poster for Elephants Dream" [ref=e581]
+                  - generic [aria-hidden] [ref=e582]:
+                    - paragraph [ref=e583]: Animation, Sci-Fi, Fantasy
+                    - generic [ref=e584]: View details
+                - paragraph [ref=e585]: Elephants Dream
+                - paragraph [ref=e586]: 2006 • NR
+          - listitem [ref=e587]:
+            - article [ref=e588]:
+              - link [ref=e589] [cursor=pointer]:
+                - /url: /titles/m43
+                - generic [ref=e590]:
+                  - 'img "Poster for Agent 327: Operation Barbershop" [ref=e592]'
+                  - generic [aria-hidden] [ref=e593]:
+                    - paragraph [ref=e594]: Animation, Comedy, Mystery
+                    - generic [ref=e595]: View details
+                - paragraph [ref=e596]: "Agent 327: Operation Barbershop"
+                - paragraph [ref=e597]: 2017 • NR
+          - listitem [ref=e598]:
+            - article [ref=e599]:
+              - link [ref=e600] [cursor=pointer]:
+                - /url: /titles/m44
+                - generic [ref=e601]:
+                  - img "Poster for Cosmos Laundromat" [ref=e603]
+                  - generic [aria-hidden] [ref=e604]:
+                    - paragraph [ref=e605]: Animation, Fantasy, Comedy
+                    - generic [ref=e606]: View details
+                - paragraph [ref=e607]: Cosmos Laundromat
+                - paragraph [ref=e608]: 2015 • NR
+      - region [ref=e609]:
+        - heading "Browse by Category" [level=2] [ref=e610]
+        - list [ref=e611]:
+          - listitem [ref=e612]:
+            - link "Anime" [ref=e613] [cursor=pointer]:
+              - /url: /tv-shows?genre=Anime
+          - listitem [ref=e614]:
+            - link "Animation" [ref=e615] [cursor=pointer]:
+              - /url: /movies?genre=Animation
+          - listitem [ref=e616]:
+            - link "Comedy" [ref=e617] [cursor=pointer]:
+              - /url: /movies?genre=Comedy
+          - listitem [ref=e618]:
+            - link "Sci-Fi" [ref=e619] [cursor=pointer]:
+              - /url: /movies?genre=Sci-Fi
+          - listitem [ref=e620]:
+            - link "Western" [ref=e621] [cursor=pointer]:
+              - /url: /movies?genre=Western
+          - listitem [ref=e622]:
+            - link "All A–Z" [ref=e623] [cursor=pointer]:
+              - /url: /browse
+  - status
