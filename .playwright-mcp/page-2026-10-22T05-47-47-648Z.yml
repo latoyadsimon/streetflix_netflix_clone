@@ -1,0 +1,14 @@
+- main [ref=f19e3]:
+  - generic [ref=f19e4]:
+    - link "Donate — buy us a coffee" [ref=f19e5] [cursor=pointer]:
+      - /url: /donate
+    - heading "Who's watching?" [level=1] [ref=f19e6]
+  - list [ref=f19e7]:
+    - listitem [ref=f19e8]:
+      - button "QA One" [ref=f19e9] [cursor=pointer]
+    - listitem [ref=f19e11]:
+      - button "QA Two" [ref=f19e12] [cursor=pointer]
+    - listitem [ref=f19e14]:
+      - button "Add profile" [ref=f19e15] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f19e16]: +
+  - button "Log out" [ref=f19e18] [cursor=pointer]
